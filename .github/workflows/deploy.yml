@@ -64,3 +64,43 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # Notify Bing (and other IndexNow engines) to crawl immediately, instead
+      # of waiting for the slow new-domain crawl cycle. The key is published as
+      # a static file at the keyLocation below; IndexNow verifies it before
+      # accepting the submission. Public by design — safe to commit.
+      - name: Ping IndexNow
+        env:
+          INDEXNOW_KEY: aa46852bf2995c1edac9c4badf8503a7
+          SITE_HOST: mesmerdesignshop.com
+        run: |
+          # Give the new deploy a moment to go live so submitted URLs return 200.
+          sleep 30
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+
+          host = os.environ["SITE_HOST"]
+          key  = os.environ["INDEXNOW_KEY"]
+          base = f"https://{host}"
+
+          sitemap = urllib.request.urlopen(f"{base}/sitemap.xml", timeout=30).read().decode()
+          urls = re.findall(r"<loc>(.*?)</loc>", sitemap)
+          urls = [u for u in urls if u.startswith(base)][:10000]
+          print(f"Submitting {len(urls)} URLs to IndexNow")
+
+          payload = json.dumps({
+              "host": host,
+              "key": key,
+              "keyLocation": f"{base}/{key}.txt",
+              "urlList": urls,
+          }).encode()
+
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=payload,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+              method="POST",
+          )
+          with urllib.request.urlopen(req, timeout=30) as resp:
+              print(f"IndexNow responded: {resp.status} {resp.reason}")
+          PY
