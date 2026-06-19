@@ -1,7 +1,7 @@
 ---
 title: "Gifts for Him"
 linkTitle: "Gifts for Him"
-description: "Gift ideas for him — funny tees, personalized mugs, and meaningful picks for boyfriends, dads, brothers, and friends. Handmade-to-order on Etsy."
+description: "Gift ideas for him — funny tees, personalized mugs, and meaningful picks for boyfriends, dads, brothers, and friends. Made-to-order on Etsy."
 keywords: ["gifts for him", "gifts for men", "gifts for boyfriend", "gifts for dad"]
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: "About MesmerDesign"
-description: "MesmerDesign is a small, independent print-on-demand studio in the Netherlands making faith, funny, personalized, and meaningful gifts — handmade to order."
+description: "MesmerDesign is a small, independent print-on-demand studio in the Netherlands making faith, funny, personalized, and meaningful gifts — made to order."
 ---
 
 ## Hi, we're MesmerDesign 👋
 
 MesmerDesign is a small, independent design studio based in the **Netherlands**. We make
-**handmade-to-order gifts** — faith-filled sweatshirts, funny tees, personalized photo
+**made-to-order gifts** — faith-filled sweatshirts, funny tees, personalized photo
 keepsakes, teacher and mental-health mugs, motivational wall art, and heritage prints
 including our Tigrinya alphabet poster.
 

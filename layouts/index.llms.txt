@@ -3,7 +3,7 @@
 > {{ site.Params.description }}
 
 {{ site.Title }} publishes human-written gift guides and gift-idea articles. Every guide
-recommends real, handmade-to-order products available in our Etsy shop ({{ site.Params.etsyShopURL }}).
+recommends real, made-to-order products available in our Etsy shop ({{ site.Params.etsyShopURL }}).
 Content is organized by recipient, occasion, theme, and product type.
 
 ## Gift guide categories

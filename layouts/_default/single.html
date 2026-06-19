@@ -16,9 +16,9 @@
   </header>
 
   {{ with .Resources.GetMatch "cover.*" }}
-    {{ $hero := (.Fill "1200x675 webp q85") }}
-    <figure class="narrow">
-      <img src="{{ $hero.RelPermalink }}" width="1200" height="675" alt="{{ $.Title }}" fetchpriority="high">
+    {{ $hero := (.Fit "1400x1000 webp q85") }}
+    <figure class="narrow post-hero">
+      <img src="{{ $hero.RelPermalink }}" width="{{ $hero.Width }}" height="{{ $hero.Height }}" alt="{{ $.Title }}" fetchpriority="high">
     </figure>
   {{ end }}
 

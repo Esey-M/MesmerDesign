@@ -1,6 +1,6 @@
 ---
 title: "Christian Gifts for Mom: 7 Faith-Filled Ideas She'll Treasure"
-description: "The best Christian gifts for mom in 2026 — cozy scripture sweatshirts, faith mugs, and inspirational prints she'll actually use. Handmade-to-order on Etsy."
+description: "The best Christian gifts for mom in 2026 — cozy scripture sweatshirts, faith mugs, and inspirational prints she'll actually use. Made-to-order on Etsy."
 date: 2026-06-10
 lastmod: 2026-06-10
 draft: false

@@ -1,7 +1,7 @@
 ---
 title: "Business & Corporate Gifts"
 linkTitle: "Business Gifts"
-description: "Custom business gifts that don't feel corporate — logo mugs, branded bottles, and personalized client gifts. Order in bulk, handmade on Etsy."
+description: "Custom business gifts that don't feel corporate — logo mugs, branded bottles, and personalized client gifts. Order in bulk, made to order on Etsy."
 keywords: ["business gifts", "corporate gifts", "custom logo gifts", "client gifts", "employee gifts"]
 ---
 

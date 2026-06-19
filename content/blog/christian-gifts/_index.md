@@ -1,7 +1,7 @@
 ---
 title: "Christian Gifts"
 linkTitle: "Christian Gifts"
-description: "Faith-filled gift ideas — Christian sweatshirts, scripture mugs, and inspirational wall art for believers, moms, and friends. Handmade-to-order on Etsy."
+description: "Faith-filled gift ideas — Christian sweatshirts, scripture mugs, and inspirational wall art for believers, moms, and friends. Made-to-order on Etsy."
 keywords: ["christian gifts", "faith gifts", "scripture gifts", "religious gifts"]
 ---
 

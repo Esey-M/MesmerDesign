@@ -1,6 +1,6 @@
 ---
 title: "Gift Guides & Ideas"
-description: "Browse every MesmerDesign gift guide — organized by recipient, occasion, and style. Real, handmade-to-order products you can buy on Etsy."
+description: "Browse every MesmerDesign gift guide — organized by recipient, occasion, and style. Real, made-to-order products you can buy on Etsy."
 cascade:
   type: blog
 ---
