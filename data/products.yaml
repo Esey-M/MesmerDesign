@@ -57,11 +57,12 @@ be-still-sweatshirt:
 
 blessed-mug-cross:
   title: "Blessed Mug with Cross, Minimalist Christian Mug"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  url: "https://www.etsy.com/listing/4524221037/blessed-mug-with-cross-minimalist"
   price: "21,77"
   image: "/img/products/blessed-mug-cross.jpg"
   themes: [faith]
-  recipients: [her, him, mom]
+  recipients: [her, him, mom, friend]
+  occasions: [mothers-day, birthday, christmas]
   product_types: [mug]
 
 small-good-things-mug:
