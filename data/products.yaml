@@ -100,12 +100,13 @@ blessed-mug-cross:
   product_types: [mug]
 
 small-good-things-mug:
-  title: "Today Is Full of Small Good Things Mug"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Today Is Full of Small Good Things Mug, Cottagecore"
+  url: "https://www.etsy.com/listing/4520448722/small-good-things-mug-cottagecore-coffee"
   price: "21,77"
   image: "/img/products/small-good-things-mug.jpg"
   themes: [mental-health]
   recipients: [her, friend]
+  occasions: [birthday, christmas]
   product_types: [mug]
 
 doing-better-than-you-think-mama-mug:
@@ -119,12 +120,13 @@ doing-better-than-you-think-mama-mug:
   occasions: [mothers-day, birthday]
 
 not-today-anxiety-mug:
-  title: "Not Today Anxiety Mug, Mental Health Mug"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Not Today Anxiety Mug, Retro Sun Mental Health Mug"
+  url: "https://www.etsy.com/listing/4520445230/not-today-anxiety-mug-mental-health"
   price: "21,77"
   image: "/img/products/not-today-anxiety-mug.jpg"
   themes: [mental-health]
   recipients: [her, friend]
+  occasions: [birthday, christmas]
   product_types: [mug]
 
 teach-breathe-repeat-mug:
@@ -157,12 +159,13 @@ cat-hair-is-my-glitter-shirt:
   product_types: [shirt]
 
 doing-my-best-possum-shirt:
-  title: "Doing My Best Possum Shirt, Funny Animal Tee"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Doing My Best Possum Shirt, Funny Comfort Colors Tee"
+  url: "https://www.etsy.com/listing/4520909889/doing-my-best-possum-shirt-funny-opossum"
   price: "33,53"
   image: "/img/products/doing-my-best-possum-shirt.jpg"
   themes: [funny]
-  recipients: [him, her, friend]
+  recipients: [him, her, friend, coworker]
+  occasions: [birthday, christmas]
   product_types: [shirt]
 
 my-dog-is-my-personality-shirt:
@@ -245,13 +248,23 @@ custom-business-gift-bottle:
   occasions: [corporate]
 
 custom-logo-latte-mug:
-  title: "Custom Logo Latte Mug, Personalized Branding"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Custom Logo Latte Mug, Personalized Business Coffee Cup"
+  url: "https://www.etsy.com/listing/4521904298/custom-logo-latte-mug-personalized"
   price: "23,17"
   image: "/img/products/custom-logo-latte-mug.jpg"
   themes: [business, personalized]
   recipients: [coworker, client]
   product_types: [mug]
+  occasions: [corporate]
+
+custom-business-gift-hat:
+  title: "Custom Business Gift Vintage Embroidered Hat"
+  url: "https://www.etsy.com/listing/4522418193/custom-business-gift-vintage-embroidered"
+  price: "32,67"
+  image: "/img/products/custom-business-gift-hat.jpg"
+  themes: [business, personalized]
+  recipients: [coworker, client]
+  product_types: [hat]
   occasions: [corporate]
 
 tigrinya-alphabet-poster:
