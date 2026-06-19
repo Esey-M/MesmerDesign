@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="container">
+    <a class="brand-logo" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} home">
+      <span class="mark">MD</span>
+      <span>{{ site.Title }}</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      {{ range site.Menus.main }}
+        <a href="{{ .PageRef | default .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

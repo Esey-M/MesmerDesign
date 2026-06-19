@@ -1,0 +1,44 @@
+{{- /* Renders a grid of product cards.
+       By explicit ids:   {{< product-grid ids="give-it-to-god-sweatshirt,blessed-mug-cross" />}}
+       By facet:          {{< product-grid theme="faith" />}}
+                          {{< product-grid recipient="mom" limit="6" />}}
+*/ -}}
+{{- $selected := slice -}}
+{{- with .Get "ids" -}}
+  {{- range (split . ",") -}}
+    {{- $id := trim . " " -}}
+    {{- $p := index site.Data.products $id -}}
+    {{- if $p }}{{ $selected = $selected | append (dict "id" $id "p" $p) }}
+    {{- else }}{{ warnf "product-grid: unknown id %q" $id }}{{ end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $facet := "" -}}{{- $val := "" -}}
+  {{- with .Get "theme" }}{{ $facet = "themes" }}{{ $val = . }}{{ end -}}
+  {{- with .Get "recipient" }}{{ $facet = "recipients" }}{{ $val = . }}{{ end -}}
+  {{- with .Get "occasion" }}{{ $facet = "occasions" }}{{ $val = . }}{{ end -}}
+  {{- with .Get "product_type" }}{{ $facet = "product_types" }}{{ $val = . }}{{ end -}}
+  {{- range $id, $p := site.Data.products -}}
+    {{- if and $facet (in (index $p $facet) $val) -}}
+      {{- $selected = $selected | append (dict "id" $id "p" $p) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with .Get "limit" }}{{ $selected = first (int .) $selected }}{{ end -}}
+
+{{- if $selected -}}
+<div class="product-grid">
+  {{- range $selected -}}
+  {{- $href := partial "func/etsy-url.html" (dict "url" .p.url "campaign" .id "page" $.Page) -}}
+  <div class="product">
+    <img src="{{ .p.image }}" alt="{{ .p.title }}" width="320" height="320" loading="lazy">
+    <div class="pbody">
+      <div class="ptitle">{{ .p.title }}</div>
+      {{ with .p.price }}<div class="pprice">€{{ . }}</div>{{ end }}
+      <a class="btn" href="{{ $href }}" rel="sponsored noopener" target="_blank">Shop on Etsy →</a>
+    </div>
+  </div>
+  {{- end -}}
+</div>
+{{- else -}}
+{{ warnf "product-grid: no products matched (%s)" .Position }}
+{{- end -}}

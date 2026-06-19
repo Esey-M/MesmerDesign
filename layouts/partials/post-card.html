@@ -1,0 +1,11 @@
+<a class="card" href="{{ .Permalink }}">
+  {{ with .Resources.GetMatch "cover.*" }}
+    {{ $thumb := (.Fill "560x420 webp q82") }}
+    <img class="card-img" src="{{ $thumb.RelPermalink }}" width="560" height="420" alt="{{ $.Title }}" loading="lazy">
+  {{ end }}
+  <div class="card-body">
+    <h3>{{ .Title }}</h3>
+    <p class="excerpt">{{ .Params.description | default (.Summary | plainify | truncate 100) }}</p>
+    <span class="meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
+  </div>
+</a>

@@ -1,0 +1,94 @@
+# ── Site basics ───────────────────────────────────────────────────────────
+# NOTE: update baseURL to your real custom domain once you have it.
+baseURL = "https://mesmerdesignshop.com/"
+languageCode = "en-us"
+title = "MesmerDesign"
+enableRobotsTXT = false   # we ship our own static/robots.txt
+enableGitInfo = false
+enableEmoji = true
+summaryLength = 40
+timeZone = "Europe/Amsterdam"
+
+# Pagination — keep listing pages light as the blog grows to 1000s of posts.
+[pagination]
+  pagerSize = 24
+
+# ── Permalinks ────────────────────────────────────────────────────────────
+# Stable, keyword-rich URLs that never change as the site scales.
+[permalinks]
+  [permalinks.page]
+    blog = "/blog/:sections[1:]/:slugorcontentbasename/"
+  [permalinks.section]
+    blog = "/blog/:sections[1:]/"
+
+# ── Taxonomies (cross-cutting facets → auto-generated landing pages) ───────
+[taxonomies]
+  recipient    = "recipients"
+  occasion     = "occasions"
+  product_type = "product_types"
+  theme        = "themes"
+
+# ── Output formats (HTML + RSS everywhere; LLMS at the home page) ──────────
+[outputs]
+  home    = ["HTML", "RSS", "LLMS"]
+  section = ["HTML", "RSS"]
+  term    = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.LLMS]
+    mediaType = "text/plain"
+    baseName  = "llms"
+    isPlainText = true
+    notAlternative = true
+
+# ── Markup / rendering ─────────────────────────────────────────────────────
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true        # allow inline HTML in Markdown when needed
+  [markup.highlight]
+    noClasses = false
+    style = "github"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+# ── Build / performance ─────────────────────────────────────────────────────
+[minify]
+  disableXML = true
+  [minify.tdewolff.html]
+    keepDocumentTags = true
+    keepEndTags = true
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[services]
+  [services.rss]
+    limit = 50
+
+# ── Related content (powers partials/related.html internal linking) ────────
+[related]
+  threshold = 60
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "themes"
+    weight = 100
+  [[related.indices]]
+    name = "recipients"
+    weight = 80
+  [[related.indices]]
+    name = "occasions"
+    weight = 70
+  [[related.indices]]
+    name = "product_types"
+    weight = 40
+  [[related.indices]]
+    name = "keywords"
+    weight = 30

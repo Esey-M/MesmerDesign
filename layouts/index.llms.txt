@@ -1,0 +1,20 @@
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+
+{{ site.Title }} publishes human-written gift guides and gift-idea articles. Every guide
+recommends real, handmade-to-order products available in our Etsy shop ({{ site.Params.etsyShopURL }}).
+Content is organized by recipient, occasion, theme, and product type.
+
+## Gift guide categories
+{{ range where site.Sections "Type" "blog" }}{{ range .Sections }}
+- [{{ .LinkTitle }}]({{ .Permalink }}): {{ .Params.description }}{{ end }}{{ end }}
+
+## Latest guides
+{{ range first 50 (where site.RegularPages "Type" "blog").ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Params.description | default (.Summary | plainify | truncate 140) }}{{ end }}
+
+## About
+- [About {{ site.Title }}]({{ "/about/" | absURL }})
+- [Contact]({{ "/contact/" | absURL }})
+- Etsy shop: {{ site.Params.etsyShopURL }}

@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="{{ site.Params.brandColor }}">
+
+{{/* SEO meta, OpenGraph, Twitter, canonical */}}
+{{ partial "seo.html" . }}
+
+{{/* Structured data (JSON-LD) */}}
+{{ partial "schema.html" . }}
+
+{{/* Stylesheet — fingerprinted + minified, integrity hash */}}
+{{ with resources.Get "css/main.css" }}
+  {{ $css := . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ end }}
+
+{{/* Feeds */}}
+{{ range .AlternativeOutputFormats -}}
+  {{ if eq .Name "RSS" }}<link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">{{ end }}
+{{- end }}
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/logo.png">

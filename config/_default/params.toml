@@ -1,0 +1,40 @@
+# ── Brand / SEO defaults ────────────────────────────────────────────────────
+description = "Thoughtful gift guides and ideas — faith, funny, personalized, and meaningful gifts you can buy today on Etsy."
+tagline = "Gift ideas worth giving."
+author = "MesmerDesign"
+keywords = ["gift ideas", "gift guides", "Etsy gifts", "personalized gifts", "Christian gifts"]
+
+# Brand colors (deep maroon primary). Used by assets/css/main.css via :root vars.
+brandColor = "#750303"
+
+# Where shoppers go to buy. Used by CTAs and the Organization schema.
+etsyShopURL = "https://www.etsy.com/shop/MesmerDesing"
+
+# Default UTM tags appended to Etsy links (measure which posts drive sales).
+[utm]
+  source = "blog"
+  medium = "referral"
+
+# Open Graph / Twitter defaults
+[og]
+  image = "/img/og-default.png"   # 1200x630 fallback share image
+  twitter = ""                     # e.g. "@mesmerdesign" (optional)
+
+# Organization info for JSON-LD (E-E-A-T / GEO trust signals)
+[organization]
+  name = "MesmerDesign"
+  logo = "/img/logo.png"
+  location = "The Netherlands"
+  email = "simonmhretab17@gmail.com"
+
+# Social profiles (sameAs in schema + footer links). Fill in as you create them.
+[social]
+  etsy = "https://www.etsy.com/shop/MesmerDesing"
+  pinterest = ""
+  instagram = ""
+  facebook = ""
+
+# Author/E-E-A-T defaults applied to posts without an explicit author.
+[defaultAuthor]
+  name = "The MesmerDesign Team"
+  url = "/about/"

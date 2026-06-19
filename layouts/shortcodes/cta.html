@@ -1,0 +1,15 @@
+{{- /* Generic shop CTA button.
+       To a product:   {{< cta id="custom-photo-mug" text="Make your own" />}}
+       To the shop:    {{< cta text="Browse the whole shop" />}}
+*/ -}}
+{{- $text := .Get "text" | default "Shop on Etsy" -}}
+{{- $href := site.Params.etsyShopURL -}}
+{{- $campaign := "shop-cta" -}}
+{{- with .Get "id" -}}
+  {{- $p := index site.Data.products . -}}
+  {{- if $p }}{{ $href = $p.url }}{{ $campaign = . }}{{ end -}}
+{{- end -}}
+{{- $url := partial "func/etsy-url.html" (dict "url" $href "campaign" $campaign "page" .Page) -}}
+<p style="text-align:center;margin:1.8rem 0">
+  <a class="btn" href="{{ $url }}" rel="sponsored noopener" target="_blank">{{ $text }} →</a>
+</p>

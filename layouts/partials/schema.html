@@ -1,0 +1,100 @@
+{{/* ============================================================
+     JSON-LD structured data dispatcher.
+     - Every page: Organization + WebSite (graph) on the home page,
+       BreadcrumbList on deeper pages.
+     - Blog posts: BlogPosting (+ ItemList if products listed in
+       front matter `featured_products`).
+     ============================================================ */}}
+
+{{- $org := dict
+  "@type" "Organization"
+  "@id" (printf "%s#organization" site.BaseURL)
+  "name" site.Params.organization.name
+  "url" site.BaseURL
+  "logo" (absURL site.Params.organization.logo)
+  "email" site.Params.organization.email
+-}}
+{{- $sameAs := slice -}}
+{{- range $k, $v := site.Params.social }}{{ with $v }}{{ $sameAs = $sameAs | append . }}{{ end }}{{ end -}}
+{{- if $sameAs }}{{ $org = merge $org (dict "sameAs" $sameAs) }}{{ end -}}
+
+{{- if .IsHome -}}
+{{/* Home → Organization + WebSite with SearchAction */}}
+<script type="application/ld+json">
+{{- $website := dict
+  "@type" "WebSite"
+  "@id" (printf "%s#website" site.BaseURL)
+  "url" site.BaseURL
+  "name" site.Title
+  "description" site.Params.description
+  "publisher" (dict "@id" (printf "%s#organization" site.BaseURL))
+-}}
+{{ (dict "@context" "https://schema.org" "@graph" (slice $org $website)) | jsonify | safeJS }}
+</script>
+{{- else -}}
+{{/* Inner pages → BreadcrumbList */}}
+<script type="application/ld+json">
+{{- $items := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL) -}}
+{{- $pos := 1 -}}
+{{- range .Ancestors.Reverse -}}
+  {{- if not .IsHome -}}
+    {{- $pos = add $pos 1 -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" $pos "name" .LinkTitle "item" .Permalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- $pos = add $pos 1 -}}
+{{- $items = $items | append (dict "@type" "ListItem" "position" $pos "name" .LinkTitle "item" .Permalink) -}}
+{{ (dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items) | jsonify | safeJS }}
+</script>
+{{- end -}}
+
+{{- if and .IsPage (eq .Type "blog") -}}
+{{/* Blog post → BlogPosting */}}
+{{- $authorName := site.Params.defaultAuthor.name -}}
+{{- with .Params.author }}{{ $authorName = . }}{{ end -}}
+{{- $img := "" -}}
+{{- with .Resources.GetMatch "cover.*" }}{{ $img = .Permalink }}{{ end -}}
+{{- with .Params.image }}{{ $img = (absURL .) }}{{ end -}}
+{{- if not $img }}{{ $img = (absURL site.Params.og.image) }}{{ end -}}
+<script type="application/ld+json">
+{{- $post := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" .Title
+  "description" (or .Params.description (.Summary | plainify | truncate 155))
+  "image" $img
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "author" (dict "@type" "Organization" "name" $authorName "url" (absURL site.Params.defaultAuthor.url))
+  "publisher" $org
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+-}}
+{{ $post | jsonify | safeJS }}
+</script>
+
+{{/* If the post lists featured_products, emit an ItemList of products */}}
+{{- with .Params.featured_products -}}
+{{- $listItems := slice -}}
+{{- $i := 0 -}}
+{{- range . -}}
+  {{- $p := index site.Data.products . -}}
+  {{- with $p -}}
+    {{- $i = add $i 1 -}}
+    {{- $listItems = $listItems | append (dict
+        "@type" "ListItem"
+        "position" $i
+        "item" (dict
+          "@type" "Product"
+          "name" .title
+          "image" (absURL .image)
+          "url" .url
+          "offers" (dict "@type" "Offer" "priceCurrency" "EUR" "price" (replace (replace .price "€" "") "," ".") "availability" "https://schema.org/InStock"))) -}}
+  {{- end -}}
+{{- end -}}
+{{- if $listItems -}}
+<script type="application/ld+json">
+{{ (dict "@context" "https://schema.org" "@type" "ItemList" "itemListElement" $listItems) | jsonify | safeJS }}
+</script>
+{{- end -}}
+{{- end -}}
+{{- end -}}

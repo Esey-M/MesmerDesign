@@ -1,0 +1,23 @@
+{{/* Internal-link engine: shows related posts based on shared taxonomy
+     terms (Hugo's built-in .Site.RegularPages.Related). Drives topical
+     authority + crawl depth as the blog scales. */}}
+{{- $related := first 4 (.Site.RegularPages.Related .) -}}
+{{- with $related -}}
+<section class="related container narrow">
+  <h2>You might also like</h2>
+  <div class="grid">
+    {{ range . }}
+      <a class="card" href="{{ .Permalink }}">
+        {{ with .Resources.GetMatch "cover.*" }}
+          {{ $thumb := (.Fill "520x390 webp q82") }}
+          <img class="card-img" src="{{ $thumb.RelPermalink }}" width="520" height="390" alt="{{ $.Title }}" loading="lazy">
+        {{ end }}
+        <div class="card-body">
+          <h3>{{ .Title }}</h3>
+          <p class="excerpt">{{ .Params.description | default (.Summary | plainify | truncate 90) }}</p>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+</section>
+{{- end -}}

@@ -1,0 +1,34 @@
+{{- /* Renders an FAQ accordion AND emits FAQPage JSON-LD (great for SEO
+       rich results + AI answer engines).
+       Reads questions from the page front matter:
+
+         faq:
+           - q: "What is the best gift for ...?"
+             a: "Markdown answer here."
+
+       Usage in the post body:  {{< faq >}}
+*/ -}}
+{{- $faq := .Page.Params.faq -}}
+{{- if $faq -}}
+<section class="faq">
+  <h2>Frequently asked questions</h2>
+  {{- range $faq }}
+  <details>
+    <summary>{{ .q }}</summary>
+    <div class="faq-a">{{ .a | $.Page.RenderString }}</div>
+  </details>
+  {{- end }}
+</section>
+{{- $entities := slice -}}
+{{- range $faq -}}
+  {{- $entities = $entities | append (dict
+      "@type" "Question"
+      "name" .q
+      "acceptedAnswer" (dict "@type" "Answer" "text" (.a | $.Page.RenderString | plainify | chomp))) -}}
+{{- end -}}
+<script type="application/ld+json">
+{{ (dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $entities) | jsonify | safeJS }}
+</script>
+{{- else -}}
+{{ warnf "faq shortcode: no `faq` list found in front matter (%s)" .Position }}
+{{- end -}}

@@ -1,0 +1,17 @@
+{{- $id := .Get "id" -}}
+{{- $p := index site.Data.products $id -}}
+{{- if not $p -}}
+  {{ errorf "shortcode 'product': no product with id %q in data/products.yaml (%s)" $id .Position }}
+{{- else -}}
+{{- $href := partial "func/etsy-url.html" (dict "url" $p.url "campaign" $id "page" .Page) -}}
+{{- $cta := .Get "cta" | default "Shop on Etsy" -}}
+<div class="product-inline">
+  <img src="{{ $p.image }}" alt="{{ $p.title }}" width="120" height="120" loading="lazy">
+  <div class="pmeta">
+    <div class="ptitle">{{ $p.title }}</div>
+    {{ with $p.price }}<div class="pprice">€{{ . }}</div>{{ end }}
+    {{ with .Inner }}<p>{{ . | $.Page.RenderString }}</p>{{ end }}
+  </div>
+  <a class="btn" href="{{ $href }}" rel="sponsored noopener" target="_blank">{{ $cta }} →</a>
+</div>
+{{- end -}}

@@ -1,0 +1,49 @@
+[[main]]
+  name = "Gift Guides"
+  pageRef = "/blog"
+  weight = 10
+
+[[main]]
+  name = "For Him"
+  pageRef = "/blog/gifts-for-him"
+  weight = 20
+
+[[main]]
+  name = "For Her"
+  pageRef = "/blog/gifts-for-her"
+  weight = 30
+
+[[main]]
+  name = "Christian"
+  pageRef = "/blog/christian-gifts"
+  weight = 40
+
+[[main]]
+  name = "Business"
+  pageRef = "/blog/business-gifts"
+  weight = 50
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 90
+
+[[footer]]
+  name = "About"
+  pageRef = "/about"
+  weight = 10
+
+[[footer]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 20
+
+[[footer]]
+  name = "Disclosure"
+  pageRef = "/legal/disclosure"
+  weight = 30
+
+[[footer]]
+  name = "Privacy"
+  pageRef = "/legal/privacy"
+  weight = 40

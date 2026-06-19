@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+<article class="container">
+  <header class="article-header narrow">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+  </header>
+
+  {{/* Pillar-page body content (the SEO-rich intro for the category) */}}
+  {{ with .Content }}<div class="prose narrow">{{ . }}</div>{{ end }}
+
+  {{/* Listing of posts in this section / taxonomy */}}
+  {{ $paginator := .Paginate (.RegularPagesRecursive.ByDate.Reverse) }}
+  <section class="section">
+    <div class="grid">
+      {{ range $paginator.Pages }}
+        {{ partial "post-card.html" . }}
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+  </section>
+
+  {{/* Sub-category hubs, if any */}}
+  {{ with .Sections }}
+  <section class="section">
+    <div class="section-title"><h2>Categories</h2></div>
+    <div class="chips">
+      {{ range . }}<a class="chip" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}
+    </div>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

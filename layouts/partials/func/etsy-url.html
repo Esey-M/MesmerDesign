@@ -1,0 +1,15 @@
+{{- /* Returns an Etsy URL with UTM tracking appended (as a plain string via
+       `return`, so the caller escapes it exactly once).
+       Call: {{ partial "func/etsy-url.html" (dict "url" $url "campaign" $id "page" $page) }}
+       - url:      clean Etsy listing URL
+       - campaign: utm_campaign (usually the product id)
+       - page:     (optional) referring Page → utm_content (post slug)
+*/ -}}
+{{- $url := .url -}}
+{{- $sep := cond (strings.Contains $url "?") "&" "?" -}}
+{{- $params := slice
+    (printf "utm_source=%s" site.Params.utm.source)
+    (printf "utm_medium=%s" site.Params.utm.medium)
+    (printf "utm_campaign=%s" (.campaign | urlquery)) -}}
+{{- with .page }}{{ $params = $params | append (printf "utm_content=%s" (.File.ContentBaseName | urlquery)) }}{{ end -}}
+{{- return (printf "%s%s%s" $url $sep (delimit $params "&")) -}}

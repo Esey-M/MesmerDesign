@@ -1,0 +1,227 @@
+# ============================================================
+# Single source of truth for every Etsy listing.
+# Keyed by `id` (kebab-case). Reference in posts via shortcodes:
+#   {{< product id="give-it-to-god-sweatshirt" >}}
+#   {{< product-grid ids="a,b,c" >}}   or   {{< product-grid theme="faith" >}}
+#
+# IMPORTANT: replace each `url` with the REAL Etsy listing URL.
+# The ?utm_... query is added automatically by the shortcode — you can
+# paste a clean listing URL here (no need to add UTM yourself).
+# Drop a square image at static/img/products/<id>.jpg (or set `image`).
+# ============================================================
+
+give-it-to-god-sweatshirt:
+  title: "Give It to God and Go to Sleep Sweatshirt"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "49,00"
+  image: "/img/products/give-it-to-god-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [her, mom, friend]
+  product_types: [sweatshirt]
+
+made-new-sweatshirt:
+  title: "Made New Sweatshirt, 2 Corinthians 5:17"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "49,00"
+  image: "/img/products/made-new-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [her, mom, friend]
+  product_types: [sweatshirt]
+
+fueled-by-jesus-coffee-sweatshirt:
+  title: "Fueled By Jesus and Coffee Sweatshirt"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "49,00"
+  image: "/img/products/fueled-by-jesus-coffee-sweatshirt.jpg"
+  themes: [faith, funny]
+  recipients: [her, mom]
+  product_types: [sweatshirt]
+
+walk-by-faith-sweatshirt:
+  title: "Walk By Faith Not By Sight Retro Sweatshirt"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "49,00"
+  image: "/img/products/walk-by-faith-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [her, friend]
+  product_types: [sweatshirt]
+
+be-still-sweatshirt:
+  title: "Be Still Sweatshirt, Psalm 46:10"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "49,00"
+  image: "/img/products/be-still-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [her, mom]
+  product_types: [sweatshirt]
+
+blessed-mug-cross:
+  title: "Blessed Mug with Cross, Minimalist Christian Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "21,77"
+  image: "/img/products/blessed-mug-cross.jpg"
+  themes: [faith]
+  recipients: [her, him, mom]
+  product_types: [mug]
+
+small-good-things-mug:
+  title: "Today Is Full of Small Good Things Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "21,77"
+  image: "/img/products/small-good-things-mug.jpg"
+  themes: [mental-health]
+  recipients: [her, friend]
+  product_types: [mug]
+
+doing-better-than-you-think-mama-mug:
+  title: "You're Doing Better Than You Think Mama Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "21,77"
+  image: "/img/products/doing-better-than-you-think-mama-mug.jpg"
+  themes: [mental-health]
+  recipients: [mom]
+  product_types: [mug]
+  occasions: [mothers-day, birthday]
+
+not-today-anxiety-mug:
+  title: "Not Today Anxiety Mug, Mental Health Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "21,77"
+  image: "/img/products/not-today-anxiety-mug.jpg"
+  themes: [mental-health]
+  recipients: [her, friend]
+  product_types: [mug]
+
+teach-breathe-repeat-mug:
+  title: "Teach Breathe Repeat Mug, Teacher Gift"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "21,77"
+  image: "/img/products/teach-breathe-repeat-mug.jpg"
+  themes: [mental-health]
+  recipients: [teacher]
+  product_types: [mug]
+  occasions: [teacher-appreciation]
+
+i-can-do-hard-things-mug:
+  title: "I Can Do Hard Things It's May Teacher Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "21,77"
+  image: "/img/products/i-can-do-hard-things-mug.jpg"
+  themes: [mental-health]
+  recipients: [teacher]
+  product_types: [mug]
+  occasions: [teacher-appreciation]
+
+cat-hair-is-my-glitter-shirt:
+  title: "Cat Hair Is My Glitter Shirt, Funny Cat Tee"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "33,53"
+  image: "/img/products/cat-hair-is-my-glitter-shirt.jpg"
+  themes: [funny, pet]
+  recipients: [her, cat-lover]
+  product_types: [shirt]
+
+doing-my-best-possum-shirt:
+  title: "Doing My Best Possum Shirt, Funny Animal Tee"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "33,53"
+  image: "/img/products/doing-my-best-possum-shirt.jpg"
+  themes: [funny]
+  recipients: [him, her, friend]
+  product_types: [shirt]
+
+my-dog-is-my-personality-shirt:
+  title: "My Dog Is My Personality Shirt"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "33,53"
+  image: "/img/products/my-dog-is-my-personality-shirt.jpg"
+  themes: [funny, pet]
+  recipients: [dog-lover, her, him]
+  product_types: [shirt]
+
+custom-photo-mug:
+  title: "Custom Photo Mug, Personalized Picture Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "29,03"
+  image: "/img/products/custom-photo-mug.jpg"
+  themes: [personalized]
+  recipients: [him, her, mom, friend]
+  product_types: [mug]
+  occasions: [birthday, anniversary, christmas]
+
+custom-text-mug:
+  title: "Custom Text Mug, Personalized Inside Joke Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "29,03"
+  image: "/img/products/custom-text-mug.jpg"
+  themes: [personalized, funny]
+  recipients: [him, her, friend]
+  product_types: [mug]
+  occasions: [birthday, anniversary]
+
+custom-family-photo-canvas:
+  title: "Custom Family Photo Canvas Print"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "79,09"
+  image: "/img/products/custom-family-photo-canvas.jpg"
+  themes: [personalized]
+  recipients: [mom, family, her]
+  product_types: [canvas]
+  occasions: [christmas, anniversary]
+
+custom-business-gift-mug:
+  title: "Custom Business Gift Colorful Logo Mug"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "30,24"
+  image: "/img/products/custom-business-gift-mug.jpg"
+  themes: [business, personalized]
+  recipients: [coworker, client]
+  product_types: [mug]
+  occasions: [corporate]
+
+custom-business-gift-bottle:
+  title: "Custom Business Gift Insulated Water Bottle"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "64,34"
+  image: "/img/products/custom-business-gift-bottle.jpg"
+  themes: [business, personalized]
+  recipients: [coworker, client]
+  product_types: [bottle]
+  occasions: [corporate]
+
+custom-logo-latte-mug:
+  title: "Custom Logo Latte Mug, Personalized Branding"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "23,17"
+  image: "/img/products/custom-logo-latte-mug.jpg"
+  themes: [business, personalized]
+  recipients: [coworker, client]
+  product_types: [mug]
+  occasions: [corporate]
+
+tigrinya-alphabet-poster:
+  title: "Tigrinya Alphabet Poster with Illustrations"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "47,01"
+  image: "/img/products/tigrinya-alphabet-poster.jpg"
+  themes: [tigrinya, educational]
+  recipients: [kids, family]
+  product_types: [poster]
+
+god-is-within-poster:
+  title: "God Is Within Typography Poster"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "25,40"
+  image: "/img/products/god-is-within-poster.jpg"
+  themes: [faith]
+  recipients: [her, him]
+  product_types: [poster]
+
+savings-tracker-spreadsheet:
+  title: "Simple Savings Tracker Spreadsheet (Digital Download)"
+  url: "https://www.etsy.com/shop/MesmerDesing"
+  price: "5,44"
+  image: "/img/products/savings-tracker-spreadsheet.jpg"
+  themes: [digital]
+  recipients: [her, him]
+  product_types: [digital]

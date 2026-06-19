@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <strong>{{ site.Title }}</strong> — {{ site.Params.tagline }}<br>
+      <span>© {{ now.Year }} {{ site.Params.organization.name }}. Handmade-to-order gifts on Etsy.</span>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      {{ range site.Menus.footer }}
+        <a href="{{ .PageRef | default .URL | relURL }}">{{ .Name }}</a>
+      {{ end }}
+      {{ with site.Params.etsyShopURL }}<a href="{{ . }}" rel="noopener" target="_blank">Etsy Shop</a>{{ end }}
+    </nav>
+  </div>
+</footer>

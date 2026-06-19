@@ -1,0 +1,49 @@
+{{/* ── Title ─────────────────────────────────────────────── */}}
+{{- $title := .Title -}}
+{{- if .IsHome -}}{{ $title = printf "%s — %s" site.Title site.Params.tagline -}}
+{{- else -}}{{ $title = printf "%s | %s" .Title site.Title -}}{{- end -}}
+<title>{{ $title }}</title>
+
+{{/* ── Description ───────────────────────────────────────── */}}
+{{- $desc := .Params.description -}}
+{{- if not $desc }}{{ with .Summary }}{{ $desc = . | plainify | truncate 155 }}{{ end }}{{ end -}}
+{{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
+<meta name="description" content="{{ $desc }}">
+
+{{/* ── Keywords (optional) ───────────────────────────────── */}}
+{{- with .Params.keywords }}<meta name="keywords" content="{{ delimit . ", " }}">{{ end }}
+
+{{/* ── Canonical ─────────────────────────────────────────── */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* ── Robots ────────────────────────────────────────────── */}}
+{{- if or .Params.private (eq .Kind "taxonomy") }}
+<meta name="robots" content="noindex, follow">
+{{- else }}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+{{- end }}
+
+{{/* ── Share image (resolve page resource → param → default) ─ */}}
+{{- $img := "" -}}
+{{- with .Resources.GetMatch "cover.*" }}{{ $img = .Permalink }}{{ end -}}
+{{- with .Params.image }}{{ $img = (absURL .) }}{{ end -}}
+{{- if not $img }}{{ $img = (absURL site.Params.og.image) }}{{ end -}}
+
+{{/* ── Open Graph ────────────────────────────────────────── */}}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:image" content="{{ $img }}">
+{{- if .IsPage }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end }}
+
+{{/* ── Twitter ───────────────────────────────────────────── */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img }}">
+{{- with site.Params.og.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+<article class="container">
+  <header class="article-header narrow">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+    <div class="article-meta">
+      <span>By {{ .Params.author | default site.Params.defaultAuthor.name }}</span>
+      <span>·</span>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <span>·</span>
+      <span>{{ .ReadingTime }} min read</span>
+      {{ if ne .Lastmod.Day .Date.Day }}<span>·</span><span>Updated {{ .Lastmod.Format "Jan 2, 2006" }}</span>{{ end }}
+    </div>
+  </header>
+
+  {{ with .Resources.GetMatch "cover.*" }}
+    {{ $hero := (.Fill "1200x675 webp q85") }}
+    <figure class="narrow">
+      <img src="{{ $hero.RelPermalink }}" width="1200" height="675" alt="{{ $.Title }}" fetchpriority="high">
+    </figure>
+  {{ end }}
+
+  <div class="prose narrow">
+    {{ partial "disclosure-inline.html" . }}
+    {{ .Content }}
+  </div>
+
+  {{/* Taxonomy chips for crawl depth + discovery */}}
+  <div class="narrow">
+    <div class="chips">
+      {{ range $t := slice "themes" "recipients" "occasions" "product_types" }}
+        {{ range ($.GetTerms $t) }}
+          <a class="chip" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</article>
+
+{{ partial "related.html" . }}
+{{ end }}

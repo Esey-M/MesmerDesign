@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="hero container">
+  <h1>{{ .Title | default "Gift ideas worth giving" }}</h1>
+  <p>{{ .Params.intro | default site.Params.description }}</p>
+  <a class="btn" href="{{ "/blog/" | relURL }}">Browse gift guides</a>
+  {{ with site.Params.etsyShopURL }}<a class="btn-outline btn" href="{{ . }}" rel="noopener" target="_blank" style="margin-left:.6rem">Shop on Etsy</a>{{ end }}
+</section>
+
+{{/* Category hubs */}}
+<section class="section container">
+  <div class="section-title"><h2>Shop by category</h2></div>
+  <div class="grid">
+    {{ range where site.Sections "Type" "blog" }}
+      {{ range .Sections }}
+      <a class="card" href="{{ .Permalink }}">
+        <div class="card-body">
+          <h3>{{ .LinkTitle }}</h3>
+          <p class="excerpt">{{ .Params.description | default "" | truncate 110 }}</p>
+          <span class="meta">{{ len .RegularPagesRecursive }} guides →</span>
+        </div>
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+{{/* Latest posts */}}
+<section class="section container">
+  <div class="section-title">
+    <h2>Latest guides</h2>
+    <a href="{{ "/blog/" | relURL }}">See all →</a>
+  </div>
+  <div class="grid">
+    {{ range first 6 (where site.RegularPages "Type" "blog").ByDate.Reverse }}
+      {{ partial "post-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
