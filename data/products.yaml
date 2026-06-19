@@ -139,6 +139,16 @@ my-dog-is-my-personality-shirt:
   recipients: [dog-lover, her, him]
   product_types: [shirt]
 
+personalized-happy-birthday-mug:
+  title: "Personalized Happy Birthday Mug with Name"
+  url: "https://www.etsy.com/listing/4524240744/personalized-happy-birthday-mug-with"
+  price: "29,03"
+  image: "/img/products/personalized-happy-birthday-mug.jpg"
+  themes: [personalized]
+  recipients: [kids, him, her, friend, coworker]
+  occasions: [birthday]
+  product_types: [mug]
+
 custom-photo-mug:
   title: "Custom Photo Mug, Personalized Picture Mug"
   url: "https://www.etsy.com/shop/MesmerDesing"

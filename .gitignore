@@ -12,3 +12,6 @@ Thumbs.db
 
 # Node (only if you later add a CMS / tooling)
 node_modules/
+
+# Full-res source images (originals kept locally, not in repo)
+intake/source/
