@@ -2,6 +2,7 @@
 {{ partial "breadcrumbs.html" . }}
 <article class="container">
   <header class="article-header narrow">
+    {{ with .Parent }}{{ if not .IsHome }}<a class="eyebrow" href="{{ .Permalink }}">{{ .LinkTitle }}</a>{{ end }}{{ end }}
     <h1>{{ .Title }}</h1>
     {{ with .Params.description }}<p class="lead">{{ . }}</p>{{ end }}
     <div class="article-meta">
