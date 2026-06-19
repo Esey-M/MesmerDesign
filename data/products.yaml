@@ -12,29 +12,62 @@
 
 give-it-to-god-sweatshirt:
   title: "Give It to God and Go to Sleep Sweatshirt"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  url: "https://www.etsy.com/listing/4520850627/give-it-to-god-and-go-to-sleep"
   price: "49,00"
   image: "/img/products/give-it-to-god-sweatshirt.jpg"
-  themes: [faith]
+  themes: [faith, mental-health]
   recipients: [her, mom, friend]
+  occasions: [christmas, birthday]
   product_types: [sweatshirt]
 
 made-new-sweatshirt:
   title: "Made New Sweatshirt, 2 Corinthians 5:17"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  url: "https://www.etsy.com/listing/4520849123/made-new-sweatshirt-2-corinthians-5-17"
   price: "49,00"
   image: "/img/products/made-new-sweatshirt.jpg"
   themes: [faith]
-  recipients: [her, mom, friend]
+  recipients: [her, him, friend]
+  occasions: [baptism, christmas]
   product_types: [sweatshirt]
 
 fueled-by-jesus-coffee-sweatshirt:
   title: "Fueled By Jesus and Coffee Sweatshirt"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  url: "https://www.etsy.com/listing/4520847387/fueled-by-jesus-and-coffee-sweatshirt"
   price: "49,00"
   image: "/img/products/fueled-by-jesus-coffee-sweatshirt.jpg"
   themes: [faith, funny]
-  recipients: [her, mom]
+  recipients: [her, mom, friend, coworker]
+  occasions: [christmas, birthday]
+  product_types: [sweatshirt]
+
+grace-upon-grace-sweatshirt:
+  title: "Grace Upon Grace Sweatshirt, John 1:16"
+  url: "https://www.etsy.com/listing/4520831859/grace-upon-grace-sweatshirt-christian"
+  price: "49,00"
+  image: "/img/products/grace-upon-grace-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [her, mom, friend]
+  occasions: [mothers-day, christmas, birthday]
+  product_types: [sweatshirt]
+
+his-mercies-new-every-morning-sweatshirt:
+  title: "His Mercies Are New Every Morning Sweatshirt, Lamentations 3:22"
+  url: "https://www.etsy.com/listing/4520842885/his-mercies-are-new-every-morning"
+  price: "49,00"
+  image: "/img/products/his-mercies-new-every-morning-sweatshirt.jpg"
+  themes: [faith, mental-health]
+  recipients: [her, mom, friend]
+  occasions: [mothers-day, birthday, christmas]
+  product_types: [sweatshirt]
+
+raising-arrows-sweatshirt:
+  title: "Raising Arrows Sweatshirt, Psalm 127"
+  url: "https://www.etsy.com/listing/4520847388/raising-arrows-sweatshirt-psalm-127"
+  price: "49,00"
+  image: "/img/products/raising-arrows-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [mom, him, her, family]
+  occasions: [mothers-day, fathers-day, christmas]
   product_types: [sweatshirt]
 
 walk-by-faith-sweatshirt:
@@ -48,11 +81,12 @@ walk-by-faith-sweatshirt:
 
 be-still-sweatshirt:
   title: "Be Still Sweatshirt, Psalm 46:10"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  url: "https://www.etsy.com/listing/4520843580/be-still-sweatshirt-psalm-46-10"
   price: "49,00"
   image: "/img/products/be-still-sweatshirt.jpg"
-  themes: [faith]
-  recipients: [her, mom]
+  themes: [faith, mental-health]
+  recipients: [her, mom, friend]
+  occasions: [christmas, birthday]
   product_types: [sweatshirt]
 
 blessed-mug-cross:
