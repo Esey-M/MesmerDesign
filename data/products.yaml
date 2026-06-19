@@ -218,14 +218,34 @@ custom-text-mug:
   occasions: [birthday, anniversary, christmas]
 
 custom-family-photo-canvas:
-  title: "Custom Family Photo Canvas Print"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Custom Family Photo Canvas Print, Horizontal Wall Art"
+  url: "https://www.etsy.com/listing/4524264373/custom-family-photo-canvas-print"
   price: "79,09"
   image: "/img/products/custom-family-photo-canvas.jpg"
   themes: [personalized]
-  recipients: [mom, family, her]
+  recipients: [mom, dad, family, her, him]
   product_types: [canvas]
-  occasions: [christmas, anniversary]
+  occasions: [christmas, anniversary, mothers-day, fathers-day, housewarming]
+
+custom-photo-canvas-vertical:
+  title: "Custom Photo Canvas Print, Vertical Wedding & Anniversary Wall Art"
+  url: "https://www.etsy.com/listing/4524270038/custom-photo-canvas-personalized"
+  price: "79,09"
+  image: "/img/products/custom-photo-canvas-vertical.jpg"
+  themes: [personalized]
+  recipients: [her, him, family, friend]
+  product_types: [canvas]
+  occasions: [anniversary, wedding, christmas, housewarming]
+
+custom-cartoon-portrait-phone-case:
+  title: "Custom Cartoon Portrait Phone Case from Photo"
+  url: "https://www.etsy.com/listing/4524262746/custom-cartoon-portrait-phone-case-from"
+  price: "33,53"
+  image: "/img/products/custom-cartoon-portrait-phone-case.jpg"
+  themes: [personalized]
+  recipients: [her, him, friend, family]
+  product_types: [phone-case]
+  occasions: [anniversary, wedding, valentines, birthday, christmas]
 
 custom-business-gift-mug:
   title: "Custom Business Gift Colorful Mug"
