@@ -264,12 +264,33 @@ tigrinya-alphabet-poster:
   product_types: [poster]
 
 god-is-within-poster:
-  title: "God Is Within Typography Poster"
-  url: "https://www.etsy.com/shop/MesmerDesing"
-  price: "25,40"
+  title: "God Is Within Poster, Bold Typography Faith Decor"
+  url: "https://www.etsy.com/listing/4523150601/god-is-within-poster-spiritual-wall-art"
+  price: "21,77"
   image: "/img/products/god-is-within-poster.jpg"
   themes: [faith]
-  recipients: [her, him]
+  recipients: [her, him, friend]
+  occasions: [birthday, housewarming, christmas]
+  product_types: [poster]
+
+god-is-calling-poster:
+  title: "God Is Calling Poster, Modern Christian Wall Art"
+  url: "https://www.etsy.com/listing/4523170944/god-is-calling-poster-christian-wall-art"
+  price: "21,77"
+  image: "/img/products/god-is-calling-poster.jpg"
+  themes: [faith]
+  recipients: [him, her, friend, teen]
+  occasions: [baptism, confirmation, birthday, christmas]
+  product_types: [poster]
+
+path-to-the-cross-poster:
+  title: "Path to the Cross, Cinematic Christian Wall Art"
+  url: "https://www.etsy.com/listing/4523422088/path-to-the-cross-christian-wall-art"
+  price: "21,77"
+  image: "/img/products/path-to-the-cross-poster.jpg"
+  themes: [faith]
+  recipients: [him, her, friend, teen, family]
+  occasions: [baptism, confirmation, fathers-day, birthday, christmas]
   product_types: [poster]
 
 savings-tracker-spreadsheet:
