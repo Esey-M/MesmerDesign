@@ -198,24 +198,24 @@ personalized-happy-birthday-mug:
   product_types: [mug]
 
 custom-photo-mug:
-  title: "Custom Photo Mug, Personalized Picture Mug"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Custom Photo Mug, Personalized Picture Coffee Cup"
+  url: "https://www.etsy.com/listing/4524248308/custom-photo-mug-personalized-picture"
   price: "29,03"
   image: "/img/products/custom-photo-mug.jpg"
   themes: [personalized]
   recipients: [him, her, mom, friend]
   product_types: [mug]
-  occasions: [birthday, anniversary, christmas]
+  occasions: [birthday, anniversary, christmas, mothers-day, fathers-day]
 
 custom-text-mug:
-  title: "Custom Text Mug, Personalized Inside Joke Mug"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Custom Text Mug, Personalized Inside Joke Coffee Cup"
+  url: "https://www.etsy.com/listing/4524251854/custom-text-mug-personalized-inside-joke"
   price: "29,03"
   image: "/img/products/custom-text-mug.jpg"
   themes: [personalized, funny]
-  recipients: [him, her, friend]
+  recipients: [him, her, friend, coworker]
   product_types: [mug]
-  occasions: [birthday, anniversary]
+  occasions: [birthday, anniversary, christmas]
 
 custom-family-photo-canvas:
   title: "Custom Family Photo Canvas Print"
@@ -238,8 +238,8 @@ custom-business-gift-mug:
   occasions: [corporate]
 
 custom-business-gift-bottle:
-  title: "Custom Business Gift Insulated Water Bottle"
-  url: "https://www.etsy.com/shop/MesmerDesing"
+  title: "Custom Business Gift Insulated Water Bottle, 22oz"
+  url: "https://www.etsy.com/listing/4522416097/custom-business-gift-insulated-water"
   price: "64,34"
   image: "/img/products/custom-business-gift-bottle.jpg"
   themes: [business, personalized]
@@ -304,6 +304,66 @@ path-to-the-cross-poster:
   themes: [faith]
   recipients: [him, her, friend, teen, family]
   occasions: [baptism, confirmation, fathers-day, birthday, christmas]
+  product_types: [poster]
+
+personalized-dog-line-art-poster:
+  title: "Personalized Dog Line Art Poster, Custom Pet Name Print"
+  url: "https://www.etsy.com/listing/4523761379/personalized-dog-line-art-poster-custom"
+  price: "25,40"
+  image: "/img/products/personalized-dog-line-art-poster.jpg"
+  themes: [personalized, pet]
+  recipients: [dog-lover, her, him, mom, friend]
+  occasions: [mothers-day, fathers-day, birthday, christmas, memorial]
+  product_types: [poster]
+
+think-outside-the-box-poster:
+  title: "Think Outside The Box Poster, Minimalist Office Quote Art"
+  url: "https://www.etsy.com/listing/4523759746/think-outside-the-box-poster-minimalist"
+  price: "25,40"
+  image: "/img/products/think-outside-the-box-poster.jpg"
+  themes: [business]
+  recipients: [coworker, him, her, friend]
+  occasions: [corporate, graduation, birthday]
+  product_types: [poster]
+
+manifestation-poster:
+  title: "Manifestation Poster, Spiritual Mindset Wall Art"
+  url: "https://www.etsy.com/listing/4523158883/manifestation-poster-feelings-beliefs"
+  price: "25,40"
+  image: "/img/products/manifestation-poster.jpg"
+  themes: [mental-health, personalized]
+  recipients: [her, friend]
+  occasions: [birthday, housewarming, christmas]
+  product_types: [poster]
+
+ideas-dont-work-poster:
+  title: "Ideas Don't Work Unless You Do Poster, Funny Motivational Cat Art"
+  url: "https://www.etsy.com/listing/4523758166/ideas-dont-work-unless-you-do-poster"
+  price: "25,40"
+  image: "/img/products/ideas-dont-work-poster.jpg"
+  themes: [business, funny]
+  recipients: [coworker, him, her, friend]
+  occasions: [corporate, graduation, birthday]
+  product_types: [poster]
+
+feeling-is-the-secret-poster:
+  title: "Feeling Is the Secret Typography Poster, Manifestation Art"
+  url: "https://www.etsy.com/listing/4523403110/feeling-is-the-secret-typography-poster"
+  price: "25,40"
+  image: "/img/products/feeling-is-the-secret-poster.jpg"
+  themes: [mental-health, personalized]
+  recipients: [her, friend]
+  occasions: [birthday, housewarming, christmas]
+  product_types: [poster]
+
+african-woman-art-print:
+  title: "African Woman Art Print, Afrocentric Savanna Wall Art"
+  url: "https://www.etsy.com/listing/4524276285/african-woman-art-print-black-art-poster"
+  price: "25,40"
+  image: "/img/products/african-woman-art-print.jpg"
+  themes: [personalized]
+  recipients: [her, mom, friend, family]
+  occasions: [housewarming, mothers-day, birthday, christmas]
   product_types: [poster]
 
 savings-tracker-spreadsheet:
