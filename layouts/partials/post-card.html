@@ -1,7 +1,7 @@
 <a class="card" href="{{ .Permalink }}">
   {{ with .Resources.GetMatch "cover.*" }}
-    {{ $thumb := (.Fill "560x420 webp q82") }}
-    <img class="card-img" src="{{ $thumb.RelPermalink }}" width="560" height="420" alt="{{ $.Title }}" loading="lazy">
+    {{ $thumb := (.Fit "600x600 webp q82") }}
+    <img class="card-img" src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" alt="{{ $.Title }}" loading="lazy">
   {{ end }}
   <div class="card-body">
     <h3>{{ .Title }}</h3>

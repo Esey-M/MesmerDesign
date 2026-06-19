@@ -11,8 +11,11 @@ item, it's a product we design and make to order in our own [Etsy shop](https://
 We don't earn third-party affiliate commissions on these links — when you buy, you're
 buying directly from us.
 
-**Prices and availability** shown in guides are accurate at the time of writing and may
-change. Always check the current price on the product's Etsy listing before ordering.
+**About the prices we show.** Our guides show **approximate US prices in US dollars**. Our
+products are made in the EU, where listed prices include 20% VAT; most of our buyers are in
+the US and pay no VAT, so the price you see at checkout is typically lower. Prices also vary
+by size, options, and currency. We show a rounded "under $X" guide price — **Etsy always
+shows your exact total at checkout**, so check the listing before ordering.
 
 We aim to give honest, useful guidance — including pointing you to the most affordable
 option when that's the right call. If something here isn't helpful, [tell us](/contact/).

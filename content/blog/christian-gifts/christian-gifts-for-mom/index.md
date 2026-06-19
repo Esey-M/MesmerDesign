@@ -16,7 +16,7 @@ featured_products:
   - be-still-sweatshirt
 faq:
   - q: "What is a good Christian gift for a mom on a budget?"
-    a: "A minimalist **Blessed mug with a cross** (around €22) is the best budget-friendly Christian gift for mom — it's useful every morning and quietly meaningful."
+    a: "A minimalist **Blessed mug with a cross** (under $20) is the best budget-friendly Christian gift for mom — it's useful every morning and quietly meaningful."
   - q: "What Christian gift is best for a new mom?"
     a: "Go for comfort she can wear during long days at home. A soft **Be Still (Psalm 46:10)** sweatshirt is calming, cozy, and a gentle daily reminder."
   - q: "Are these gifts good for Mother's Day and birthdays?"
@@ -26,7 +26,7 @@ faq:
 {{< answer >}}
 **The best Christian gift for mom is a cozy scripture sweatshirt she can wear every day** —
 like *Give It to God and Go to Sleep* — paired with a minimalist *Blessed* mug for her
-morning coffee. Together they're meaningful, useful, and under €75.
+morning coffee. Together they're meaningful, useful, and under $65.
 {{< /answer >}}
 
 ## Top picks at a glance

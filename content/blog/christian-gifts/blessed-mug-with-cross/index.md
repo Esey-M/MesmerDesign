@@ -1,6 +1,6 @@
 ---
 title: "The Minimalist 'Blessed' Mug That Quietly Says It All"
-description: "A minimalist 'Blessed' mug with a clean black cross — a modern Christian gift for women and men who wear faith with quiet confidence. 11oz or 15oz, under €25."
+description: "A minimalist 'Blessed' mug with a clean black cross — a modern Christian gift for women and men who wear faith with quiet confidence. 11oz or 15oz, under $20."
 date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
@@ -24,7 +24,7 @@ faq:
 ---
 
 {{< answer >}}
-**The best minimalist Christian gift is something they'll use every day** — like a clean "Blessed" mug with a simple black cross. It wears faith with quiet confidence, fits any aesthetic, and costs under €25, which makes it one of those rare religious gifts that actually gets used instead of tucked away.
+**The best minimalist Christian gift is something they'll use every day** — like a clean "Blessed" mug with a simple black cross. It wears faith with quiet confidence, fits any aesthetic, and costs under $20, which makes it one of those rare religious gifts that actually gets used instead of tucked away.
 {{< /answer >}}
 
 ## Top pick
@@ -54,7 +54,7 @@ that keeps the design sharp wash after wash.
 
 - **Modern Christian women and men** who like their faith understated
 - **Minimalist-aesthetic lovers** — it fits a clean, modern home
-- **Mother's Day, birthdays, and Christmas** — an easy under-€25 gift
+- **Mother's Day, birthdays, and Christmas** — an easy under-$20 gift
 - **Church appreciation** — a pastor, worship leader, or church secretary
 - **Bridal showers and bridesmaids** — for faithful friends
 - **Sunday school teachers** — a simple, sincere thank-you

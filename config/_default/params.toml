@@ -15,6 +15,17 @@ etsyShopURL = "https://www.etsy.com/shop/MesmerDesing"
   source = "blog"
   medium = "referral"
 
+# ── Pricing display ─────────────────────────────────────────────────────────
+# Prices in data/products.yaml are the EU price INCLUDING 20% VAT.
+# Most buyers are US-based and pay no VAT, so we show an approximate USD price.
+#   usMultiplier 0.9  ≈ remove 20% VAT (÷1.2) then convert EUR→USD (×~1.08)
+# We never show an exact price — only a rounded-up "Under $XX" ceiling.
+[pricing]
+  currency = "USD"
+  symbol = "$"
+  usMultiplier = 0.9   # EU incl-VAT price → approx US price
+  roundTo = 5          # round the "Under $X" ceiling up to nearest multiple
+
 # Open Graph / Twitter defaults
 [og]
   image = "/img/og-default.png"   # 1200x630 fallback share image

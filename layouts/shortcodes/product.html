@@ -9,7 +9,7 @@
   <img src="{{ $p.image }}" alt="{{ $p.title }}" width="120" height="120" loading="lazy">
   <div class="pmeta">
     <div class="ptitle">{{ $p.title }}</div>
-    {{ with $p.price }}<div class="pprice">€{{ . }}</div>{{ end }}
+    {{ with $p.price }}<div class="pprice">Under {{ site.Params.pricing.symbol }}{{ partial "func/us-price.html" . }}</div>{{ end }}
     {{ with .Inner }}<p>{{ . | $.Page.RenderString }}</p>{{ end }}
   </div>
   <a class="btn" href="{{ $href }}" rel="sponsored noopener" target="_blank">{{ $cta }} →</a>

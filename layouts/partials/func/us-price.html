@@ -1,0 +1,11 @@
+{{- /* Converts an EU incl-VAT price string (e.g. "21,77") into a rounded-up
+       US "under" ceiling integer (e.g. 20). Returns an int via `return`.
+       Usage: {{ $ceil := partial "func/us-price.html" "21,77" }} → 20
+       Config: site.Params.pricing.usMultiplier / .roundTo
+*/ -}}
+{{- $eur := replace (replace . "€" "") "," "." -}}
+{{- $usd := mul (float $eur) site.Params.pricing.usMultiplier -}}
+{{- $r := site.Params.pricing.roundTo -}}
+{{- /* +0.01 so a price that lands exactly on a multiple still rounds up */ -}}
+{{- $ceil := mul (math.Ceil (div (add $usd 0.01) $r)) $r -}}
+{{- return (int $ceil) -}}

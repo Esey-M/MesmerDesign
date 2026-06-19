@@ -16,7 +16,7 @@ featured_products:
   - custom-business-gift-mug
 faq:
   - q: "What is the best affordable custom business gift?"
-    a: "A **custom logo latte mug** (around €23) is the best affordable branded gift — practical, desk-friendly, and it keeps your logo in view every day."
+    a: "A **custom logo latte mug** (under $25) is the best affordable branded gift — practical, desk-friendly, and it keeps your logo in view every day."
   - q: "Can I order business gifts in bulk?"
     a: "Yes. Message the shop for bulk quantities and a quote — custom logo mugs and bottles are ideal for conferences, onboarding kits, and client thank-yous."
   - q: "What makes a corporate gift not feel corporate?"

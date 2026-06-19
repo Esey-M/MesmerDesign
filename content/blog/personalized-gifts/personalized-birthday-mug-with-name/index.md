@@ -24,7 +24,7 @@ faq:
 ---
 
 {{< answer >}}
-**A personalized Happy Birthday mug with their name is the easiest birthday gift that still feels custom-made** — you just add the name at checkout. It works for kids, coworkers, and milestone birthdays alike, it's useful every morning, and it costs under €30.
+**A personalized Happy Birthday mug with their name is the easiest birthday gift that still feels custom-made** — you just add the name at checkout. It works for kids, coworkers, and milestone birthdays alike, it's useful every morning, and it costs under $30.
 {{< /answer >}}
 
 ## Top pick

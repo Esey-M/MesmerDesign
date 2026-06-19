@@ -1,6 +1,6 @@
 ---
-title: "Funny Gifts for Coworkers Under €35 (That They'll Actually Use)"
-description: "Funny gifts for coworkers that get a laugh and earn desk space — possum tees, witty mugs, and white-elephant winners under €35. Made-to-order on Etsy."
+title: "Funny Gifts for Coworkers Under $35 (That They'll Actually Use)"
+description: "Funny gifts for coworkers that get a laugh and earn desk space — possum tees, witty mugs, and white-elephant winners under $35. Made-to-order on Etsy."
 date: 2026-06-14
 lastmod: 2026-06-14
 draft: false
@@ -15,17 +15,17 @@ featured_products:
   - not-today-anxiety-mug
   - small-good-things-mug
 faq:
-  - q: "What is a good funny gift for a coworker under €35?"
-    a: "A **Doing My Best Possum shirt** (around €34) is the perfect funny coworker gift — relatable, work-appropriate, and good for a laugh at the next team lunch."
+  - q: "What is a good funny gift for a coworker under $35?"
+    a: "A **Doing My Best Possum shirt** (under $35) is the perfect funny coworker gift — relatable, work-appropriate, and good for a laugh at the next team lunch."
   - q: "What's a safe funny gift for a coworker you don't know well?"
     a: "Stick to a mug. A **Not Today, Anxiety** or **small good things** mug is funny but kind, and useful for anyone — no risk of an inside joke falling flat."
   - q: "Are these good for white elephant or Secret Santa?"
-    a: "Yes — they're under €35, genuinely funny, and useful enough that people actually want to win them."
+    a: "Yes — they're under $35, genuinely funny, and useful enough that people actually want to win them."
 ---
 
 {{< answer >}}
 **The best funny gift for a coworker is a relatable shirt or mug they'll actually use —
-like the *Doing My Best Possum* tee or a *Not Today, Anxiety* mug.** Both are under €35,
+like the *Doing My Best Possum* tee or a *Not Today, Anxiety* mug.** Both are under $35,
 work-appropriate, and reliably get a laugh.
 {{< /answer >}}
 

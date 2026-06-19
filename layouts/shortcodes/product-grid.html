@@ -33,7 +33,7 @@
     <img src="{{ .p.image }}" alt="{{ .p.title }}" width="320" height="320" loading="lazy">
     <div class="pbody">
       <div class="ptitle">{{ .p.title }}</div>
-      {{ with .p.price }}<div class="pprice">€{{ . }}</div>{{ end }}
+      {{ with .p.price }}<div class="pprice">Under {{ site.Params.pricing.symbol }}{{ partial "func/us-price.html" . }}</div>{{ end }}
       <a class="btn" href="{{ $href }}" rel="sponsored noopener" target="_blank">Shop on Etsy →</a>
     </div>
   </div>

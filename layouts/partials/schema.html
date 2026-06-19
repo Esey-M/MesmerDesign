@@ -88,7 +88,7 @@
           "name" .title
           "image" (absURL .image)
           "url" .url
-          "offers" (dict "@type" "Offer" "priceCurrency" "EUR" "price" (replace (replace .price "€" "") "," ".") "availability" "https://schema.org/InStock"))) -}}
+          "offers" (dict "@type" "Offer" "priceCurrency" site.Params.pricing.currency "price" (printf "%.2f" (mul (float (replace (replace .price "€" "") "," ".")) site.Params.pricing.usMultiplier)) "availability" "https://schema.org/InStock"))) -}}
   {{- end -}}
 {{- end -}}
 {{- if $listItems -}}

@@ -1,6 +1,6 @@
 ---
 title: "A Thank-You Gift That Says It for You: The 'Part of My Story' Mug"
-description: "A heartfelt thank-you mug for a teacher, mentor, coworker, or nurse — 'thank you for being an important part of my story.' Colorful, useful, and under €25."
+description: "A heartfelt thank-you mug for a teacher, mentor, coworker, or nurse — 'thank you for being an important part of my story.' Colorful, useful, and under $20."
 date: 2026-06-19
 lastmod: 2026-06-19
 draft: false
@@ -24,7 +24,7 @@ faq:
 ---
 
 {{< answer >}}
-**The best thank-you gift for a teacher, mentor, or coworker is something they'll use every day** — like a cheerful "thank you for being an important part of my story" mug. It turns a quiet thank-you into a daily reminder that they mattered, and it costs under €25.
+**The best thank-you gift for a teacher, mentor, or coworker is something they'll use every day** — like a cheerful "thank you for being an important part of my story" mug. It turns a quiet thank-you into a daily reminder that they mattered, and it costs under $20.
 {{< /answer >}}
 
 ## Top pick
