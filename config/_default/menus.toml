@@ -24,6 +24,11 @@
   weight = 50
 
 [[main]]
+  name = "Teacher"
+  pageRef = "/blog/teacher-appreciation-gifts"
+  weight = 60
+
+[[main]]
   name = "About"
   pageRef = "/about"
   weight = 90

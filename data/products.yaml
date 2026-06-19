@@ -139,6 +139,16 @@ my-dog-is-my-personality-shirt:
   recipients: [dog-lover, her, him]
   product_types: [shirt]
 
+thank-you-part-of-my-story-mug:
+  title: "Thank You for Being Part of My Story Mug"
+  url: "https://www.etsy.com/listing/4524234038/thank-you-for-being-part-of-my-story-mug"
+  price: "21,77"
+  image: "/img/products/thank-you-part-of-my-story-mug.jpg"
+  themes: [appreciation]
+  recipients: [teacher, mentor, coworker, friend, nurse]
+  occasions: [teacher-appreciation, retirement, farewell]
+  product_types: [mug]
+
 personalized-happy-birthday-mug:
   title: "Personalized Happy Birthday Mug with Name"
   url: "https://www.etsy.com/listing/4524240744/personalized-happy-birthday-mug-with"
