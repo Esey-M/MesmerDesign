@@ -394,3 +394,63 @@ savings-tracker-spreadsheet:
   themes: [digital]
   recipients: [her, him]
   product_types: [digital]
+
+connect-to-god-prayer-mug:
+  title: "Connect To God The Password Is Prayer Mug, Christian Coffee Cup, 11oz Ceramic"
+  url: "https://www.etsy.com/listing/4525092160/connect-to-god-the-password-is-prayer"
+  price: "21,77"
+  image: "/img/products/connect-to-god-prayer-mug.jpg"
+  themes: [faith]
+  recipients: [her, him, mom, friend, pastor]
+  occasions: [christmas, easter, mothers-day, fathers-day, birthday]
+  product_types: [mug]
+
+be-badass-today-donkey-mug:
+  title: "Be Badass Today Mug, Funny Donkey Coffee Cup, 11oz Ceramic"
+  url: "https://www.etsy.com/listing/4525117591/be-badass-today-mug-funny-donkey-coffee"
+  price: "21,77"
+  image: "/img/products/be-badass-today-donkey-mug.jpg"
+  themes: [funny]
+  recipients: [him, her, friend, coworker]
+  occasions: [birthday, christmas, new-job]
+  product_types: [mug]
+
+jesus-loves-me-baby-bodysuit:
+  title: "Jesus Loves Me Baby Bodysuit, Christian Newborn Outfit"
+  url: "https://www.etsy.com/listing/4525098671/jesus-loves-me-baby-bodysuit-christian"
+  price: "26,89"
+  image: "/img/products/jesus-loves-me-baby-bodysuit.jpg"
+  themes: [faith]
+  recipients: [baby, mom, family]
+  occasions: [baby-shower, baptism, christmas, easter]
+  product_types: [bodysuit]
+
+i-am-proof-god-answers-prayers-bodysuit:
+  title: "I Am Proof That God Answers Prayers Baby Bodysuit, Rainbow Baby Gift"
+  url: "https://www.etsy.com/listing/4525103632/i-am-proof-that-god-answers-prayers-baby"
+  price: "26,89"
+  image: "/img/products/i-am-proof-god-answers-prayers-bodysuit.jpg"
+  themes: [faith]
+  recipients: [baby, mom, family]
+  occasions: [baby-shower, baptism, christmas]
+  product_types: [bodysuit]
+
+connect-to-god-prayer-sweatshirt:
+  title: "Connect To God The Password Is Prayer Sweatshirt, Christian Crewneck"
+  url: "https://www.etsy.com/listing/4525091875/connect-to-god-the-password-is-prayer"
+  price: "49,00"
+  image: "/img/products/connect-to-god-prayer-sweatshirt.jpg"
+  themes: [faith]
+  recipients: [her, him, mom, friend, pastor]
+  occasions: [christmas, easter, birthday]
+  product_types: [sweatshirt]
+
+connect-to-god-prayer-comfort-colors-tee:
+  title: "Connect To God The Password Is Prayer Comfort Colors Shirt, Christian Tee"
+  url: "https://www.etsy.com/listing/4525095442/connect-to-god-the-password-is-prayer"
+  price: "33,53"
+  image: "/img/products/connect-to-god-prayer-comfort-colors-tee.jpg"
+  themes: [faith]
+  recipients: [her, him, mom, friend, pastor]
+  occasions: [christmas, easter, birthday]
+  product_types: [shirt]
