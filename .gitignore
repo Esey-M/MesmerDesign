@@ -15,3 +15,6 @@ node_modules/
 
 # Full-res source images (originals kept locally, not in repo)
 intake/source/
+
+# Pinterest bulk-pins CSV (local marketing artifact, regenerated per batch)
+pinterest-bulk-pins.csv
