@@ -29,6 +29,21 @@
   weight = 60
 
 [[main]]
+  name = "Christmas"
+  pageRef = "/blog/christmas-gifts"
+  weight = 64
+
+[[main]]
+  name = "Graduation"
+  pageRef = "/blog/graduation-gifts"
+  weight = 66
+
+[[main]]
+  name = "Puzzles"
+  pageRef = "/blog/jigsaw-puzzle-gifts"
+  weight = 68
+
+[[main]]
   name = "About"
   pageRef = "/about"
   weight = 90

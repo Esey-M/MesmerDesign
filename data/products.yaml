@@ -464,3 +464,73 @@ be-badass-today-donkey-poster:
   recipients: [him, her, friend, coworker]
   occasions: [birthday, christmas, housewarming, new-job]
   product_types: [poster]
+
+personalized-merry-christmas-mug:
+  title: "Personalized Merry Christmas Mug with Name, Retro Holiday Coffee Cup, 11oz Ceramic"
+  url: "https://www.etsy.com/listing/4525283103/personalized-merry-christmas-mug-with"
+  price: "29,03"
+  image: "/img/products/personalized-merry-christmas-mug.jpg"
+  themes: [personalized, christmas]
+  recipients: [mom, dad, her, him, family, friend]
+  occasions: [christmas]
+  product_types: [mug]
+
+christmas-calories-dont-count-mug:
+  title: "Christmas Calories Don't Count Personalized Mug, Funny Holiday Coffee Cup, 11oz Ceramic"
+  url: "https://www.etsy.com/listing/4525291912/christmas-calories-dont-count"
+  price: "29,03"
+  image: "/img/products/christmas-calories-dont-count-mug.jpg"
+  themes: [funny, personalized, christmas]
+  recipients: [her, mom, sister, friend, coworker]
+  occasions: [christmas]
+  product_types: [mug]
+
+christmas-cat-puzzle:
+  title: "Christmas Cat Puzzle, Funny Cats Holiday Jigsaw, 110 / 252 Piece"
+  url: "https://www.etsy.com/listing/4525301074/christmas-cat-puzzle-funny-cats"
+  price: "26,90"
+  image: "/img/products/christmas-cat-puzzle.jpg"
+  themes: [christmas, puzzle, pet, funny]
+  recipients: [cat-lover, family, her, mom, kids]
+  occasions: [christmas]
+  product_types: [puzzle]
+
+christmas-bookshop-puzzle:
+  title: "Christmas Bookshop Jigsaw Puzzle, Cozy Victorian Bookstore, 520 / 1014 Piece"
+  url: "https://www.etsy.com/listing/4525296139/christmas-bookshop-jigsaw-puzzle-cozy"
+  price: "37,90"
+  image: "/img/products/christmas-bookshop-puzzle.jpg"
+  themes: [christmas, puzzle]
+  recipients: [her, him, family, friend, book-lover]
+  occasions: [christmas]
+  product_types: [puzzle]
+
+halloween-witch-cat-puzzle:
+  title: "1000 Piece Halloween Puzzle, Witch Cat Cottage Jigsaw, 1014 Piece"
+  url: "https://www.etsy.com/listing/4525311377/1000-piece-halloween-puzzle-witch-cat"
+  price: "59,90"
+  image: "/img/products/halloween-witch-cat-puzzle.jpg"
+  themes: [halloween, puzzle, pet]
+  recipients: [cat-lover, her, him, friend]
+  occasions: [halloween, birthday]
+  product_types: [puzzle]
+
+personalized-graduation-mug:
+  title: "Personalized Graduation Mug with Name, Class of 2026 Coffee Cup, 11oz / 15oz Ceramic"
+  url: "https://www.etsy.com/listing/4525592979/personalized-graduation-mug-with-name"
+  price: "26,90"
+  image: "/img/products/personalized-graduation-mug.jpg"
+  themes: [personalized, graduation]
+  recipients: [her, him, friend, family, kids]
+  occasions: [graduation]
+  product_types: [mug]
+
+graduation-mug-class-of-2026:
+  title: "Graduation Mug, Class of 2026 Coffee Cup, 11oz / 15oz Ceramic"
+  url: "https://www.etsy.com/listing/4525604554/graduation-mug-class-of-2026-coffee-cup"
+  price: "26,90"
+  image: "/img/products/graduation-mug-class-of-2026.jpg"
+  themes: [graduation]
+  recipients: [her, him, friend, family]
+  occasions: [graduation]
+  product_types: [mug]
