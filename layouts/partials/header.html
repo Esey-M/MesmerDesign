@@ -4,6 +4,12 @@
       <span class="mark">MD</span>
       <span>{{ site.Title }}</span>
     </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
+    <label for="nav-toggle" class="nav-toggle-btn" aria-label="Toggle menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </label>
     <nav class="main-nav" aria-label="Primary">
       {{ range site.Menus.main }}
         <a href="{{ .PageRef | default .URL | relURL }}">{{ .Name }}</a>
