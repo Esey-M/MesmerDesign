@@ -5,3 +5,4 @@
 - [Blog Post Playbook](blog-post-playbook.md) — exact step-by-step to publish a new post from a product (intake → images → catalog → post → deploy)
 - [Pinterest Pin Playbook](pinterest-pin-playbook.md) — for every new post, auto-make a vertical 2:3 pin image + bulk-pins CSV (only new posts) for Pinterest upload
 - [Display rules: pricing & images](display-rules-pricing-and-images.md) — USD "under $X" prices (VAT-adjusted, never exact/€); never crop product images (.Fit not .Fill)
+- [Etsy Share & Save URLs](etsy-share-save-urls.md) — always use mesmerdesing.etsy.com host for shop/listing links (lower Etsy fee), never www.etsy.com (except Etsy's own legal pages)

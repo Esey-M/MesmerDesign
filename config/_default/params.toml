@@ -8,7 +8,7 @@ keywords = ["gift ideas", "gift guides", "Etsy gifts", "personalized gifts", "Ch
 brandColor = "#750303"
 
 # Where shoppers go to buy. Used by CTAs and the Organization schema.
-etsyShopURL = "https://www.etsy.com/shop/MesmerDesing"
+etsyShopURL = "https://mesmerdesing.etsy.com/shop/MesmerDesing"
 
 # Default UTM tags appended to Etsy links (measure which posts drive sales).
 [utm]
@@ -40,7 +40,7 @@ etsyShopURL = "https://www.etsy.com/shop/MesmerDesing"
 
 # Social profiles (sameAs in schema + footer links). Fill in as you create them.
 [social]
-  etsy = "https://www.etsy.com/shop/MesmerDesing"
+  etsy = "https://mesmerdesing.etsy.com/shop/MesmerDesing"
   pinterest = ""
   instagram = ""
   facebook = ""

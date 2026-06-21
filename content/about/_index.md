@@ -24,7 +24,7 @@ make ourselves — so you can read, decide, and order in one place.
 
 ### Find us
 
-- 🛍️ [Our Etsy shop](https://www.etsy.com/shop/MesmerDesing)
+- 🛍️ [Our Etsy shop](https://mesmerdesing.etsy.com/shop/MesmerDesing)
 - ✉️ [Contact us](/contact/)
 
 Thanks for being here. We hope you find something worth giving.

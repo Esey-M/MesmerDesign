@@ -1,7 +1,7 @@
 # MesmerDesign — Gift Guides Blog
 
 A fast, SEO- and GEO-optimized [Hugo](https://gohugo.io) site that publishes human-style
-gift guides and funnels readers to the [MesmerDesign Etsy shop](https://www.etsy.com/shop/MesmerDesing).
+gift guides and funnels readers to the [MesmerDesign Etsy shop](https://mesmerdesing.etsy.com/shop/MesmerDesing).
 Built to scale to **thousands** of posts and deploy free on **GitHub Pages**.
 
 ---
@@ -58,7 +58,7 @@ All listings live in **`data/products.yaml`**, keyed by id. To add/update a prod
 ```yaml
 my-product-id:
   title: "Exact Product Title"
-  url: "https://www.etsy.com/listing/1234567890/..."   # clean URL; UTM added automatically
+  url: "https://mesmerdesing.etsy.com/listing/1234567890/..."   # clean URL; UTM added automatically
   price: "29,03"                                         # number only, no € sign
   image: "/img/products/my-product-id.jpg"              # square image in static/img/products/
   themes: [faith]

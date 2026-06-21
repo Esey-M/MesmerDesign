@@ -28,7 +28,7 @@ That's it. Claude turns the two files into your product catalog + draft blog pos
 Just message Claude with this little block (and attach/point to the image):
 
 ```
-URL:      https://www.etsy.com/listing/.....
+URL:      https://mesmerdesing.etsy.com/listing/.....
 TITLE:    Give It to God Sweatshirt
 PRICE:    49,00
 FOR:      mom, her            (optional — who it's for)

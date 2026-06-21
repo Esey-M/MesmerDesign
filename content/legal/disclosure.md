@@ -7,7 +7,7 @@ private: true
 ## Our promise on recommendations
 
 MesmerDesign is the maker of the products featured in these guides. When we recommend an
-item, it's a product we design and make to order in our own [Etsy shop](https://www.etsy.com/shop/MesmerDesing).
+item, it's a product we design and make to order in our own [Etsy shop](https://mesmerdesing.etsy.com/shop/MesmerDesing).
 We don't earn third-party affiliate commissions on these links — when you buy, you're
 buying directly from us.
 
