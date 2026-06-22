@@ -534,3 +534,33 @@ graduation-mug-class-of-2026:
   recipients: [her, him, friend, family]
   occasions: [graduation]
   product_types: [mug]
+
+happy-birthday-name-mug:
+  title: "Personalized Birthday Mug with Name, Custom Happy Birthday Coffee Cup, 11oz / 15oz Ceramic"
+  url: "https://mesmerdesing.etsy.com/listing/4526007001/personalized-birthday-mug-with-name"
+  price: "29,03"
+  image: "/img/products/happy-birthday-name-mug.jpg"
+  themes: [personalized]
+  recipients: [kids, him, her, friend, coworker, mom, dad]
+  occasions: [birthday]
+  product_types: [mug]
+
+birthday-vibes-only-mug:
+  title: "Birthday Vibes Only Mug, Fun Birthday Coffee Cup, 11oz / 15oz Ceramic with Color Handle"
+  url: "https://mesmerdesing.etsy.com/listing/4526003153/birthday-vibes-only-mug"
+  price: "26,90"
+  image: "/img/products/birthday-vibes-only-mug.jpg"
+  themes: [funny]
+  recipients: [her, him, friend, coworker, sister]
+  occasions: [birthday]
+  product_types: [mug]
+
+custom-photo-puzzle:
+  title: "Custom Photo Puzzle from Your Picture, Personalized Jigsaw, 110 / 252 Piece"
+  url: "https://mesmerdesing.etsy.com/listing/4525975443/custom-photo-puzzle-from-your-picture"
+  price: "49,00"
+  image: "/img/products/custom-photo-puzzle.jpg"
+  themes: [personalized, puzzle]
+  recipients: [family, mom, dad, her, him, friend]
+  occasions: [christmas, anniversary, wedding]
+  product_types: [puzzle]
