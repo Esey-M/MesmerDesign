@@ -39,6 +39,11 @@
   weight = 66
 
 [[main]]
+  name = "New Job"
+  pageRef = "/blog/new-job-gifts"
+  weight = 67
+
+[[main]]
   name = "Puzzles"
   pageRef = "/blog/jigsaw-puzzle-gifts"
   weight = 68

@@ -564,3 +564,63 @@ custom-photo-puzzle:
   recipients: [family, mom, dad, her, him, friend]
   occasions: [christmas, anniversary, wedding]
   product_types: [puzzle]
+
+new-job-new-era-mug:
+  title: "New Job New Era Mug, Congrats New Job Gift Coffee Cup, 11oz / 15oz Ceramic with Color Handle"
+  url: "https://mesmerdesing.etsy.com/listing/4526327175/new-job-new-era-mug-new-job-gift-coffee"
+  price: "21,77"
+  image: "/img/products/new-job-new-era-mug.jpg"
+  themes: [new-job]
+  recipients: [her, him, friend, coworker]
+  occasions: [new-job]
+  product_types: [mug]
+
+new-job-built-to-lead-mug:
+  title: "New Job Built to Lead Mug for Him, Congrats New Job Gift, 11oz / 15oz Ceramic with Color Handle"
+  url: "https://mesmerdesing.etsy.com/listing/4526342088/new-job-built-to-lead-mug-for-him-new"
+  price: "21,77"
+  image: "/img/products/new-job-built-to-lead-mug.jpg"
+  themes: [new-job]
+  recipients: [him, brother, friend, coworker]
+  occasions: [new-job]
+  product_types: [mug]
+
+new-job-on-a-mission-mug:
+  title: "New Job On a Mission Mug, Coworker Career Change Going Away Gift, 11oz / 15oz Ceramic with Color Handle"
+  url: "https://mesmerdesing.etsy.com/listing/4526337855/new-job-on-a-mission-mug-new-job-gift"
+  price: "21,77"
+  image: "/img/products/new-job-on-a-mission-mug.jpg"
+  themes: [new-job]
+  recipients: [coworker, friend, him, her]
+  occasions: [new-job]
+  product_types: [mug]
+
+shes-the-vision-mug:
+  title: "She's the Vision Mug, New Job Gift for Her, Congrats Gift for Friend Sister Daughter, 11oz / 15oz Ceramic"
+  url: "https://mesmerdesing.etsy.com/listing/4526358348/shes-the-vision-mug-new-job-gift-for-her"
+  price: "21,77"
+  image: "/img/products/shes-the-vision-mug.jpg"
+  themes: [new-job]
+  recipients: [her, friend, sister, coworker]
+  occasions: [new-job]
+  product_types: [mug]
+
+leading-lady-mug:
+  title: "Leading Lady Mug, New Job Gift for Her, Congrats Promotion Gift for Boss Lady Friend Sister, 11oz / 15oz"
+  url: "https://mesmerdesing.etsy.com/listing/4526360492/leading-lady-mug-new-job-gift-for-her"
+  price: "21,77"
+  image: "/img/products/leading-lady-mug.jpg"
+  themes: [new-job]
+  recipients: [her, friend, sister, coworker]
+  occasions: [new-job]
+  product_types: [mug]
+
+new-job-big-vision-mug:
+  title: "New Job Big Vision Mug for Her, Congrats New Job Gift, 11oz / 15oz Ceramic with Color Handle"
+  url: "https://mesmerdesing.etsy.com/listing/4526338578/new-job-big-vision-mug-for-her-new-job"
+  price: "21,77"
+  image: "/img/products/new-job-big-vision-mug.jpg"
+  themes: [new-job]
+  recipients: [her, friend, sister, coworker]
+  occasions: [new-job]
+  product_types: [mug]
