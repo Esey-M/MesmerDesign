@@ -1,7 +1,7 @@
 # MesmerDesign — Gift Guides Blog
 
 A fast, SEO- and GEO-optimized [Hugo](https://gohugo.io) site that publishes human-style
-gift guides and funnels readers to the [MesmerDesign Etsy shop](https://mesmerdesing.etsy.com/shop/MesmerDesing).
+gift guides and funnels readers to the [MesmerDesign Etsy shop](https://mesmerdesing.etsy.com/).
 Built to scale to **thousands** of posts and deploy free on **GitHub Pages**.
 
 ---

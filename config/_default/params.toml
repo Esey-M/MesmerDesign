@@ -7,8 +7,13 @@ keywords = ["gift ideas", "gift guides", "Etsy gifts", "personalized gifts", "Ch
 # Brand colors (deep maroon primary). Used by assets/css/main.css via :root vars.
 brandColor = "#750303"
 
+# Optional home-page hero image (shows on the right of a split hero).
+# Leave empty to keep the centered text-only hero. To turn it on, drop a
+# roughly square image in static/img/ and set its path, e.g. "/img/hero-gifts.png".
+heroImage = "/img/hero-gifts.jpg"
+
 # Where shoppers go to buy. Used by CTAs and the Organization schema.
-etsyShopURL = "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+etsyShopURL = "https://mesmerdesing.etsy.com/"
 
 # Default UTM tags appended to Etsy links (measure which posts drive sales).
 [utm]
@@ -40,7 +45,7 @@ etsyShopURL = "https://mesmerdesing.etsy.com/shop/MesmerDesing"
 
 # Social profiles (sameAs in schema + footer links). Fill in as you create them.
 [social]
-  etsy = "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  etsy = "https://mesmerdesing.etsy.com/"
   pinterest = ""
   instagram = ""
   facebook = ""

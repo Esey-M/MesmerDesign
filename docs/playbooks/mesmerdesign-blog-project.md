@@ -7,7 +7,7 @@ metadata:
   originSessionId: 3fd94845-ea5f-461f-9af0-7edcd9d7210a
 ---
 
-This repo is a **Hugo static-site blog** (deploys to GitHub Pages via `.github/workflows/deploy.yml`) whose purpose is to drive organic + AI-search traffic to the user's **brand-new Etsy print-on-demand shop "MesmerDesing"** (https://mesmerdesing.etsy.com/shop/MesmerDesing — note the misspelling is the real shop slug). The shop had 0 sales / 0 reviews at launch (June 2026), so it gets no discovery on Etsy itself; the blog is the acquisition channel.
+This repo is a **Hugo static-site blog** (deploys to GitHub Pages via `.github/workflows/deploy.yml`) whose purpose is to drive organic + AI-search traffic to the user's **brand-new Etsy print-on-demand shop "MesmerDesing"** (https://mesmerdesing.etsy.com/ — note the misspelling is the real shop slug). The shop had 0 sales / 0 reviews at launch (June 2026), so it gets no discovery on Etsy itself; the blog is the acquisition channel.
 
 **Strategy:** human-style buyer-intent gift guides ("Christian gifts for mom", "business gifts", "funny gifts for coworkers") optimized for both **SEO and GEO** (AI answer engines). Designed to scale to **1000s of posts**.
 

@@ -7,8 +7,7 @@ description: "MesmerDesign is a small, independent print-on-demand studio in the
 
 MesmerDesign is a small, independent design studio based in the **Netherlands**. We make
 **made-to-order gifts** — faith-filled sweatshirts, funny tees, personalized photo
-keepsakes, teacher and mental-health mugs, motivational wall art, and heritage prints
-including our Tigrinya alphabet poster.
+keepsakes, teacher and mental-health mugs, and motivational wall art.
 
 We started this blog for one simple reason: gift shopping is hard, and most "best gift"
 lists are written by robots. Every guide here is **written by real people** who actually
@@ -24,7 +23,7 @@ make ourselves — so you can read, decide, and order in one place.
 
 ### Find us
 
-- 🛍️ [Our Etsy shop](https://mesmerdesing.etsy.com/shop/MesmerDesing)
+- 🛍️ [Our Etsy shop](https://mesmerdesing.etsy.com/)
 - ✉️ [Contact us](/contact/)
 
 Thanks for being here. We hope you find something worth giving.

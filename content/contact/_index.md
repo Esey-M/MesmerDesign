@@ -9,7 +9,7 @@ Have a question about a gift, a custom order, or a bulk business quote? We'd lov
 from you.
 
 - **Email:** [simonmhretab17@gmail.com](mailto:simonmhretab17@gmail.com)
-- **Etsy messages:** the fastest way to ask about an order — [message us on Etsy](https://mesmerdesing.etsy.com/shop/MesmerDesing)
+- **Etsy messages:** the fastest way to ask about an order — [message us on Etsy](https://mesmerdesing.etsy.com/)
 
 For custom and bulk business gifts, include the quantity and your deadline and we'll send
 a quote.

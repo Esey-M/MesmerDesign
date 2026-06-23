@@ -9,7 +9,7 @@ author: "The MesmerDesign Team"
 
 # Cross-cutting taxonomy facets → auto-generated landing pages + related posts.
 # Use existing terms where possible (see data/products.yaml for vocabulary).
-themes: []          # faith | funny | mental-health | personalized | business | pet | tigrinya
+themes: []          # faith | funny | mental-health | personalized | business | pet
 recipients: []      # him | her | mom | teacher | friend | coworker | dog-lover | cat-lover | kids
 occasions: []       # birthday | christmas | anniversary | mothers-day | teacher-appreciation | corporate
 product_types: []   # mug | shirt | sweatshirt | poster | canvas | bottle | digital

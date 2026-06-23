@@ -1,62 +1,97 @@
+# ── Primary nav ──────────────────────────────────────────────────────────
+# Top level stays lean: "Gift Guides" opens a grouped mega-menu (its children
+# below), then a couple of flagship links + the Etsy CTA (added in the header
+# template). To add a new category later: add one [[main]] entry with
+# parent = "gift-guides" and a `group` param — no template changes needed.
 [[main]]
+  identifier = "gift-guides"
   name = "Gift Guides"
   pageRef = "/blog"
   weight = 10
 
+# Mega-menu children, grouped by the `group` param (column order = weight order)
 [[main]]
   name = "For Him"
   pageRef = "/blog/gifts-for-him"
-  weight = 20
+  parent = "gift-guides"
+  weight = 10
+  [main.params]
+    group = "By recipient"
 
 [[main]]
   name = "For Her"
   pageRef = "/blog/gifts-for-her"
-  weight = 30
-
-[[main]]
-  name = "Christian"
-  pageRef = "/blog/christian-gifts"
-  weight = 40
-
-[[main]]
-  name = "Business"
-  pageRef = "/blog/business-gifts"
-  weight = 50
+  parent = "gift-guides"
+  weight = 11
+  [main.params]
+    group = "By recipient"
 
 [[main]]
   name = "Teacher"
   pageRef = "/blog/teacher-appreciation-gifts"
-  weight = 60
+  parent = "gift-guides"
+  weight = 12
+  [main.params]
+    group = "By recipient"
+
+[[main]]
+  name = "Business"
+  pageRef = "/blog/business-gifts"
+  parent = "gift-guides"
+  weight = 13
+  [main.params]
+    group = "By recipient"
 
 [[main]]
   name = "Christmas"
   pageRef = "/blog/christmas-gifts"
-  weight = 64
+  parent = "gift-guides"
+  weight = 20
+  [main.params]
+    group = "By occasion"
 
 [[main]]
   name = "Graduation"
   pageRef = "/blog/graduation-gifts"
-  weight = 66
+  parent = "gift-guides"
+  weight = 21
+  [main.params]
+    group = "By occasion"
 
 [[main]]
   name = "New Job"
   pageRef = "/blog/new-job-gifts"
-  weight = 67
+  parent = "gift-guides"
+  weight = 22
+  [main.params]
+    group = "By occasion"
+
+[[main]]
+  name = "Christian"
+  pageRef = "/blog/christian-gifts"
+  parent = "gift-guides"
+  weight = 30
+  [main.params]
+    group = "By style"
 
 [[main]]
   name = "Puzzles"
   pageRef = "/blog/jigsaw-puzzle-gifts"
-  weight = 68
+  parent = "gift-guides"
+  weight = 31
+  [main.params]
+    group = "By style"
 
+# Flagship top-level links (shown beside Gift Guides)
 [[main]]
   name = "Wall Art"
   pageRef = "/blog/wall-art"
-  weight = 69
+  weight = 20
 
 [[main]]
   name = "About"
   pageRef = "/about"
-  weight = 90
+  weight = 30
 
 [[footer]]
   name = "About"

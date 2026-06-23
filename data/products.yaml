@@ -72,7 +72,7 @@ raising-arrows-sweatshirt:
 
 walk-by-faith-sweatshirt:
   title: "Walk By Faith Not By Sight Retro Sweatshirt"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "49,00"
   image: "/img/products/walk-by-faith-sweatshirt.jpg"
   themes: [faith]
@@ -111,7 +111,7 @@ small-good-things-mug:
 
 doing-better-than-you-think-mama-mug:
   title: "You're Doing Better Than You Think Mama Mug"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "21,77"
   image: "/img/products/doing-better-than-you-think-mama-mug.jpg"
   themes: [mental-health]
@@ -131,7 +131,7 @@ not-today-anxiety-mug:
 
 teach-breathe-repeat-mug:
   title: "Teach Breathe Repeat Mug, Teacher Gift"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "21,77"
   image: "/img/products/teach-breathe-repeat-mug.jpg"
   themes: [mental-health]
@@ -141,7 +141,7 @@ teach-breathe-repeat-mug:
 
 i-can-do-hard-things-mug:
   title: "I Can Do Hard Things It's May Teacher Mug"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "21,77"
   image: "/img/products/i-can-do-hard-things-mug.jpg"
   themes: [mental-health]
@@ -151,7 +151,7 @@ i-can-do-hard-things-mug:
 
 cat-hair-is-my-glitter-shirt:
   title: "Cat Hair Is My Glitter Shirt, Funny Cat Tee"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "33,53"
   image: "/img/products/cat-hair-is-my-glitter-shirt.jpg"
   themes: [funny, pet]
@@ -170,7 +170,7 @@ doing-my-best-possum-shirt:
 
 my-dog-is-my-personality-shirt:
   title: "My Dog Is My Personality Shirt"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "33,53"
   image: "/img/products/my-dog-is-my-personality-shirt.jpg"
   themes: [funny, pet]
@@ -287,15 +287,6 @@ custom-business-gift-hat:
   product_types: [hat]
   occasions: [corporate]
 
-tigrinya-alphabet-poster:
-  title: "Tigrinya Alphabet Poster with Illustrations"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
-  price: "47,01"
-  image: "/img/products/tigrinya-alphabet-poster.jpg"
-  themes: [tigrinya, educational]
-  recipients: [kids, family]
-  product_types: [poster]
-
 god-is-within-poster:
   title: "God Is Within Poster, Bold Typography Faith Decor"
   url: "https://mesmerdesing.etsy.com/listing/4523150601/god-is-within-poster-spiritual-wall-art"
@@ -388,7 +379,7 @@ african-woman-art-print:
 
 savings-tracker-spreadsheet:
   title: "Simple Savings Tracker Spreadsheet (Digital Download)"
-  url: "https://mesmerdesing.etsy.com/shop/MesmerDesing"
+  url: "https://mesmerdesing.etsy.com/"
   price: "5,44"
   image: "/img/products/savings-tracker-spreadsheet.jpg"
   themes: [digital]

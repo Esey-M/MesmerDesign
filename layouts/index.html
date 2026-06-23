@@ -1,13 +1,29 @@
 {{ define "main" }}
-<section class="hero">
+<section class="hero{{ with site.Params.heroImage }} hero--split{{ end }}">
   <div class="container">
-    <span class="eyebrow">Made-to-order · Ships worldwide</span>
-    <h1>{{ .Title | default "Gift ideas worth giving" }}</h1>
-    <p>{{ .Params.intro | default site.Params.description }}</p>
-    <div class="hero-cta">
-      <a class="btn btn-light" href="{{ "/blog/" | relURL }}">Browse gift guides</a>
-      {{ with site.Params.etsyShopURL }}<a class="btn btn-ghost-light" href="{{ . }}" rel="noopener" target="_blank">Shop on Etsy</a>{{ end }}
+    <div class="hero-copy">
+      <span class="eyebrow">Made-to-order · Ships worldwide</span>
+      <h1>{{ .Title | default "Gift ideas worth giving" }}</h1>
+      <p>{{ .Params.intro | default site.Params.description }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-light" href="{{ "/blog/" | relURL }}">Browse gift guides</a>
+        {{ with site.Params.etsyShopURL }}<a class="btn btn-ghost-light" href="{{ . }}" rel="noopener" target="_blank">Shop on Etsy</a>{{ end }}
+      </div>
+      <div class="gift-finder">
+        <span class="gift-finder-label">Find a gift for…</span>
+        <div class="gift-finder-chips">
+          {{ $picks := slice "For Him" "For Her" "Christian" "Teacher" "Christmas" "Graduation" "New Job" }}
+          {{ range site.Menus.main }}
+            {{ if in $picks .Name }}<a class="chip" href="{{ .PageRef | default .URL | relURL }}">{{ .Name }}</a>{{ end }}
+          {{ end }}
+        </div>
+      </div>
     </div>
+    {{ with site.Params.heroImage }}
+    <div class="hero-media">
+      <img src="{{ . | relURL }}" alt="A deep red gift box with a satin ribbon and gold accent" loading="eager" width="1200" height="800">
+    </div>
+    {{ end }}
   </div>
 </section>
 

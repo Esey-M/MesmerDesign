@@ -1,7 +1,15 @@
+{{ $page := . }}
 <header class="site-header">
   <div class="container">
     <a class="brand-logo" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} home">
-      <span class="mark">MD</span>
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="8" width="18" height="4" rx="1"/>
+          <path d="M12 8v13"/>
+          <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/>
+          <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/>
+        </svg>
+      </span>
       <span>{{ site.Title }}</span>
     </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden>
@@ -11,9 +19,45 @@
       <span aria-hidden="true"></span>
     </label>
     <nav class="main-nav" aria-label="Primary">
-      {{ range site.Menus.main }}
-        <a href="{{ .PageRef | default .URL | relURL }}">{{ .Name }}</a>
-      {{ end }}
+      <ul class="nav-list">
+        {{ range site.Menus.main }}
+          {{ $active := or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }}
+          {{ $url := .PageRef | default .URL | relURL }}
+          {{ if .HasChildren }}
+            {{/* Collect the distinct groups in weight order, then render a column per group */}}
+            {{ $groups := slice }}
+            {{ range .Children }}{{ with .Params.group }}{{ if not (in $groups .) }}{{ $groups = $groups | append . }}{{ end }}{{ end }}{{ end }}
+            <li class="nav-item has-mega">
+              <a href="{{ $url }}" class="nav-link{{ if $active }} is-active{{ end }}" aria-haspopup="true">
+                {{ .Name }}
+                <svg class="caret" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+              </a>
+              <div class="mega">
+                <div class="mega-inner">
+                  {{ $children := .Children }}
+                  {{ range $g := $groups }}
+                    <div class="mega-col">
+                      <span class="mega-head">{{ $g }}</span>
+                      {{ range $children }}
+                        {{ if eq .Params.group $g }}<a href="{{ .PageRef | default .URL | relURL }}">{{ .Name }}</a>{{ end }}
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                  <div class="mega-col mega-all">
+                    <span class="mega-head">Explore</span>
+                    <a href="{{ "/blog/" | relURL }}">All gift guides →</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          {{ else }}
+            <li class="nav-item">
+              <a href="{{ $url }}" class="nav-link{{ if $active }} is-active{{ end }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+      {{ with site.Params.etsyShopURL }}<a class="btn nav-cta" href="{{ . }}" rel="noopener" target="_blank">Shop on Etsy</a>{{ end }}
     </nav>
   </div>
 </header>
