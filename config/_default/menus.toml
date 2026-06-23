@@ -49,6 +49,11 @@
   weight = 68
 
 [[main]]
+  name = "Wall Art"
+  pageRef = "/blog/wall-art"
+  weight = 69
+
+[[main]]
   name = "About"
   pageRef = "/about"
   weight = 90

@@ -624,3 +624,53 @@ new-job-big-vision-mug:
   recipients: [her, friend, sister, coworker]
   occasions: [new-job]
   product_types: [mug]
+
+leopard-oil-painting-poster:
+  title: "Leopard Oil Painting Poster, Crimson Red Maximalist Animal Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4526856457/leopard-oil-painting-poster-crimson-red"
+  price: "33,33"
+  image: "/img/products/leopard-oil-painting-poster.jpg"
+  themes: [animal, maximalist, home-decor]
+  recipients: [him, her, friend, family]
+  occasions: [housewarming, birthday, christmas]
+  product_types: [poster]
+
+lion-king-oil-painting-poster:
+  title: "Lion King Oil Painting Poster, Crimson Red Maximalist Lion Pride Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4526858637/lion-king-oil-painting-poster-crimson"
+  price: "33,33"
+  image: "/img/products/lion-king-oil-painting-poster.jpg"
+  themes: [animal, maximalist, home-decor]
+  recipients: [him, her, friend, family]
+  occasions: [housewarming, birthday, christmas]
+  product_types: [poster]
+
+black-cat-king-poster:
+  title: "Black Cat King Poster, Crown Cat Oil Painting, Crimson Red Maximalist Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4526869882/black-cat-king-poster-crown-cat-oil"
+  price: "33,33"
+  image: "/img/products/black-cat-king-poster.jpg"
+  themes: [animal, maximalist, home-decor]
+  recipients: [cat-lover, her, him, friend]
+  occasions: [housewarming, birthday, christmas]
+  product_types: [poster]
+
+leopard-hidden-leopards-poster:
+  title: "Leopard Poster with Hidden Leopards, Crimson Surreal Oil Painting Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4526874180/leopard-poster-with-hidden-leopards"
+  price: "33,33"
+  image: "/img/products/leopard-hidden-leopards-poster.jpg"
+  themes: [animal, maximalist, home-decor]
+  recipients: [him, her, friend, family]
+  occasions: [housewarming, birthday, christmas]
+  product_types: [poster]
+
+lion-pride-oil-painting-poster:
+  title: "Lion Pride Oil Painting Poster, King of the Jungle Crimson Maximalist Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4526868269/lion-pride-oil-painting-poster-king-of"
+  price: "33,33"
+  image: "/img/products/lion-pride-oil-painting-poster.jpg"
+  themes: [animal, maximalist, home-decor]
+  recipients: [him, her, friend, family]
+  occasions: [housewarming, birthday, christmas]
+  product_types: [poster]
