@@ -735,3 +735,43 @@ cat-king-poster:
   recipients: [cat-lover, her, him, friend]
   occasions: [housewarming, birthday, christmas]
   product_types: [poster]
+
+custom-cat-portrait-poster:
+  title: "Custom Cat Portrait from Photo, Royal Cat King Poster, Crimson Renaissance Pet Portrait Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4527541580/custom-cat-portrait-from-photo-royal-cat"
+  price: "30,00"
+  image: "/img/products/custom-cat-portrait-poster.jpg"
+  themes: [personalized, pet, animal]
+  recipients: [cat-lover, her, him, mom, friend]
+  occasions: [birthday, christmas, mothers-day, fathers-day, housewarming, memorial]
+  product_types: [poster]
+
+custom-dog-portrait-poster:
+  title: "Custom Dog Portrait from Photo, Royal Dog King Poster, Crimson Renaissance Pet Portrait Wall Art, 8x10 to 27x40"
+  url: "https://mesmerdesing.etsy.com/listing/4527549700/custom-dog-portrait-from-photo-royal-dog"
+  price: "30,00"
+  image: "/img/products/custom-dog-portrait-poster.jpg"
+  themes: [personalized, pet, animal]
+  recipients: [dog-lover, her, him, mom, friend]
+  occasions: [birthday, christmas, mothers-day, fathers-day, housewarming, memorial]
+  product_types: [poster]
+
+custom-dog-portrait-digital:
+  title: "Custom Dog Portrait Digital Download, Royal Dog King Printable Pet Portrait from Photo, Renaissance Wall Art"
+  url: "https://mesmerdesing.etsy.com/listing/4527562142/custom-dog-portrait-digital-download"
+  price: "20,00"
+  image: "/img/products/custom-dog-portrait-digital.jpg"
+  themes: [personalized, pet, animal]
+  recipients: [dog-lover, her, him, mom, friend]
+  occasions: [birthday, christmas, mothers-day, fathers-day, last-minute, memorial]
+  product_types: [digital-download, printable]
+
+custom-cat-portrait-digital:
+  title: "Custom Cat Portrait Digital Download, Royal Cat King Printable Pet Portrait from Photo, Renaissance Wall Art"
+  url: "https://mesmerdesing.etsy.com/listing/4519687776/tigrinya-alphabet-poster-with-audio-qr"
+  price: "20,00"
+  image: "/img/products/custom-cat-portrait-digital.jpg"
+  themes: [personalized, pet, animal]
+  recipients: [cat-lover, her, him, mom, friend]
+  occasions: [birthday, christmas, mothers-day, fathers-day, last-minute, memorial]
+  product_types: [digital-download, printable]

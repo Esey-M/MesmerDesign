@@ -89,6 +89,11 @@
   weight = 20
 
 [[main]]
+  name = "Pet Portraits"
+  pageRef = "/blog/custom-pet-portraits"
+  weight = 25
+
+[[main]]
   name = "About"
   pageRef = "/about"
   weight = 30
