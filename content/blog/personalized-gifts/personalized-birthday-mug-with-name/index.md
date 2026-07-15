@@ -1,5 +1,6 @@
 ---
 title: "Personalized Birthday Mug With Name: The 5-Minute Gift That Feels Custom-Made"
+seoTitle: "Personalized Birthday Mug With Name"
 description: "A personalized Happy Birthday mug with their name — a colorful, party-themed gift for kids, teens, coworkers, and milestone birthdays. Just add a name at checkout."
 date: 2026-06-19
 lastmod: 2026-06-19

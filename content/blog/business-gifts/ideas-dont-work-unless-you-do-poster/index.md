@@ -1,5 +1,6 @@
 ---
 title: "Ideas Don't Work Unless You Do: A Funny Motivational Cat Poster for the Desk"
+seoTitle: "Ideas Don't Work Unless You Do: Cat Poster"
 description: "A funny 'Ideas Don't Work Unless You Do' motivational cat poster — a skeptical black cat and a hard truth about execution. Home office and entrepreneur wall art. Under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

@@ -1,5 +1,6 @@
 ---
 title: "Leopard Oil Painting Poster: Bold Crimson Animal Wall Art for a Statement Room"
+seoTitle: "Leopard Oil Painting Poster: Bold Crimson Wall Art"
 description: "A maximalist leopard oil-painting poster on deep crimson — museum-grade animal wall art for living rooms and offices, in sizes from 8x10 to 27x40."
 date: 2026-06-23
 lastmod: 2026-06-23

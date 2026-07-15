@@ -30,7 +30,7 @@ timeZone = "Europe/Amsterdam"
 
 # ── Output formats (HTML + RSS everywhere; LLMS at the home page) ──────────
 [outputs]
-  home    = ["HTML", "RSS", "LLMS"]
+  home    = ["HTML", "RSS", "LLMS", "URLMAP"]
   section = ["HTML", "RSS"]
   term    = ["HTML", "RSS"]
 
@@ -38,6 +38,12 @@ timeZone = "Europe/Amsterdam"
   [outputFormats.LLMS]
     mediaType = "text/plain"
     baseName  = "llms"
+    isPlainText = true
+    notAlternative = true
+  # Source-file → URL index consumed by the IndexNow step in deploy.yml.
+  [outputFormats.URLMAP]
+    mediaType = "application/json"
+    baseName  = "urlmap"
     isPlainText = true
     notAlternative = true
 

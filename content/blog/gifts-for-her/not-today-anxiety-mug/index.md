@@ -1,5 +1,6 @@
 ---
 title: "Not Today, Anxiety: A Retro Sun Mug for the Friend Who Gets It"
+seoTitle: "Not Today Anxiety Mug: Retro Sun Mug"
 description: "A 'Not Today Anxiety' mug with a groovy retro sun in sunglasses — a funny-but-kind mental health and self-care gift for her. Cheerful and useful, under $20."
 date: 2026-06-19
 lastmod: 2026-06-19

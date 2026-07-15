@@ -1,5 +1,6 @@
 ---
 title: "Class of 2026 Graduation Mug: A Classic Grad Gift That Ships Fast"
+seoTitle: "Class of 2026 Graduation Mug: Classic Grad Gift"
 description: "A Class of 2026 graduation mug in 11oz or 15oz — a classic navy mortarboard and diploma design. A fast-shipping grad gift for him or her, with no personalization wait."
 date: 2026-06-21
 lastmod: 2026-06-21

@@ -1,5 +1,6 @@
 ---
 title: "Think Outside the Box: A Minimalist Office Poster for Creative Thinkers"
+seoTitle: "Think Outside the Box: Minimalist Office Poster"
 description: "A 'Think Outside the Box' minimalist quote poster — a clever tic-tac-toe where one X breaks the grid. Modern office and studio wall art for creatives. Under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

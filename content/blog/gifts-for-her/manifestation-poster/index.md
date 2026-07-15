@@ -1,5 +1,6 @@
 ---
 title: "Manifestation Poster: A Quiet Reminder for the Season of Inner Work"
+seoTitle: "Manifestation Poster: Quiet Reminder Wall Art"
 description: "A minimalist manifestation poster — outcome to process, ego to Self, feelings to beliefs. Law-of-attraction wall art for the meditation corner or desk. Under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

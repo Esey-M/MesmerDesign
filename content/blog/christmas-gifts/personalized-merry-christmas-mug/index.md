@@ -1,5 +1,6 @@
 ---
 title: "Personalized Merry Christmas Mug: The Retro Holiday Gift That Becomes 'Their' Mug"
+seoTitle: "Personalized Merry Christmas Mug"
 description: "A personalized Merry Christmas mug with their name in a groovy retro font — a warm, vintage-card holiday gift for family, coworkers, and stocking stuffers. Just add a name."
 date: 2026-06-21
 lastmod: 2026-06-21

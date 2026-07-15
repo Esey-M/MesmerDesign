@@ -1,5 +1,6 @@
 ---
 title: "The 'Be Badass Today' Donkey Mug: The Office Mug Everyone Tries to Steal"
+seoTitle: "Be Badass Today Donkey Mug: Funny Office Mug"
 description: "A funny donkey coffee mug — 'Be Badass Today' — for coworkers, best friends, and anyone surviving a Monday. A 11oz ceramic gag gift that actually gets used, under $20."
 date: 2026-06-20
 lastmod: 2026-06-20

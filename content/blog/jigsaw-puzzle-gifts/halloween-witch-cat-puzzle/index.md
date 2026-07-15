@@ -1,5 +1,6 @@
 ---
 title: "1000 Piece Halloween Puzzle: A Witch's Cottage Jigsaw for Serious Puzzlers"
+seoTitle: "1000 Piece Halloween Puzzle: Witch's Cottage"
 description: "A 1014-piece Halloween jigsaw puzzle — a hyper-detailed witch's cottage with a green kettle, a spellbook tabby, and a harvest moon. The atmospheric cottagecore gift for cat lovers and adult puzzlers."
 date: 2026-06-21
 lastmod: 2026-06-21

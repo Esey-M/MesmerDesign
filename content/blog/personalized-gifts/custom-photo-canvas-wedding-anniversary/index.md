@@ -1,5 +1,6 @@
 ---
 title: "Custom Photo Canvas Print: A Vertical Wedding & Anniversary Keepsake"
+seoTitle: "Custom Photo Canvas Print: Wedding Keepsake"
 description: "A custom vertical photo canvas made from your own picture — wedding, engagement, or anniversary wall art that's ready to hang. A keepsake gift they'll see every single day."
 date: 2026-06-19
 lastmod: 2026-06-19

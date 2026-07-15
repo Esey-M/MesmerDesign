@@ -1,7 +1,17 @@
 {{/* ── Title ─────────────────────────────────────────────── */}}
-{{- $title := .Title -}}
-{{- if .IsHome -}}{{ $title = printf "%s — %s" site.Title site.Params.tagline -}}
-{{- else -}}{{ $title = printf "%s | %s" .Title site.Title -}}{{- end -}}
+{{/* Search engines truncate past ~60 characters. Set `seoTitle` in front matter
+     to give a long, punchy post title a short form for search and social while
+     the page keeps the long one as its H1. The " | MesmerDesign" suffix is only
+     appended when the result still fits — a truncated brand name helps nobody. */}}
+{{- $pageTitle := or .Params.seoTitle .Title -}}
+{{- $title := $pageTitle -}}
+{{- if .IsHome -}}
+  {{- $title = printf "%s — %s" site.Title site.Params.tagline -}}
+{{- else -}}
+  {{- $suffixed := printf "%s | %s" $pageTitle site.Title -}}
+  {{- if le (strings.RuneCount $suffixed) 60 -}}{{- $title = $suffixed -}}{{- end -}}
+{{- end -}}
+{{- $ogTitle := cond .IsHome $title $pageTitle -}}
 <title>{{ $title }}</title>
 
 {{/* ── Description ───────────────────────────────────────── */}}
@@ -31,7 +41,7 @@
 
 {{/* ── Open Graph ────────────────────────────────────────── */}}
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta property="og:title" content="{{ $title }}">
+<meta property="og:title" content="{{ $ogTitle }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -43,7 +53,7 @@
 
 {{/* ── Twitter ───────────────────────────────────────────── */}}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:title" content="{{ $ogTitle }}">
 <meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="{{ $img }}">
 {{- with site.Params.og.twitter }}<meta name="twitter:site" content="{{ . }}">{{ end }}

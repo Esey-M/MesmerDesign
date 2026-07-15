@@ -1,5 +1,6 @@
 ---
 title: "Personalized Graduation Mug: A Class of 2026 Keepsake They'll Actually Keep"
+seoTitle: "Personalized Graduation Mug: Class of 2026"
 description: "A personalized graduation mug with their name, year, or degree — a Class of 2026 keepsake in 11oz or 15oz. Match it to their school colors. The grad gift for him or her. Just add a name."
 date: 2026-06-21
 lastmod: 2026-06-21

@@ -1,5 +1,6 @@
 ---
 title: "Black Cat King Poster: Crowned Cat Oil Painting for Cat Lovers & Maximalist Decor"
+seoTitle: "Black Cat King Poster: Crowned Cat Oil Painting"
 description: "A moody black cat oil-painting poster crowned in gold, with his court of cats below — crimson maximalist wall art and a perfect cat-lover gift, 8x10 to 27x40."
 date: 2026-06-23
 lastmod: 2026-06-23

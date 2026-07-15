@@ -1,5 +1,6 @@
 ---
 title: "The 'Jesus Loves Me' Baby Bodysuit: A Sweet Faith Gift for a New Arrival"
+seoTitle: "Jesus Loves Me Baby Bodysuit"
 description: "A soft 'Jesus Loves Me' baby bodysuit — a Christian newborn outfit for baby showers, baptisms, and dedications. A faith-based keepsake gift, made to order, under $25."
 date: 2026-06-20
 lastmod: 2026-06-20

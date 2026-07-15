@@ -1,5 +1,6 @@
 ---
 title: "African Woman Art Print: A Savanna-Sunset Centerpiece of Heritage & Grace"
+seoTitle: "African Woman Art Print: Savanna Sunset Wall Art"
 description: "An African woman art print — a richly dressed figure crowned with fruit against a golden Serengeti sunset with elephants and giraffes. Afrocentric wall art and a heritage gift, under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

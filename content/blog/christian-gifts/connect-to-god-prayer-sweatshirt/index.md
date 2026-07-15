@@ -1,5 +1,6 @@
 ---
 title: "The 'Connect To God' Crewneck: A Cozy Christian Sweatshirt with a Clever Twist"
+seoTitle: "Connect To God Crewneck Christian Sweatshirt"
 description: "A cozy Christian crewneck — 'Connect To God, the password is prayer' with a wifi-cross design. A heavyweight faith sweatshirt for church, Bible study, and gifts, under $45."
 date: 2026-06-20
 lastmod: 2026-06-20

@@ -1,5 +1,6 @@
 ---
 title: "New Job, Big Vision Mug for Her: A Bright Congrats Gift for Her Next Chapter"
+seoTitle: "New Job Big Vision Mug: Congrats Gift for Her"
 description: "A 'New Job, Big Vision' ceramic mug — a bright, modern congrats gift for the friend, sister, or daughter stepping into something bigger. Under $20, 11oz or 15oz."
 date: 2026-06-23
 lastmod: 2026-06-23

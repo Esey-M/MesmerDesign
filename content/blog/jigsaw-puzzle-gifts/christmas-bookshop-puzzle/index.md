@@ -1,5 +1,6 @@
 ---
 title: "Christmas Bookshop Puzzle: A Cozy Victorian Bookstore Jigsaw for Book Lovers"
+seoTitle: "Christmas Bookshop Puzzle: Cozy Victorian Jigsaw"
 description: "A cozy Christmas bookshop jigsaw puzzle in 520 or 1014 pieces — a snow-dusted Victorian bookstore with carolers and a sleeping cat. The perfect book-lover gift for slow December nights."
 date: 2026-06-21
 lastmod: 2026-06-21

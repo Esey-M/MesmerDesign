@@ -1,5 +1,6 @@
 ---
 title: "The 'Be Badass Today' Donkey Poster: Funny Motivational Wall Art with Attitude"
+seoTitle: "Be Badass Today Donkey Poster: Funny Wall Art"
 description: "A funny donkey wall art print — 'Be Badass Today' — for home offices, bathrooms, and home gyms. Sassy motivational decor and a gag gift that lands, made to order, under $25."
 date: 2026-06-20
 lastmod: 2026-06-20

@@ -1,5 +1,6 @@
 ---
 title: "New Job, On a Mission Mug: The Perfect Last-Day Gift for a Coworker"
+seoTitle: "New Job On a Mission Mug: Coworker Gift"
 description: "A 'New Job, On a Mission' ceramic mug — the perfect last-day farewell gift for a coworker, work bestie, or career changer chasing something new. Under $20, 11oz or 15oz."
 date: 2026-06-23
 lastmod: 2026-06-23

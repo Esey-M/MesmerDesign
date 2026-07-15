@@ -1,5 +1,6 @@
 ---
 title: "A Thank-You Gift That Says It for You: The 'Part of My Story' Mug"
+seoTitle: "Part of My Story Mug: Teacher Thank-You Gift"
 description: "A heartfelt thank-you mug for a teacher, mentor, coworker, or nurse — 'thank you for being an important part of my story.' Colorful, useful, and under $20."
 date: 2026-06-19
 lastmod: 2026-06-19

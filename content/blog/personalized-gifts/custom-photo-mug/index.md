@@ -1,5 +1,6 @@
 ---
 title: "Custom Photo Mug: Turn a Favorite Picture Into a Keepsake They'll Tear Up Over"
+seoTitle: "Custom Photo Mug: Your Picture on a Keepsake Mug"
 description: "A personalized photo mug — upload any picture and we print it crisp on glossy 11oz ceramic. The keepsake gift for Mom, Dad, or Grandma that hits before the first sip. Under $30."
 date: 2026-06-19
 lastmod: 2026-06-19

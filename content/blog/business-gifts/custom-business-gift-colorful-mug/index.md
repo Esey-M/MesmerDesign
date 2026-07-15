@@ -1,5 +1,6 @@
 ---
 title: "Custom Business Gift Mug: Your Logo, 12 Brand Colors, Under $30"
+seoTitle: "Custom Business Gift Mug with Your Logo"
 description: "A custom logo mug in 12 brand colors — the business gift clients and staff actually use daily. Free design preview, single or bulk orders, made to order."
 date: 2026-06-19
 lastmod: 2026-06-19

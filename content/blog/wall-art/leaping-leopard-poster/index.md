@@ -1,5 +1,6 @@
 ---
 title: "Leaping Leopard Poster: Dynamic Crimson Oil-Painting Wall Art for Gym & Office"
+seoTitle: "Leaping Leopard Poster: Crimson Oil-Painting Art"
 description: "A leopard caught mid-leap, his pride streaking behind — kinetic crimson animal wall art on museum-grade matte paper, in sizes from 8x10 to 27x40."
 date: 2026-06-24
 lastmod: 2026-06-24

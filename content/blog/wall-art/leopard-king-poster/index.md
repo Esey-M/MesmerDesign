@@ -1,5 +1,6 @@
 ---
 title: "Leopard King Poster: Maximalist Crimson Oil-Painting Wall Art"
+seoTitle: "Leopard King Poster: Maximalist Crimson Art"
 description: "A leopard king standing watch over his pride — bold maximalist animal wall art in crimson oil-painting style on museum-grade matte paper, sizes 8x10 to 27x40."
 date: 2026-06-24
 lastmod: 2026-06-24

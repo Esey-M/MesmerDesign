@@ -1,5 +1,6 @@
 ---
 title: "Leopard Poster with Hidden Leopards: Surreal Crimson Oil Painting Wall Art"
+seoTitle: "Leopard Poster with Hidden Leopards: Surreal Art"
 description: "Look closer — this leopard oil-painting poster hides a whole shadowed pride within. Surreal maximalist animal wall art on crimson, museum-grade, 8x10 to 27x40."
 date: 2026-06-23
 lastmod: 2026-06-23

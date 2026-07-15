@@ -1,5 +1,6 @@
 ---
 title: "Custom Cat Portrait from Photo: Turn Your Cat Into a Crowned Renaissance King"
+seoTitle: "Custom Cat Portrait from Photo: Royal Cat King"
 description: "Send a photo and we'll turn your cat into a crowned royal in crimson Renaissance style — a custom cat portrait poster, made to order on museum-grade matte paper, 8x10 to 27x40."
 date: 2026-06-25
 lastmod: 2026-06-25

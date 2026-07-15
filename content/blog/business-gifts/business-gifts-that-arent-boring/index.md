@@ -1,5 +1,6 @@
 ---
 title: "Business Gifts That Aren't Boring: 6 Custom Ideas Clients Keep"
+seoTitle: "Business Gifts That Aren't Boring: 6 Ideas"
 description: "Custom business gifts that don't feel corporate — branded logo mugs, insulated bottles, and client thank-yous people actually use. Bulk-friendly, made to order on Etsy."
 date: 2026-06-12
 lastmod: 2026-06-12

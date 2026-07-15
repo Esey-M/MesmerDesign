@@ -1,5 +1,6 @@
 ---
 title: "Custom Embroidered Hat: The Business Gift That Doesn't End Up in a Drawer"
+seoTitle: "Custom Embroidered Hat: Branded Business Gift"
 description: "A vintage-distressed custom embroidered cap with your logo — branded company swag your team actually wears. FREE 24h preview, singles or bulk. Under $35."
 date: 2026-06-19
 lastmod: 2026-06-19

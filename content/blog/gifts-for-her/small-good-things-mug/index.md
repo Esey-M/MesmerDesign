@@ -1,5 +1,6 @@
 ---
 title: "Today Is Full of Small Good Things: A Cozy Cottagecore Mug for Her"
+seoTitle: "Small Good Things Mug: Cozy Cottagecore Mug"
 description: "A cottagecore 'Small Good Things' mug with whimsical mushroom and snail doodles — a cozy affirmation gift for her, book lovers, and 'just because' care packages. Under $20."
 date: 2026-06-19
 lastmod: 2026-06-19

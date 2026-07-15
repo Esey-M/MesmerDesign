@@ -1,5 +1,6 @@
 ---
 title: "Give It to God and Go to Sleep: A Cozy Sweatshirt for the Overthinker of Faith"
+seoTitle: "Give It to God and Go to Sleep Sweatshirt"
 description: "A cozy 'Give It to God and Go to Sleep' Christian sweatshirt for anxious overthinkers — golden moon, soft script, Gildan crewneck. A faith self-care gift under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

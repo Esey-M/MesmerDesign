@@ -1,5 +1,6 @@
 ---
 title: "Lion King Oil Painting Poster: Regal Crimson Wall Art for Office & Living Room"
+seoTitle: "Lion King Oil Painting Poster: Crimson Wall Art"
 description: "A regal lion oil-painting poster with his pride beneath him — maximalist crimson animal wall art on museum-grade matte paper, in sizes from 8x10 to 27x40."
 date: 2026-06-23
 lastmod: 2026-06-23

@@ -1,5 +1,6 @@
 ---
 title: "His Mercies Are New Every Morning: A Watercolor Lamentations 3:22 Sweatshirt"
+seoTitle: "His Mercies Are New Every Morning Sweatshirt"
 description: "A 'His Mercies Are New Every Morning' sweatshirt with Lamentations 3:22 — watercolor sunrise over soft mountains. A fresh-start Christian gift under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

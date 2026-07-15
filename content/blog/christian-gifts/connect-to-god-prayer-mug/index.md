@@ -1,5 +1,6 @@
 ---
 title: "Connect To God, The Password Is Prayer: A Mug That Starts the Day Right"
+seoTitle: "Connect To God, The Password Is Prayer Mug"
 description: "A clever Christian coffee mug — 'Connect To God, the password is prayer' with a wifi-cross design. A faith gift for pastors, prayer warriors, and coffee lovers, under $20."
 date: 2026-06-20
 lastmod: 2026-06-20

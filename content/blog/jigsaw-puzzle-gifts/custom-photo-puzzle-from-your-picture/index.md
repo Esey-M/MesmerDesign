@@ -1,5 +1,6 @@
 ---
 title: "Custom Photo Puzzle from Your Picture: Turn a Family Photo into a Keepsake They'll Build by Hand"
+seoTitle: "Custom Photo Puzzle from Your Picture"
 description: "Turn your favorite photo into a custom jigsaw puzzle — 110 or 252 pieces, glossy laminated finish. A personalized family keepsake gift for Christmas, anniversaries, and weddings."
 date: 2026-06-22
 lastmod: 2026-06-22

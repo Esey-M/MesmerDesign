@@ -1,5 +1,6 @@
 ---
 title: "'I Am Proof That God Answers Prayers': A Bodysuit for the Long-Awaited Baby"
+seoTitle: "I Am Proof That God Answers Prayers Bodysuit"
 description: "A Christian baby bodysuit — 'I am proof that God answers prayers' — for rainbow babies, IVF journeys, and miracle babies. A meaningful keepsake gift, made to order, under $25."
 date: 2026-06-20
 lastmod: 2026-06-20

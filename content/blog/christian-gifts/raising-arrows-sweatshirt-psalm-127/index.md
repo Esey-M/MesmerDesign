@@ -1,5 +1,6 @@
 ---
 title: "Raising Arrows: A Rustic Psalm 127 Sweatshirt for Christian Moms & Dads"
+seoTitle: "Raising Arrows Sweatshirt: Psalm 127"
 description: "A rustic 'Raising Arrows' Psalm 127 sweatshirt with crossed arrows — a Christian parent and homeschool mom gift. Cozy Gildan crewneck under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

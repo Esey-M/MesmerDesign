@@ -1,5 +1,6 @@
 ---
 title: "Black Cat on Throne Poster: Cat King Coronation Crimson Wall Art"
+seoTitle: "Black Cat on Throne Poster: Cat King Wall Art"
 description: "A black cat enthroned on red velvet, crowned by an unseen hand, his court below — maximalist crimson oil-painting wall art for cat lovers, sizes 8x10 to 27x40."
 date: 2026-06-24
 lastmod: 2026-06-24

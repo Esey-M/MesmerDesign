@@ -1,5 +1,6 @@
 ---
 title: "Cat King Poster: Crowned Black Cat & His Court Crimson Wall Art"
+seoTitle: "Cat King Poster: Crowned Black Cat Wall Art"
 description: "A crowned black cat with his court of cats in every coat — maximalist, detailed crimson oil-painting wall art for cat lovers, in sizes from 8x10 to 27x40."
 date: 2026-06-24
 lastmod: 2026-06-24

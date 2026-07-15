@@ -1,5 +1,6 @@
 ---
 title: "Path to the Cross: A Cinematic Christian Poster That Turns a Wall Into a Story"
+seoTitle: "Path to the Cross: Cinematic Christian Poster"
 description: "Path to the Cross — a cinematic Jesus poster of pilgrims climbing a glowing mountain to a radiant cross. Bold Christian wall art for men, on matte paper, under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

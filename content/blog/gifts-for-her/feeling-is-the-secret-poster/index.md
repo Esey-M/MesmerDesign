@@ -1,5 +1,6 @@
 ---
 title: "Feeling Is the Secret: A Bold Typography Poster for the Manifestation Journey"
+seoTitle: "Feeling Is the Secret: Manifestation Poster"
 description: "A 'Feeling Is the Secret' bold typography poster — minimalist manifestation and law-of-assumption wall art for the bedroom or meditation corner. A spiritual gift for her, under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

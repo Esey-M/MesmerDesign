@@ -1,5 +1,6 @@
 ---
 title: "Personalized Dog Line Art: A Minimalist Custom Print of Their Best Friend"
+seoTitle: "Personalized Dog Line Art Poster"
 description: "A personalized dog line art poster — minimalist paw-in-hand drawing with your pet's name in script. A timeless dog-mom gift or pet memorial print, with a FREE 24h preview. Under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

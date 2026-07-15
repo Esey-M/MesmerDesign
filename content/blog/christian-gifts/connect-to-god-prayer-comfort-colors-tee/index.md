@@ -1,5 +1,6 @@
 ---
 title: "The 'Connect To God' Comfort Colors Tee: A Soft, Vintage Christian Shirt"
+seoTitle: "Connect To God Comfort Colors Tee"
 description: "A garment-dyed Comfort Colors Christian tee — 'Connect To God, the password is prayer' with a wifi-cross design. A soft, vintage faith shirt for church and gifts, under $35."
 date: 2026-06-20
 lastmod: 2026-06-20

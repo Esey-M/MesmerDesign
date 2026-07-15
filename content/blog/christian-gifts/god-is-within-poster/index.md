@@ -1,5 +1,6 @@
 ---
 title: "God Is Within: A Bold Typography Poster for the Modern Believer"
+seoTitle: "God Is Within: Bold Typography Christian Poster"
 description: "A bold 'God Is Within' typography poster — modern Christian wall art on museum-grade matte paper. An uplifting affirmation print for any room, under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

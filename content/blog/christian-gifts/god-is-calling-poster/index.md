@@ -1,5 +1,6 @@
 ---
 title: "God Is Calling: A Modern Christian Poster for Teens, Dorms & Prayer Corners"
+seoTitle: "God Is Calling: Modern Christian Poster"
 description: "A bold 'God Is Calling' Christian poster — modern Jesus wall art on museum-grade matte paper. A striking faith gift for teens and baptisms, under $25."
 date: 2026-06-19
 lastmod: 2026-06-19

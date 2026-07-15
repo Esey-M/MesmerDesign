@@ -1,5 +1,6 @@
 ---
 title: "Leading Lady Mug: A Polished Congrats Gift for the Woman Stepping Into Her Power"
+seoTitle: "Leading Lady Mug: New Job Congrats Gift for Her"
 description: "A 'Leading Lady' navy-and-blush congrats mug — a polished new job or promotion gift for a boss lady, friend, or sister stepping into her power. Under $20, 11oz or 15oz."
 date: 2026-06-23
 lastmod: 2026-06-23

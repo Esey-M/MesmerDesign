@@ -1,5 +1,6 @@
 ---
 title: "Birthday Vibes Only Mug: The Fun Birthday Gift That Actually Gets Used"
+seoTitle: "Birthday Vibes Only Mug: Fun Birthday Gift"
 description: "A cheerful 'Birthday Vibes Only' coffee mug with confetti, balloons, and a color handle — 11oz or 15oz ceramic. The easy small-budget birthday gift for the friend who loves their day."
 date: 2026-06-22
 lastmod: 2026-06-22

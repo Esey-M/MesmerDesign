@@ -1,5 +1,6 @@
 ---
 title: "Custom Dog Portrait Digital Download: Royal Dog King Printable from Your Photo"
+seoTitle: "Custom Dog Portrait Digital Download from Photo"
 description: "Turn your dog into a crowned king as an instant digital download. Upload a photo, get print-ready high-res files in 1–2 business days — print at home or any print shop. Under $20."
 date: 2026-06-25
 lastmod: 2026-06-25

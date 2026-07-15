@@ -1,5 +1,6 @@
 ---
 title: "Doing My Best (Results May Vary): The Funny Possum Shirt for a Long Week"
+seoTitle: "Doing My Best Possum Shirt: Funny Possum Tee"
 description: "A funny 'Doing My Best, results may vary' possum shirt on a soft Comfort Colors tee. The ironic gift for chaotic-energy friends and Secret Santa — under $35."
 date: 2026-06-19
 lastmod: 2026-06-19

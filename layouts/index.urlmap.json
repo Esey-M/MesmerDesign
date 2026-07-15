@@ -1,0 +1,11 @@
+{{- /* Maps each content source file to its live URL, so the deploy workflow can
+       turn "these files changed in git" into "these URLs to submit to IndexNow"
+       without reimplementing the permalink rules from hugo.toml. */ -}}
+{{- $entries := slice -}}
+{{- range site.Pages -}}
+  {{- $page := . -}}
+  {{- with .File -}}
+    {{- $entries = $entries | append (dict "src" (printf "content/%s" .Path) "url" $page.Permalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- dict "pages" $entries | jsonify (dict "indent" "  ") -}}

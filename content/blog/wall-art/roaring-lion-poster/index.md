@@ -1,5 +1,6 @@
 ---
 title: "Roaring Lion Poster: King of the Jungle Crimson Oil-Painting Wall Art"
+seoTitle: "Roaring Lion Poster: Crimson Oil-Painting Art"
 description: "A roaring lion atop his rock, mane in the wind, his pride below — heroic crimson animal wall art on museum-grade matte paper, in sizes from 8x10 to 27x40."
 date: 2026-06-24
 lastmod: 2026-06-24

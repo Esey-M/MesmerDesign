@@ -1,5 +1,6 @@
 ---
 title: "Custom Cartoon Portrait Phone Case: Your Photo as Animated Art"
+seoTitle: "Custom Cartoon Portrait Phone Case from Photo"
 description: "A custom cartoon portrait phone case made from your photo — stylized animated couple, family, or pet art on a dual-layer iPhone, Samsung, or Pixel case. A wow-factor gift."
 date: 2026-06-19
 lastmod: 2026-06-19

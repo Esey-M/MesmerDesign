@@ -1,5 +1,6 @@
 ---
 title: "Custom Insulated Water Bottle: The Branded Gift That Travels Everywhere"
+seoTitle: "Custom Insulated Water Bottle: Branded Gift"
 description: "A 22oz custom logo insulated water bottle for client gifts, welcome kits, and VIP swag — copper vacuum, 24h cold, FREE design preview, singles or bulk. Under $60."
 date: 2026-06-19
 lastmod: 2026-06-19

@@ -1,5 +1,6 @@
 ---
 title: "Grace Upon Grace: An Elevated John 1:16 Sweatshirt for Women of Faith"
+seoTitle: "Grace Upon Grace Sweatshirt: John 1:16"
 description: "A 'Grace Upon Grace' sweatshirt with John 1:16 in flowing gold script, wheat and wildflowers. An elevated Christian crewneck for women — Bible study gift under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

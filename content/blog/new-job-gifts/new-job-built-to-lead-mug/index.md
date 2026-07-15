@@ -1,5 +1,6 @@
 ---
 title: "New Job, Built to Lead Mug for Him: A Sharp Congrats Gift for His Big Move"
+seoTitle: "New Job Built to Lead Mug: Congrats Gift for Him"
 description: "A 'New Job, Built to Lead' ceramic mug — a sharp congrats gift for the brother, son, boyfriend, or coworker stepping into a leadership role. Under $20, 11oz or 15oz."
 date: 2026-06-23
 lastmod: 2026-06-23

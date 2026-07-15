@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      indexnow_full_resubmit:
+        description: "Submit every URL to IndexNow, not just changed ones (rare — see the Ping IndexNow step)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -69,24 +74,67 @@ jobs:
       # of waiting for the slow new-domain crawl cycle. The key is published as
       # a static file at the keyLocation below; IndexNow verifies it before
       # accepting the submission. Public by design — safe to commit.
+      #
+      # Submit ONLY pages whose source changed in this push. IndexNow is for
+      # announcing new/updated/deleted URLs; resubmitting an unchanged URL every
+      # deploy gets the whole site's submissions throttled or ignored, which
+      # drowns out the genuinely new posts. Changed content files are mapped to
+      # live URLs via /urlmap.json (built by layouts/index.urlmap.json) so the
+      # permalink rules in hugo.toml stay in one place.
+      - name: Checkout (for the changed-file diff)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Ping IndexNow
         env:
           INDEXNOW_KEY: aa46852bf2995c1edac9c4badf8503a7
           SITE_HOST: mesmerdesignshop.com
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          FULL_RESUBMIT: ${{ inputs.indexnow_full_resubmit }}
         run: |
           # Give the new deploy a moment to go live so submitted URLs return 200.
           sleep 30
           python3 - <<'PY'
-          import json, os, re, urllib.request
+          import json, os, subprocess, sys, urllib.request
 
           host = os.environ["SITE_HOST"]
           key  = os.environ["INDEXNOW_KEY"]
           base = f"https://{host}"
+          ZERO = "0" * 40
 
-          sitemap = urllib.request.urlopen(f"{base}/sitemap.xml", timeout=30).read().decode()
-          urls = re.findall(r"<loc>(.*?)</loc>", sitemap)
-          urls = [u for u in urls if u.startswith(base)][:10000]
-          print(f"Submitting {len(urls)} URLs to IndexNow")
+          urlmap = json.loads(
+              urllib.request.urlopen(f"{base}/urlmap.json", timeout=30).read().decode()
+          )
+          src_to_url = {p["src"]: p["url"] for p in urlmap["pages"]}
+
+          if os.environ.get("FULL_RESUBMIT") == "true":
+              # Escape hatch: re-announce the whole site. Only justified after a
+              # domain move or a sitewide URL change — not for routine deploys.
+              urls = sorted(src_to_url.values())
+              print(f"Full resubmit requested: {len(urls)} URLs")
+          else:
+              before, after = os.environ["BEFORE_SHA"], os.environ["AFTER_SHA"]
+              if not before or before == ZERO:
+                  # First push on the branch, or a manual run with no diff base:
+                  # no reliable changed set, so announce nothing rather than
+                  # resubmit everything.
+                  print("No diff base for this run — skipping IndexNow.")
+                  sys.exit(0)
+              changed = subprocess.run(
+                  ["git", "diff", "--name-only", "--diff-filter=AMR", before, after, "--", "content/"],
+                  capture_output=True, text=True, check=True,
+              ).stdout.split()
+              urls = sorted({src_to_url[c] for c in changed if c in src_to_url})
+              print(f"{len(changed)} content file(s) changed → {len(urls)} URL(s) to submit")
+
+          if not urls:
+              print("Nothing new to announce — skipping IndexNow.")
+              sys.exit(0)
+
+          for u in urls:
+              print(f"  {u}")
 
           payload = json.dumps({
               "host": host,

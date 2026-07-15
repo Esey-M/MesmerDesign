@@ -1,5 +1,6 @@
 ---
 title: "Funny Gifts for Coworkers Under $35 (That They'll Actually Use)"
+seoTitle: "Funny Gifts for Coworkers Under $35"
 description: "Funny gifts for coworkers that get a laugh and earn desk space — possum tees, witty mugs, and white-elephant winners under $35. Made-to-order on Etsy."
 date: 2026-06-14
 lastmod: 2026-06-14

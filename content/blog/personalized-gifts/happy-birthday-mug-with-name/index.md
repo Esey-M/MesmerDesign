@@ -1,5 +1,6 @@
 ---
 title: "Personalized Birthday Mug with Name: The $30 Gift That Feels Made Just for Them"
+seoTitle: "Happy Birthday Mug with Name, Personalized"
 description: "A personalized Happy Birthday mug with their name — candles, balloons, and confetti on glossy ceramic. The easy custom birthday gift for milestone birthdays, under $30."
 date: 2026-06-22
 lastmod: 2026-06-22

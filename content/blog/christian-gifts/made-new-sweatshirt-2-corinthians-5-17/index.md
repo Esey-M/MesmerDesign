@@ -1,5 +1,6 @@
 ---
 title: "Made New: The 2 Corinthians 5:17 Sweatshirt for Baptisms & New Believers"
+seoTitle: "Made New Sweatshirt: 2 Corinthians 5:17"
 description: "A 'Made New' sweatshirt with 2 Corinthians 5:17 — descending dove, baptism ripples, cozy Gildan crewneck. A meaningful baptism or new-believer gift under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

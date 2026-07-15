@@ -1,5 +1,6 @@
 ---
 title: "She's the Vision Mug: A New Job Gift for the Woman Chasing Something Bigger"
+seoTitle: "She's the Vision Mug: New Job Gift for Her"
 description: "A 'She's the Vision' coffee mug — a new job gift for the friend, sister, or daughter chasing something bigger. Useful every morning, under $20. 11oz or 15oz ceramic."
 date: 2026-06-23
 lastmod: 2026-06-23

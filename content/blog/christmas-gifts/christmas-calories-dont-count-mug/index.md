@@ -1,5 +1,6 @@
 ---
 title: "'Christmas Calories Don't Count' Mug: The Funny Personalized Gift for the Foodie on Your List"
+seoTitle: "Christmas Calories Don't Count Mug"
 description: "A funny personalized Christmas mug — 'Christmas Calories Don't Count, Especially for [Name].' The perfect holiday gift for the baker, foodie, or cookie lover. Just add a name."
 date: 2026-06-21
 lastmod: 2026-06-21

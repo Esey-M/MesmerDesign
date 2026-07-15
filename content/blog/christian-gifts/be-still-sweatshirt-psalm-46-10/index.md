@@ -1,5 +1,6 @@
 ---
 title: "Be Still: The Psalm 46:10 Sweatshirt for Anyone in a Stressful Season"
+seoTitle: "Be Still Sweatshirt: Psalm 46:10"
 description: "A minimalist 'be still' sweatshirt with Psalm 46:10 — cozy Gildan crewneck, calm enough to wear every day. A gentle faith gift for under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

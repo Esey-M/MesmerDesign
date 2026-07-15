@@ -1,5 +1,6 @@
 ---
 title: "Black Cat Portrait Poster: Moody Crimson Oil-Painting Wall Art for Cat Lovers"
+seoTitle: "Black Cat Portrait Poster: Moody Crimson Wall Art"
 description: "A painterly black cat portrait on deep crimson — moody, maximalist wall art for cat lovers, printed on museum-grade matte paper in sizes from 8x10 to 27x40."
 date: 2026-06-24
 lastmod: 2026-06-24

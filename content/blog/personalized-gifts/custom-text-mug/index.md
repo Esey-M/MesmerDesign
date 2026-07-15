@@ -1,5 +1,6 @@
 ---
 title: "Custom Text Mug: Put Your Inside Joke on a Mug They'll Smile at Every Day"
+seoTitle: "Custom Text Mug: Your Words on a Mug"
 description: "A personalized text mug — type any inside joke, quote, or phrase and we print it exactly on glossy 11oz ceramic. The funny custom gift for friends and coworkers. Under $30."
 date: 2026-06-19
 lastmod: 2026-06-19

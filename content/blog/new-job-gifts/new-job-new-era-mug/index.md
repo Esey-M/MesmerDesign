@@ -1,5 +1,6 @@
 ---
 title: "New Job, New Era Mug: The Congrats Gift They'll Use Every Morning"
+seoTitle: "New Job New Era Mug: Congrats Gift"
 description: "A 'New Job, New Era' ceramic mug — the thoughtful congrats gift for a promotion, first job, or career change. Useful every morning, under $20. 11oz or 15oz."
 date: 2026-06-23
 lastmod: 2026-06-23

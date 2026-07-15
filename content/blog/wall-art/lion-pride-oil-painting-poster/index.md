@@ -1,5 +1,6 @@
 ---
 title: "Lion Pride Oil Painting Poster: King of the Jungle Crimson Wall Art"
+seoTitle: "Lion Pride Oil Painting Poster: Crimson Wall Art"
 description: "The king and his pride — a bold lion oil-painting poster on deep crimson. Maximalist animal wall art for offices and living rooms, museum-grade, 8x10 to 27x40."
 date: 2026-06-23
 lastmod: 2026-06-23

@@ -1,5 +1,6 @@
 ---
 title: "Christmas Cat Puzzle: The Cozy 'Don't Blame the Cats' Jigsaw Cat Lovers Will Lose Their Minds Over"
+seoTitle: "Christmas Cat Puzzle: Don't Blame the Cats Jigsaw"
 description: "A funny Christmas cat jigsaw puzzle in 110 or 252 pieces — a packed, illustrated holiday scene of cats wrecking the tree. The cozy cat-lover gift for family puzzle nights."
 date: 2026-06-21
 lastmod: 2026-06-21

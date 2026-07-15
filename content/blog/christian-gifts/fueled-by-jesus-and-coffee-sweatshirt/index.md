@@ -1,5 +1,6 @@
 ---
 title: "Fueled By Jesus and Coffee: A Funny Christian Sweatshirt for the Church Bestie"
+seoTitle: "Fueled By Jesus and Coffee Sweatshirt"
 description: "A funny 'Fueled By Jesus and Coffee' Christian sweatshirt — warm café lettering, cross-topped mug, cozy Gildan crewneck. A coffee-loving faith gift under $50."
 date: 2026-06-19
 lastmod: 2026-06-19

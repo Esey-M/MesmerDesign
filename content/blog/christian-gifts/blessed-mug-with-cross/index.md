@@ -1,5 +1,6 @@
 ---
 title: "The Minimalist 'Blessed' Mug That Quietly Says It All"
+seoTitle: "Blessed Mug with Cross: Christian Coffee Mug"
 description: "A minimalist 'Blessed' mug with a clean black cross — a modern Christian gift for women and men who wear faith with quiet confidence. 11oz or 15oz, under $20."
 date: 2026-06-19
 lastmod: 2026-06-19

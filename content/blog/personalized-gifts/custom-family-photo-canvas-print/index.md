@@ -1,5 +1,6 @@
 ---
 title: "Custom Family Photo Canvas Print: Turn Your Favorite Picture Into Wall Art"
+seoTitle: "Custom Family Photo Canvas Print"
 description: "A custom family photo canvas print made from your own landscape picture — gallery-style horizontal wall art that's ready to hang. A keepsake gift for mom, dad, and new homes."
 date: 2026-06-19
 lastmod: 2026-06-19
