@@ -82,6 +82,14 @@
   [main.params]
     group = "By style"
 
+[[main]]
+  name = "Handwriting"
+  pageRef = "/blog/handwriting-practice"
+  parent = "gift-guides"
+  weight = 32
+  [main.params]
+    group = "By style"
+
 # Flagship top-level links (shown beside Gift Guides)
 [[main]]
   name = "Wall Art"

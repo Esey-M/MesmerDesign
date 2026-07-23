@@ -775,3 +775,43 @@ custom-cat-portrait-digital:
   recipients: [cat-lover, her, him, mom, friend]
   occasions: [birthday, christmas, mothers-day, fathers-day, last-minute, memorial]
   product_types: [digital-download, printable]
+
+neat-handwriting-workbook:
+  title: "Neat Handwriting Practice Sheets for Adults, 36-Page Printable Penmanship Workbook PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4542735231/neat-handwriting-practice-sheets-for"
+  price: "5,00"
+  image: "/img/products/neat-handwriting-workbook.jpg"
+  themes: [handwriting, self-improvement, stationery]
+  recipients: [her, him, teen, friend]
+  occasions: [birthday, christmas, new-year, last-minute]
+  product_types: [digital-download, printable, workbook]
+
+cursive-handwriting-workbook:
+  title: "Cursive Handwriting Practice Sheets for Adults, 32-Page Printable Cursive Workbook PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4542751022/cursive-handwriting-practice-sheets-for"
+  price: "5,00"
+  image: "/img/products/cursive-handwriting-workbook.jpg"
+  themes: [handwriting, self-improvement, stationery]
+  recipients: [her, him, teen, friend]
+  occasions: [birthday, christmas, new-year, last-minute]
+  product_types: [digital-download, printable, workbook]
+
+everyday-handwriting-journal:
+  title: "Handwriting Practice & Guided Journal, 30 Days of Journaling Prompts, Printable PDF Workbook"
+  url: "https://mesmerdesing.etsy.com/listing/4542740345/handwriting-practice-guided-journal-30"
+  price: "5,00"
+  image: "/img/products/everyday-handwriting-journal.jpg"
+  themes: [handwriting, self-improvement, journaling, self-care]
+  recipients: [her, him, teen, friend]
+  occasions: [birthday, christmas, new-year, last-minute]
+  product_types: [digital-download, printable, workbook]
+
+handwriting-workbook-bundle:
+  title: "Handwriting Practice Workbook Bundle, 98 Pages of Print, Cursive & Journaling Sheets for Adults"
+  url: "https://mesmerdesing.etsy.com/listing/4542750801/handwriting-practice-workbook-bundle-98"
+  price: "10,00"
+  image: "/img/products/handwriting-workbook-bundle.jpg"
+  themes: [handwriting, self-improvement, stationery, journaling]
+  recipients: [her, him, teen, friend]
+  occasions: [birthday, christmas, new-year, last-minute]
+  product_types: [digital-download, printable, workbook]
