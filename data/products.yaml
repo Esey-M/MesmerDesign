@@ -815,3 +815,43 @@ handwriting-workbook-bundle:
   recipients: [her, him, teen, friend]
   occasions: [birthday, christmas, new-year, last-minute]
   product_types: [digital-download, printable, workbook]
+
+kids-handwriting-workbook:
+  title: "Kids Handwriting Practice Workbook Ages 5-8, Printable Alphabet Tracing & Letter Practice Sheets PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4544311423/kids-handwriting-practice-workbook-ages"
+  price: "3,99"
+  image: "/img/products/kids-handwriting-workbook.jpg"
+  themes: [handwriting, kids, education, homeschool]
+  recipients: [kids, teacher, mom, grandparent]
+  occasions: [back-to-school, birthday, last-minute]
+  product_types: [digital-download, printable, workbook]
+
+kindergarten-readiness-curriculum:
+  title: "Kindergarten Curriculum Printable, 101-Page Homeschool Readiness Pack, Letters Numbers & Math, Ages 4-6"
+  url: "https://mesmerdesing.etsy.com/listing/4544930758/kindergarten-curriculum-printable-101"
+  price: "3,99"
+  image: "/img/products/kindergarten-readiness-curriculum.jpg"
+  themes: [kids, education, homeschool, handwriting]
+  recipients: [kids, teacher, mom, grandparent]
+  occasions: [back-to-school, birthday, last-minute]
+  product_types: [digital-download, printable, workbook]
+
+baby-shower-games-bundle:
+  title: "Baby Shower Games Bundle Printable, 11 Fun Games, Sage Greenery, Gender Neutral"
+  url: "https://mesmerdesing.etsy.com/listing/4544331360/baby-shower-games-bundle-printable-11"
+  price: "3,99"
+  image: "/img/products/baby-shower-games-bundle.jpg"
+  themes: [party, baby-shower, games]
+  recipients: [her, mom, friend, host]
+  occasions: [baby-shower, gender-reveal, last-minute]
+  product_types: [digital-download, printable]
+
+gratitude-journal-365-prompts:
+  title: "365 Gratitude Journal Prompts Printable, A Full Year of Daily Journaling Prompts PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4544329636/365-gratitude-journal-prompts-printable"
+  price: "3,99"
+  image: "/img/products/gratitude-journal-365-prompts.jpg"
+  themes: [journaling, self-care, self-improvement, handwriting]
+  recipients: [her, him, friend, teen]
+  occasions: [new-year, birthday, christmas, last-minute]
+  product_types: [digital-download, printable]

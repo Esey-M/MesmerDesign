@@ -43,6 +43,14 @@
     group = "By recipient"
 
 [[main]]
+  name = "For Kids"
+  pageRef = "/blog/kids-printables"
+  parent = "gift-guides"
+  weight = 14
+  [main.params]
+    group = "By recipient"
+
+[[main]]
   name = "Christmas"
   pageRef = "/blog/christmas-gifts"
   parent = "gift-guides"
@@ -63,6 +71,14 @@
   pageRef = "/blog/new-job-gifts"
   parent = "gift-guides"
   weight = 22
+  [main.params]
+    group = "By occasion"
+
+[[main]]
+  name = "Baby Shower"
+  pageRef = "/blog/party-printables"
+  parent = "gift-guides"
+  weight = 23
   [main.params]
     group = "By occasion"
 
