@@ -1,7 +1,7 @@
 ---
 title: "Gifts for Book Lovers Who Already Own Every Book You'd Buy Them"
 seoTitle: "Gifts for Book Lovers (Not Books)"
-description: "Reading lights, book sleeves, annotation kits and shelf decor — gift ideas for readers who have opinions about books and don't need you guessing at their to-read list."
+description: "Reading lights, book sleeves and annotation kits — gifts for readers who already own every book you'd buy them."
 date: 2026-09-05
 lastmod: 2026-09-05
 draft: false
@@ -77,5 +77,9 @@ at home above a stack of books.
 
 For readers who also write, a prompted journal is a gentler gift than a blank notebook — the
 blank page is precisely what stops people starting.
+
+Buying for a woman on this list? [Gifts for her that actually get used](/blog/gifts-for-her/thoughtful-gifts-for-her-that-get-used/) covers the same logic for daily comforts.
+
+{{< faq >}}
 
 {{< cta text="Browse the full gift shop" >}}

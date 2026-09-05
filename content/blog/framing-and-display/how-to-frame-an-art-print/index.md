@@ -1,7 +1,7 @@
 ---
 title: "How to Frame an Art Print: Sizes, Mats, and Hanging It Straight"
 seoTitle: "How to Frame an Art Print (Sizes & Mats)"
-description: "Which frame size fits which print, when a mat is worth it, and how to hang art without putting holes in a rented wall — the half of the job that happens after the print arrives."
+description: "Which frame size fits which print, when a mat is worth it, and how to hang art without holes in a rented wall."
 date: 2026-09-05
 lastmod: 2026-09-05
 draft: false
@@ -81,5 +81,9 @@ gloss finish does, and the brushwork reads properly under a mat.
 
 For a custom pet portrait, the same rules apply, with one addition: go one size larger than you
 think. Portraits reward scale.
+
+Framing a printable instead? Our [printing and craft supplies guide](/blog/craft-and-print-supplies/best-paper-for-printables/) covers which paper to print it on first.
+
+{{< faq >}}
 
 {{< cta id="custom-dog-portrait-poster" text="Turn a photo into a portrait" >}}

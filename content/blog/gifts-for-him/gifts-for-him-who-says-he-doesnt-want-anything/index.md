@@ -1,7 +1,7 @@
 ---
 title: "Gifts for the Man Who Says He Doesn't Want Anything"
 seoTitle: "Gifts for Him Who Wants Nothing"
-description: "He says don't get him anything and means it. Here's what works anyway — daily-use upgrades, desk things for a new job, and gifts that don't add clutter he'll resent."
+description: "He says don't get him anything. Daily-use upgrades and desk gifts that get past the objection without adding clutter."
 date: 2026-09-05
 lastmod: 2026-09-05
 draft: false
@@ -62,5 +62,9 @@ Whiskey glasses work on a different logic: they get used the evening they're ope
 {{< product-grid ids="my-dog-is-my-personality-shirt, doing-my-best-possum-shirt" >}}
 
 One rule with funny gifts: the joke should be one **he** would make, not one about him. A shirt about how much he loves his dog lands. A shirt teasing him for something he's sensitive about does not, however funny it seemed in the shop.
+
+Giving him a print? [How to frame an art print](/blog/framing-and-display/how-to-frame-an-art-print/) saves him the guesswork on sizes.
+
+{{< faq >}}
 
 {{< cta text="Browse gifts for him" >}}

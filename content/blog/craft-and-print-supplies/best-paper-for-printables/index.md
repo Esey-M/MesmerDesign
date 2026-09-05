@@ -1,7 +1,7 @@
 ---
 title: "What to Print Printables On: Paper Weights, Laminating, and the Reusable Setup"
 seoTitle: "Best Paper for Printables (Weights & Laminating)"
-description: "Which paper weight for which printable, whether you need a laminator or just a dry-erase pocket, and the small kit that turns a one-use worksheet into something a child uses every day for a year."
+description: "Which paper weight for which printable, whether you need a laminator, and the kit that makes a worksheet reusable."
 date: 2026-09-05
 lastmod: 2026-09-05
 draft: false
@@ -90,5 +90,9 @@ shop and ask for cardstock. It's usually cheaper than the ink.
 
 Every pack is an instant-download PDF, so you print exactly what you need and reprint whenever a
 page gets ruined — which is the quiet advantage of printables over a physical workbook.
+
+Printing wall art rather than worksheets? Then read [how to frame an art print](/blog/framing-and-display/how-to-frame-an-art-print/) before you buy a frame.
+
+{{< faq >}}
 
 {{< cta text="Browse all printable packs" >}}

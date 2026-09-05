@@ -1,7 +1,7 @@
 ---
 title: "Thoughtful Gifts for Her That Actually Get Used, Not Displayed"
 seoTitle: "Gifts for Her That Actually Get Used"
-description: "Gift ideas for her that survive past January — a mug she reaches for daily, a print she keeps looking at, and the small comforts most women want but never buy themselves."
+description: "Gift ideas for her that survive past January — a mug she reaches for daily and the comforts she'd never buy herself."
 date: 2026-09-05
 lastmod: 2026-09-05
 draft: false
@@ -57,5 +57,9 @@ If you don't know her well enough to be specific, bath products are the safe lan
 Art is riskier than comfort — you're guessing at taste, and a print she doesn't love becomes an obligation to hang. But when it lands it outlasts everything else on this list by a decade.
 
 If you go this route, our [framing guide](/blog/framing-and-display/how-to-frame-an-art-print/) covers what size frame to buy so she isn't left holding a rolled tube and a chore.
+
+If she reads, [gifts for book lovers](/blog/book-lover-gifts/gifts-for-book-lovers-who-own-every-book/) is the better starting point.
+
+{{< faq >}}
 
 {{< cta text="Browse gifts for her" >}}
