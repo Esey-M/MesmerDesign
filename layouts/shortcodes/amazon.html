@@ -1,0 +1,17 @@
+{{- /* Single Amazon companion product. Non-.Inner: always use {{< amazon id="x" >}} */ -}}
+{{- $id := .Get "id" -}}
+{{- $a := index site.Data.amazon $id -}}
+{{- if not $a -}}
+  {{ errorf "shortcode 'amazon': no entry with id %q in data/amazon.yaml (%s)" $id .Position }}
+{{- else -}}
+{{- $url := $a.url | default "" -}}
+{{- $href := partial "func/amazon-url.html" (dict "url" $url "search" $a.search) -}}
+{{- $cta := .Get "cta" | default (cond (ne $url "") "View on Amazon" "Browse on Amazon") -}}
+<div class="amazon-inline">
+  <div class="pmeta">
+    <div class="ptitle">{{ $a.title }}</div>
+    {{ with $a.note }}<p>{{ . }}</p>{{ end }}
+  </div>
+  <a class="btn btn-amazon" href="{{ $href }}" rel="sponsored nofollow noopener" target="_blank">{{ $cta }} →</a>
+</div>
+{{- end -}}

@@ -1,0 +1,25 @@
+{{- /* Returns an Amazon affiliate URL carrying the site's Associates tag.
+       Call: {{ partial "func/amazon-url.html" (dict "url" $url "search" $kw) }}
+       - url:    a full Amazon product URL (SiteStripe "Full Link"). Any existing
+                 query/ref junk is stripped and the canonical /dp/<ASIN> is rebuilt.
+       - search: fallback keywords, used when `url` is empty. Tagged search links
+                 earn on whatever the shopper buys in the 24h window.
+*/ -}}
+{{- $tag := site.Params.amazonTag -}}
+{{- $host := "https://www.amazon.com" -}}
+{{- $url := .url | default "" -}}
+{{- $href := "" -}}
+{{- if $url -}}
+  {{- $asin := "" -}}
+  {{- with (findRE `(?:/dp/|/gp/product/|/product/)[A-Z0-9]{10}` $url 1) -}}
+    {{- $asin = substr (index . 0) -10 -}}
+  {{- end -}}
+  {{- if $asin -}}
+    {{- $href = printf "%s/dp/%s?tag=%s&linkCode=ll1" $host $asin $tag -}}
+  {{- else -}}
+    {{- $href = printf "%s?tag=%s" (index (split $url "?") 0) $tag -}}
+  {{- end -}}
+{{- else -}}
+  {{- $href = printf "%s/s?k=%s&tag=%s" $host (urlquery (.search | default "")) $tag -}}
+{{- end -}}
+{{- return $href -}}

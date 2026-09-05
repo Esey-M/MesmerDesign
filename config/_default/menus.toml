@@ -106,6 +106,30 @@
   [main.params]
     group = "By style"
 
+[[main]]
+  name = "Book Lovers"
+  pageRef = "/blog/book-lover-gifts"
+  parent = "gift-guides"
+  weight = 15
+  [main.params]
+    group = "By recipient"
+
+[[main]]
+  name = "Framing & Display"
+  pageRef = "/blog/framing-and-display"
+  parent = "gift-guides"
+  weight = 33
+  [main.params]
+    group = "By style"
+
+[[main]]
+  name = "Print Supplies"
+  pageRef = "/blog/craft-and-print-supplies"
+  parent = "gift-guides"
+  weight = 34
+  [main.params]
+    group = "By style"
+
 # Flagship top-level links (shown beside Gift Guides)
 [[main]]
   name = "Wall Art"

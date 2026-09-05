@@ -1,0 +1,274 @@
+# ============================================================
+# Amazon companion products. These are the things we DON'T make
+# but our readers need alongside a MesmerDesign product.
+#
+# Reference in posts via:
+#   {{< amazon id="frame-11x14" >}}
+#   {{< amazon-grid ids="frame-11x14, hanging-strips, cardstock-white" >}}
+#
+# The Associates tag (mesmerdesign-20) is appended automatically by the
+# shortcode — NEVER paste a tag by hand.
+#
+# Each entry:
+#   title  – what the reader sees
+#   note   – one line on why it's the right pick
+#   search – keyword fallback. Used while `url` is empty; renders a tagged
+#            Amazon search link, which still earns on whatever they buy.
+#   url    – OPTIONAL. Paste a SiteStripe **Full Link** (not Short Link) here to
+#            feature one specific product. Upgrade entries to this as you
+#            verify products you'd genuinely recommend.
+#
+# RULES: never add a price (Amazon forbids showing stale prices), never add an
+# Amazon-hosted image URL, and never buy through these links yourself.
+# ============================================================
+
+# ── Framing & display (wall art + pet portrait companions) ──
+frame-8x10:
+  title: "8×10 picture frames"
+  note: "The size most gallery walls start with. Look for a solid wood frame with a white mat."
+  search: "8x10 picture frame wood with mat"
+  url: ""
+frame-11x14:
+  title: "11×14 frames with mat"
+  note: "A matted 11×14 frame turns an 8×10 print into a piece that looks professionally hung."
+  search: "11x14 picture frame white mat"
+  url: ""
+frame-16x20:
+  title: "16×20 poster frames"
+  note: "The sweet spot for a single statement print above a sofa or bed."
+  search: "16x20 poster frame wood"
+  url: ""
+frame-24x36:
+  title: "24×36 large poster frames"
+  note: "For the large-format prints. Check the frame is rated for the weight of glass at this size."
+  search: "24x36 poster frame"
+  url: ""
+frame-set-gallery:
+  title: "Gallery wall frame sets"
+  note: "Matching multi-packs in mixed sizes — the cheapest way to hang three or more prints."
+  search: "gallery wall picture frame set mixed sizes"
+  url: ""
+hanging-strips:
+  title: "Damage-free hanging strips"
+  note: "Renter-friendly. Holds framed prints without a single hole in the wall."
+  search: "picture hanging strips damage free"
+  url: ""
+picture-hanging-kit:
+  title: "Picture hanging kit with level"
+  note: "Hooks, wire, and a small level. Stops the crooked-frame problem before it starts."
+  search: "picture hanging kit hooks level"
+  url: ""
+poster-hanger-magnetic:
+  title: "Magnetic wooden poster hangers"
+  note: "Frameless, warm, and quick — good for prints you plan to swap seasonally."
+  search: "magnetic wooden poster hanger frame"
+  url: ""
+archival-tape:
+  title: "Archival mounting tape"
+  note: "Acid-free, so it won't yellow the edges of an art print over time."
+  search: "acid free archival mounting tape art"
+  url: ""
+museum-putty:
+  title: "Museum putty"
+  note: "Keeps frames from drifting crooked on the wall. A dollar fix for a daily annoyance."
+  search: "museum putty picture frame"
+  url: ""
+
+# ── Printing & craft supplies (printable companions) ──
+cardstock-white:
+  title: "White cardstock, 65–110 lb"
+  note: "The single biggest upgrade to a printable. 65 lb for activity sheets, 110 lb for cards and signs."
+  search: "white cardstock 110 lb printer"
+  url: ""
+cardstock-colored:
+  title: "Colored cardstock variety pack"
+  note: "For party printables and kids' craft packs where plain white feels flat."
+  search: "colored cardstock variety pack"
+  url: ""
+photo-paper-matte:
+  title: "Matte photo paper"
+  note: "Best for printable wall art at home — matte hides fingerprints and glare."
+  search: "matte photo paper 8.5x11 heavyweight"
+  url: ""
+laminator:
+  title: "Thermal laminator"
+  note: "Turns a handwriting or activity sheet into a reusable dry-erase page. The workhorse of printable packs."
+  search: "thermal laminator machine home"
+  url: ""
+laminating-pouches:
+  title: "Laminating pouches, letter size"
+  note: "Buy the 3 mil for flexibility or 5 mil for kid-proof stiffness."
+  search: "laminating pouches letter size 5 mil"
+  url: ""
+dry-erase-markers-fine:
+  title: "Fine-tip dry erase markers"
+  note: "Fine tip matters on laminated handwriting sheets — chisel tips are too fat for letter forms."
+  search: "fine tip dry erase markers"
+  url: ""
+dry-erase-pockets:
+  title: "Dry erase pockets"
+  note: "The no-laminator shortcut. Slide a printed sheet in and it's instantly reusable."
+  search: "dry erase pockets sleeves"
+  url: ""
+binder-and-sleeves:
+  title: "Binder + sheet protectors"
+  note: "Keeps a printable pack together instead of scattered across the kitchen table."
+  search: "1 inch binder sheet protectors"
+  url: ""
+printer-inkjet-color:
+  title: "Color inkjet printer"
+  note: "If you print packs regularly, a tank-style printer pays for itself against cartridge refills."
+  search: "color inkjet printer ink tank home"
+  url: ""
+paper-trimmer:
+  title: "Paper trimmer"
+  note: "For cutting cards, bunting, and flashcards straight. Scissors never come out square."
+  search: "paper trimmer guillotine craft"
+  url: ""
+kids-scissors-glue:
+  title: "Kids' safety scissors & glue sticks"
+  note: "Cut-and-paste printables need these on hand or the activity stalls."
+  search: "kids safety scissors glue sticks set"
+  url: ""
+colored-pencils:
+  title: "Colored pencils"
+  note: "Better than markers for printables — no bleed-through onto the table."
+  search: "colored pencils set kids 48"
+  url: ""
+
+# ── Puzzle companions ──
+puzzle-mat-roll:
+  title: "Roll-up puzzle mat"
+  note: "Lets a half-finished 1000-piece puzzle leave the dining table without falling apart."
+  search: "roll up puzzle mat 1500 pieces"
+  url: ""
+puzzle-sorting-trays:
+  title: "Puzzle sorting trays"
+  note: "Stackable trays for sorting edges and colors. Cuts assembly time noticeably."
+  search: "puzzle sorting trays stackable"
+  url: ""
+puzzle-glue:
+  title: "Puzzle preserver glue"
+  note: "For when the finished puzzle deserves to go on the wall instead of back in the box."
+  search: "puzzle glue preserver sheets"
+  url: ""
+puzzle-board-drawers:
+  title: "Puzzle board with drawers"
+  note: "A gift-worthy upgrade for anyone who does puzzles more than a few times a year."
+  search: "puzzle board with drawers 1000 pieces"
+  url: ""
+
+# ── Gift wrap & presentation ──
+gift-boxes-kraft:
+  title: "Kraft gift boxes"
+  note: "Makes a mug or a small print feel like a considered gift rather than a shipped parcel."
+  search: "kraft gift boxes with lids set"
+  url: ""
+tissue-paper:
+  title: "Tissue paper"
+  note: "The cheapest way to make anything look like it came from a shop."
+  search: "tissue paper gift wrapping assorted"
+  url: ""
+gift-wrap-kraft:
+  title: "Kraft wrapping paper roll"
+  note: "Neutral enough for Christmas, birthdays, and everything between."
+  search: "kraft wrapping paper roll"
+  url: ""
+ribbon-twine:
+  title: "Ribbon & baker's twine"
+  note: "One spool covers a year of gifts."
+  search: "bakers twine ribbon gift wrapping"
+  url: ""
+blank-cards:
+  title: "Blank greeting cards"
+  note: "A handwritten card is what people actually keep. Buy a box and stop buying singles."
+  search: "blank greeting cards with envelopes bulk"
+  url: ""
+
+# ── Book lover gifts ──
+book-light-rechargeable:
+  title: "Rechargeable book light"
+  note: "The most-used gift on this list. Clips to the cover, warm setting, no partner-waking glare."
+  search: "rechargeable book light clip on warm"
+  url: ""
+bookends-decorative:
+  title: "Decorative bookends"
+  note: "Pairs naturally with an art print on the same shelf."
+  search: "decorative metal bookends heavy"
+  url: ""
+reading-pillow:
+  title: "Reading wedge pillow"
+  note: "For the person who reads in bed and complains about their neck."
+  search: "reading pillow bed backrest"
+  url: ""
+book-sleeve:
+  title: "Padded book sleeve"
+  note: "Stops paperbacks getting mangled in a tote bag."
+  search: "padded book sleeve protector"
+  url: ""
+annotation-tabs:
+  title: "Annotation tabs & highlighters"
+  note: "For the annotating reader — sticky tabs plus no-bleed highlighters."
+  search: "book annotation tabs highlighters no bleed"
+  url: ""
+kindle-ereader:
+  title: "Kindle e-readers"
+  note: "The default gift for a heavy reader who's running out of shelf space."
+  search: "kindle paperwhite e-reader"
+  url: ""
+reading-journal:
+  title: "Reading journal"
+  note: "For tracking what they've read. Pairs well with a bookish print."
+  search: "reading journal book tracker"
+  url: ""
+
+# ── Teacher & classroom ──
+teacher-stickers:
+  title: "Reward stickers for teachers"
+  note: "Consumable and always running out — a genuinely useful add-on to a teacher gift."
+  search: "teacher reward stickers bulk"
+  url: ""
+flair-pens:
+  title: "Felt-tip marking pens"
+  note: "Teachers are famously particular about these. A safe, well-received small gift."
+  search: "paper mate flair felt tip pens"
+  url: ""
+classroom-storage-bins:
+  title: "Classroom storage bins"
+  note: "For sorting laminated activity sheets by group or level."
+  search: "classroom storage bins plastic set"
+  url: ""
+
+# ── Pet lover (pet portrait companions) ──
+pet-photo-backdrop:
+  title: "Pet photo backdrop"
+  note: "A plain backdrop makes a phone photo good enough to turn into a portrait."
+  search: "pet photography backdrop plain"
+  url: ""
+pet-treat-pouch:
+  title: "Training treat pouch"
+  note: "How you get a dog to actually sit still for the reference photo."
+  search: "dog training treat pouch"
+  url: ""
+
+# ── Cozy & desk (new job, mugs, mental health) ──
+mug-warmer:
+  title: "Electric mug warmer"
+  note: "The natural companion to a mug gift — keeps coffee hot through a long call."
+  search: "electric coffee mug warmer desk"
+  url: ""
+desk-lamp-warm:
+  title: "Warm LED desk lamp"
+  note: "For the new-job desk setup. Warm temperature, not office fluorescent."
+  search: "led desk lamp warm dimmable"
+  url: ""
+throw-blanket:
+  title: "Soft throw blanket"
+  note: "Pairs with a faith or mental-health print for a complete comfort gift."
+  search: "soft throw blanket couch"
+  url: ""
+candle-gift-set:
+  title: "Candle gift sets"
+  note: "Rounds out a small gift into something that feels complete."
+  search: "candle gift set soy"
+  url: ""

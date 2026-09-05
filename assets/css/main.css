@@ -407,3 +407,24 @@ p { margin: 0 0 1.15em; }
   .product-inline { flex-direction: column; align-items: flex-start; }
   .site-footer .container { flex-direction: column; align-items: flex-start; }
 }
+
+/* ── Amazon companion products ────────────────────────────── */
+.amazon-inline {
+  display: flex; gap: 1.4rem; align-items: center; border: 1px dashed var(--line);
+  background: var(--bg); border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1.4rem 0;
+}
+.amazon-inline .pmeta { flex: 1; }
+.amazon-inline .ptitle { font-family: var(--display); font-weight: 700; font-size: 1.05rem; line-height: 1.25; }
+.amazon-inline p { margin: .3rem 0 0; color: var(--ink-soft); font-size: .96rem; }
+.amazon-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 1.6rem 0; }
+.amazon-card {
+  border: 1px dashed var(--line); border-radius: var(--radius); padding: 1.1rem;
+  display: flex; flex-direction: column; gap: .5rem; background: var(--bg);
+}
+.amazon-card .ptitle { font-family: var(--display); font-weight: 700; font-size: 1.02rem; line-height: 1.25; }
+.amazon-card p { margin: 0; color: var(--ink-soft); font-size: .94rem; flex: 1; }
+.btn-amazon { background: #232f3e; border-color: #232f3e; white-space: nowrap; align-self: flex-start; }
+.btn-amazon:hover { background: #37475a; border-color: #37475a; }
+@media (max-width: 640px) {
+  .amazon-inline { flex-direction: column; align-items: flex-start; }
+}

@@ -1,0 +1,18 @@
+{{- $ids := split (.Get "ids") "," -}}
+<div class="amazon-grid">
+{{- range $ids -}}
+  {{- $id := trim . " " -}}
+  {{- $a := index site.Data.amazon $id -}}
+  {{- if not $a -}}
+    {{ errorf "shortcode 'amazon-grid': no entry with id %q in data/amazon.yaml" $id }}
+  {{- else -}}
+  {{- $url := $a.url | default "" -}}
+  {{- $href := partial "func/amazon-url.html" (dict "url" $url "search" $a.search) -}}
+  <div class="amazon-card">
+    <div class="ptitle">{{ $a.title }}</div>
+    {{ with $a.note }}<p>{{ . }}</p>{{ end }}
+    <a class="btn btn-amazon" href="{{ $href }}" rel="sponsored nofollow noopener" target="_blank">{{ cond (ne $url "") "View on Amazon" "Browse on Amazon" }} →</a>
+  </div>
+  {{- end -}}
+{{- end -}}
+</div>

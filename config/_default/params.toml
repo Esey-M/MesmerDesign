@@ -15,6 +15,11 @@ heroImage = "/img/hero-gifts.jpg"
 # Where shoppers go to buy. Used by CTAs and the Organization schema.
 etsyShopURL = "https://mesmerdesing.etsy.com/"
 
+# ── Amazon Associates ───────────────────────────────────────────────────────
+# Our Associates tracking tag, appended to every Amazon link by the
+# `amazon` / `amazon-grid` shortcodes. Never hand-write a tag in a post.
+amazonTag = "mesmerdesign-20"
+
 # Default UTM tags appended to Etsy links (measure which posts drive sales).
 [utm]
   source = "blog"

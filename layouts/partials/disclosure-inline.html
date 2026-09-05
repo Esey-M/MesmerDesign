@@ -1,3 +1,6 @@
 {{- if and .IsPage (eq .Type "blog") (not .Params.no_disclosure) -}}
-<p class="disclosure">As a small Etsy shop, we feature our own made-to-order products in these guides. Prices shown are approximate US prices (VAT excluded) and can vary by size, options, and your location — Etsy shows your exact total at checkout.{{ if .Params.amazon_links }} This guide also contains Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases, at no extra cost to you.{{ end }} <a href="{{ "/legal/disclosure/" | relURL }}">Learn more</a>.</p>
+{{- /* Auto-detect Amazon links: true if the post uses an amazon shortcode, or
+       sets `amazon_links: true` explicitly. Keeps the 100+ Etsy-only guides accurate. */ -}}
+{{- $hasAmazon := or .Params.amazon_links (strings.Contains .RawContent "{{< amazon") -}}
+<p class="disclosure">As a small Etsy shop, we feature our own made-to-order products in these guides. Prices shown are approximate US prices (VAT excluded) and can vary by size, options, and your location — Etsy shows your exact total at checkout.{{ if $hasAmazon }} This guide also contains Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases, at no extra cost to you.{{ end }} <a href="{{ "/legal/disclosure/" | relURL }}">Learn more</a>.</p>
 {{- end -}}
