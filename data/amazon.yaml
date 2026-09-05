@@ -28,32 +28,38 @@ frame-8x10:
   note: "The size most gallery walls start with. Look for a solid wood frame with a white mat."
   search: "Americanflat 8x10 picture frame"
   url: "https://www.amazon.com/Americanflat-8x10-Picture-Frame-Black/dp/B097S59PFH"
+  image: "/img/amazon/frame-8x10.jpg"
 frame-11x14:
   title: "11×14 frames with mat"
   note: "A matted 11×14 frame turns an 8×10 print into a piece that looks professionally hung."
   search: "upsimples 11x14 picture frame mat 8x10"
   url: "https://www.amazon.com/upsimples-Picture-Definition-Without-Mounting/dp/B08DF9WY21"
+  image: "/img/amazon/frame-11x14.jpg"
 frame-16x20:
   title: "16×20 poster frames"
   note: "The sweet spot for a single statement print above a sofa or bed."
   search: "Americanflat 16x20 poster frame"
   url: "https://www.amazon.com/Americanflat-16x20-Poster-Frame-Moldings/dp/B071LPY75P"
+  image: "/img/amazon/frame-16x20.jpg"
 frame-24x36:
   title: "24×36 large poster frames"
   note: "For the large-format prints. Check the frame is rated for the weight of glass at this size."
   search: "upsimples 24x36 poster frame"
   url: "https://www.amazon.com/upsimples-24x36-Poster-Slide-Assembly/dp/B0C695VG79"
+  image: "/img/amazon/frame-24x36.jpg"
 frame-set-gallery:
   title: "Gallery wall frame sets"
   note: "Matching multi-packs in mixed sizes — the cheapest way to hang three or more prints."
   search: "Americanflat gallery wall frame set 10 piece"
   # VERIFY THIS ONE before trusting it — sourced from search, not confirmed in stock.
   url: "https://www.amazon.com/Americanflat-10-Piece-Multi-Frames-Gallery/dp/B079P4LFRJ"
+  image: "/img/amazon/frame-set-gallery.jpg"
 hanging-strips:
   title: "Damage-free hanging strips"
   note: "Renter-friendly. Holds framed prints without a single hole in the wall."
   search: "Command picture hanging strips large"
   url: "https://www.amazon.com/Command-Picture-Hanging-Damage-Free-Adhesive/dp/B0FD4BG2P5"
+  image: "/img/amazon/hanging-strips.jpg"
 picture-hanging-kit:
   title: "Picture hanging kit with level"
   note: "Hooks, wire, and a small level. Stops the crooked-frame problem before it starts."
@@ -64,6 +70,7 @@ poster-hanger-magnetic:
   note: "Frameless, warm, and quick — good for prints you plan to swap seasonally."
   search: "magnetic wooden poster hanger frame"
   url: "https://www.amazon.com/Magnetic-Posters-Pictures-Scrolls-Artwork/dp/B082PPQH1N"
+  image: "/img/amazon/poster-hanger-magnetic.jpg"
 archival-tape:
   title: "Archival mounting tape"
   note: "Acid-free, so it won't yellow the edges of an art print over time."
@@ -74,6 +81,7 @@ museum-putty:
   note: "Keeps frames from drifting crooked on the wall. A dollar fix for a daily annoyance."
   search: "Quakehold museum putty"
   url: "https://www.amazon.com/Quakehold-Collectors-Museum-Putty-Silver/dp/B015Y9T2AK"
+  image: "/img/amazon/museum-putty.jpg"
 
 # ── Printing & craft supplies (printable companions) ──
 cardstock-white:
@@ -81,36 +89,43 @@ cardstock-white:
   note: "The single biggest upgrade to a printable. 65 lb for activity sheets, 110 lb for cards and signs."
   search: "Neenah Exact white cardstock 110 lb"
   url: "https://www.amazon.com/Neenah-Exact-Inches-Sheets-Brightness/dp/B006P1EQXA"
+  image: "/img/amazon/cardstock-white.jpg"
 cardstock-colored:
   title: "Colored cardstock variety pack"
   note: "For party printables and kids' craft packs where plain white feels flat."
   search: "colored cardstock variety pack"
   url: "https://www.amazon.com/Cardstock-Assorted-Construction-Printing-Decorations/dp/B0F2T4JC5Y"
+  image: "/img/amazon/cardstock-colored.jpg"
 photo-paper-matte:
   title: "Matte photo paper"
   note: "Best for printable wall art at home — matte hides fingerprints and glare."
   search: "matte photo paper 8.5x11 heavyweight"
   url: "https://www.amazon.com/Sheets-8-5x11-Goefun-Printer-Pigment/dp/B0CZ3VL82T"
+  image: "/img/amazon/photo-paper-matte.jpg"
 laminator:
   title: "Thermal laminator"
   note: "Turns a handwriting or activity sheet into a reusable dry-erase page. The workhorse of printable packs."
   search: "Scotch thermal laminator 9 inch"
   url: "https://www.amazon.com/Scotch-Thermal-Laminator-Professional-Laminate/dp/B0010JEJPC"
+  image: "/img/amazon/laminator.jpg"
 laminating-pouches:
   title: "Laminating pouches, letter size"
   note: "3 mil is the flexible everyday choice; step up to 5 mil when a toddler is involved."
   search: "Scotch thermal laminating pouches letter size"
   url: "https://www.amazon.com/Scotch-Laminating-11-4-Inches-100-Pack-TP5854-100/dp/B00MFTLNU0"
+  image: "/img/amazon/laminating-pouches.jpg"
 dry-erase-markers-fine:
   title: "Fine-tip dry erase markers"
   note: "Fine tip matters on laminated handwriting sheets — chisel tips are too fat for letter forms."
   search: "Expo fine tip dry erase markers"
   url: "https://www.amazon.com/EXPO-Markers-Whiteboard-Assorted-Vibrant/dp/B099GH73Q4"
+  image: "/img/amazon/dry-erase-markers-fine.jpg"
 dry-erase-pockets:
   title: "Dry erase pockets"
   note: "The no-laminator shortcut. Slide a printed sheet in and it's instantly reusable."
   search: "dry erase pockets sleeves"
   url: "https://www.amazon.com/SUNEE-Dry-Erase-Pockets-Pack/dp/B07FM4PRY8"
+  image: "/img/amazon/dry-erase-pockets.jpg"
 binder-and-sleeves:
   title: "Binder + sheet protectors"
   note: "Keeps a printable pack together instead of scattered across the kitchen table."
@@ -136,13 +151,15 @@ colored-pencils:
   note: "Better than markers for printables — no bleed-through onto the table."
   search: "colored pencils set kids 48"
   url: "https://www.amazon.com/V-Opitos-Pencils-Pre-sharpened-Beginners-Sketching/dp/B0D9YBG7QF"
+  image: "/img/amazon/colored-pencils.jpg"
 
 # ── Puzzle companions ──
 puzzle-mat-roll:
   title: "Roll-up puzzle mat"
   note: "Lets a half-finished 1000-piece puzzle leave the dining table without falling apart."
   search: "roll up puzzle mat 1500 pieces"
-  url: ""
+  url: "https://www.amazon.com/Newverest-Portable-Non-Slip-Polyester-Fastener/dp/B08TMT2CY8"
+  image: "/img/amazon/puzzle-mat-roll.jpg"
 puzzle-sorting-trays:
   title: "Puzzle sorting trays"
   note: "Stackable trays for sorting edges and colors. Cuts assembly time noticeably."
@@ -191,12 +208,14 @@ book-light-rechargeable:
   title: "Rechargeable book light"
   note: "The most-used gift on this list. Clips to the cover, warm setting, no partner-waking glare."
   search: "Glocusent clip on book light rechargeable amber"
-  url: ""
+  url: "https://www.amazon.com/Glocusent-Rechargeable-Portable-Brightness-Dimmable/dp/B09W62FR1K"
+  image: "/img/amazon/book-light-rechargeable.jpg"
 bookends-decorative:
   title: "Decorative bookends"
   note: "Pairs naturally with an art print on the same shelf."
   search: "decorative metal bookends heavy"
-  url: ""
+  url: "https://www.amazon.com/Bookends-Decorative-Reading-Bookshelf-Library/dp/B0DG5QC3LX"
+  image: "/img/amazon/bookends-decorative.jpg"
 reading-pillow:
   title: "Reading wedge pillow"
   note: "For the person who reads in bed and complains about their neck."
@@ -211,7 +230,8 @@ annotation-tabs:
   title: "Annotation tabs & highlighters"
   note: "For the annotating reader — sticky tabs plus no-bleed highlighters."
   search: "book annotation tabs highlighters no bleed"
-  url: ""
+  url: "https://www.amazon.com/4200-Annotating-Morandi-Sticky-Markers/dp/B0D4C1RJYB"
+  image: "/img/amazon/annotation-tabs.jpg"
 kindle-ereader:
   title: "Kindle e-readers"
   note: "The default gift for a heavy reader who's running out of shelf space."
