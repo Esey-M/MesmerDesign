@@ -20,10 +20,15 @@ where possible.
 
 ### Outbound links
 
-Our guides link to product listings on **Etsy**. When you click through, Etsy's own
-[Privacy Policy](https://www.etsy.com/legal/privacy/) applies. We add UTM tags to these
-links (e.g. `utm_source=blog`) purely to understand which guides send shoppers to our
-shop — they do not identify you personally.
+Our guides link to product listings on **Etsy** and, in some guides, to **Amazon**. When
+you click through, the destination site's own privacy policy applies — see Etsy's
+[Privacy Policy](https://www.etsy.com/legal/privacy/) and Amazon's
+[Privacy Notice](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496).
+
+We add UTM tags to our Etsy links (e.g. `utm_source=blog`) purely to understand which
+guides send shoppers to our shop — they do not identify you personally. Amazon links carry
+our Associates tracking ID so Amazon can credit us for qualifying purchases; Amazon may
+use cookies to record that click. See our [Disclosure](/legal/disclosure/) for how we earn.
 
 ### Contact
 
