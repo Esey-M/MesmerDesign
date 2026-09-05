@@ -1,0 +1,6 @@
+{{- /* Returns the 10-char ASIN from an Amazon product URL, or "" if none. */ -}}
+{{- $asin := "" -}}
+{{- with (findRE `(?:/dp/|/gp/product/|/product/)[A-Z0-9]{10}` (. | default "") 1) -}}
+  {{- $asin = substr (index . 0) -10 -}}
+{{- end -}}
+{{- return $asin -}}
