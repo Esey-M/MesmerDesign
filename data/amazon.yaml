@@ -79,38 +79,38 @@ museum-putty:
 cardstock-white:
   title: "White cardstock, 65–110 lb"
   note: "The single biggest upgrade to a printable. 65 lb for activity sheets, 110 lb for cards and signs."
-  search: "Neenah Classic Crest Solar White cardstock 110 lb"
-  url: ""
+  search: "Neenah Exact white cardstock 110 lb"
+  url: "https://www.amazon.com/Neenah-Exact-Inches-Sheets-Brightness/dp/B006P1EQXA"
 cardstock-colored:
   title: "Colored cardstock variety pack"
   note: "For party printables and kids' craft packs where plain white feels flat."
   search: "colored cardstock variety pack"
-  url: ""
+  url: "https://www.amazon.com/Cardstock-Assorted-Construction-Printing-Decorations/dp/B0F2T4JC5Y"
 photo-paper-matte:
   title: "Matte photo paper"
   note: "Best for printable wall art at home — matte hides fingerprints and glare."
   search: "matte photo paper 8.5x11 heavyweight"
-  url: ""
+  url: "https://www.amazon.com/Sheets-8-5x11-Goefun-Printer-Pigment/dp/B0CZ3VL82T"
 laminator:
   title: "Thermal laminator"
   note: "Turns a handwriting or activity sheet into a reusable dry-erase page. The workhorse of printable packs."
-  search: "Scotch TL901X thermal laminator"
-  url: ""
+  search: "Scotch thermal laminator 9 inch"
+  url: "https://www.amazon.com/Scotch-Thermal-Laminator-Professional-Laminate/dp/B0010JEJPC"
 laminating-pouches:
   title: "Laminating pouches, letter size"
-  note: "Buy the 3 mil for flexibility or 5 mil for kid-proof stiffness."
-  search: "Scotch thermal laminating pouches letter 5 mil"
-  url: ""
+  note: "3 mil is the flexible everyday choice; step up to 5 mil when a toddler is involved."
+  search: "Scotch thermal laminating pouches letter size"
+  url: "https://www.amazon.com/Scotch-Laminating-11-4-Inches-100-Pack-TP5854-100/dp/B00MFTLNU0"
 dry-erase-markers-fine:
   title: "Fine-tip dry erase markers"
   note: "Fine tip matters on laminated handwriting sheets — chisel tips are too fat for letter forms."
   search: "Expo fine tip dry erase markers"
-  url: ""
+  url: "https://www.amazon.com/EXPO-Markers-Whiteboard-Assorted-Vibrant/dp/B099GH73Q4"
 dry-erase-pockets:
   title: "Dry erase pockets"
   note: "The no-laminator shortcut. Slide a printed sheet in and it's instantly reusable."
   search: "dry erase pockets sleeves"
-  url: ""
+  url: "https://www.amazon.com/SUNEE-Dry-Erase-Pockets-Pack/dp/B07FM4PRY8"
 binder-and-sleeves:
   title: "Binder + sheet protectors"
   note: "Keeps a printable pack together instead of scattered across the kitchen table."
@@ -135,7 +135,7 @@ colored-pencils:
   title: "Colored pencils"
   note: "Better than markers for printables — no bleed-through onto the table."
   search: "colored pencils set kids 48"
-  url: ""
+  url: "https://www.amazon.com/V-Opitos-Pencils-Pre-sharpened-Beginners-Sketching/dp/B0D9YBG7QF"
 
 # ── Puzzle companions ──
 puzzle-mat-roll:
