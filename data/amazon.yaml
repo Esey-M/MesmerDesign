@@ -26,32 +26,33 @@
 frame-8x10:
   title: "8×10 picture frames"
   note: "The size most gallery walls start with. Look for a solid wood frame with a white mat."
-  search: "8x10 picture frame wood with mat"
+  search: "upsimples 8x10 picture frame wood mat"
   url: ""
 frame-11x14:
   title: "11×14 frames with mat"
   note: "A matted 11×14 frame turns an 8×10 print into a piece that looks professionally hung."
-  search: "11x14 picture frame white mat"
+  search: "upsimples 11x14 picture frame mat 8x10"
   url: ""
 frame-16x20:
   title: "16×20 poster frames"
   note: "The sweet spot for a single statement print above a sofa or bed."
-  search: "16x20 poster frame wood"
+  search: "Americanflat 16x20 poster frame"
   url: ""
 frame-24x36:
   title: "24×36 large poster frames"
   note: "For the large-format prints. Check the frame is rated for the weight of glass at this size."
-  search: "24x36 poster frame"
+  search: "Americanflat 24x36 poster frame"
   url: ""
 frame-set-gallery:
   title: "Gallery wall frame sets"
   note: "Matching multi-packs in mixed sizes — the cheapest way to hang three or more prints."
-  search: "gallery wall picture frame set mixed sizes"
-  url: ""
+  search: "Americanflat gallery wall frame set 10 piece"
+  # VERIFY THIS ONE before trusting it — sourced from search, not confirmed in stock.
+  url: "https://www.amazon.com/Americanflat-10-Piece-Multi-Frames-Gallery/dp/B079P4LFRJ"
 hanging-strips:
   title: "Damage-free hanging strips"
   note: "Renter-friendly. Holds framed prints without a single hole in the wall."
-  search: "picture hanging strips damage free"
+  search: "Command picture hanging strips large"
   url: ""
 picture-hanging-kit:
   title: "Picture hanging kit with level"
@@ -78,7 +79,7 @@ museum-putty:
 cardstock-white:
   title: "White cardstock, 65–110 lb"
   note: "The single biggest upgrade to a printable. 65 lb for activity sheets, 110 lb for cards and signs."
-  search: "white cardstock 110 lb printer"
+  search: "Neenah Classic Crest Solar White cardstock 110 lb"
   url: ""
 cardstock-colored:
   title: "Colored cardstock variety pack"
@@ -93,17 +94,17 @@ photo-paper-matte:
 laminator:
   title: "Thermal laminator"
   note: "Turns a handwriting or activity sheet into a reusable dry-erase page. The workhorse of printable packs."
-  search: "thermal laminator machine home"
+  search: "Scotch TL901X thermal laminator"
   url: ""
 laminating-pouches:
   title: "Laminating pouches, letter size"
   note: "Buy the 3 mil for flexibility or 5 mil for kid-proof stiffness."
-  search: "laminating pouches letter size 5 mil"
+  search: "Scotch thermal laminating pouches letter 5 mil"
   url: ""
 dry-erase-markers-fine:
   title: "Fine-tip dry erase markers"
   note: "Fine tip matters on laminated handwriting sheets — chisel tips are too fat for letter forms."
-  search: "fine tip dry erase markers"
+  search: "Expo fine tip dry erase markers"
   url: ""
 dry-erase-pockets:
   title: "Dry erase pockets"
@@ -177,7 +178,7 @@ gift-wrap-kraft:
 ribbon-twine:
   title: "Ribbon & baker's twine"
   note: "One spool covers a year of gifts."
-  search: "bakers twine ribbon gift wrapping"
+  search: "bakers twine gift wrapping ribbon"
   url: ""
 blank-cards:
   title: "Blank greeting cards"
@@ -189,7 +190,7 @@ blank-cards:
 book-light-rechargeable:
   title: "Rechargeable book light"
   note: "The most-used gift on this list. Clips to the cover, warm setting, no partner-waking glare."
-  search: "rechargeable book light clip on warm"
+  search: "Glocusent clip on book light rechargeable amber"
   url: ""
 bookends-decorative:
   title: "Decorative bookends"
