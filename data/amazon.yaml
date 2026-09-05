@@ -191,7 +191,7 @@ gift-wrap-kraft:
   title: "Kraft wrapping paper roll"
   note: "Neutral enough for Christmas, birthdays, and everything between."
   search: "kraft wrapping paper roll"
-  url: ""
+  asin: "B0788YRV9V"
 ribbon-twine:
   title: "Ribbon & baker's twine"
   note: "One spool covers a year of gifts."
@@ -277,7 +277,7 @@ mug-warmer:
   title: "Electric mug warmer"
   note: "The natural companion to a mug gift — keeps coffee hot through a long call."
   search: "electric coffee mug warmer desk"
-  url: ""
+  asin: "B08JH1QY6P"
 desk-lamp-warm:
   title: "Warm LED desk lamp"
   note: "For the new-job desk setup. Warm temperature, not office fluorescent."
@@ -292,7 +292,7 @@ candle-gift-set:
   title: "Candle gift sets"
   note: "Rounds out a small gift into something that feels complete."
   search: "candle gift set soy"
-  url: ""
+  asin: "B098XCB2NN"
 
 # ── Gifts for her (pairs with our mugs, prints and sweatshirts) ──
 tea-sampler:
@@ -357,3 +357,101 @@ wireless-charging-stand:
   search: "wireless charging stand phone desk"
   asin: "B09SB29VYD"
   image: "/img/amazon/wireless-charging-stand.jpg"
+
+# ── Cozy & comfort ──
+weighted-blanket:
+  title: "Weighted blanket"
+  note: "15 lb suits most adults — roughly 10% of body weight. The gift people are sceptical about until they try it."
+  search: "weighted blanket 15 lb adult"
+  asin: "B075F9ST7G"
+  image: "/img/amazon/weighted-blanket.jpg"
+cozy-socks:
+  title: "Thick cosy socks"
+  note: "Cheap, always welcome, and the one clothing item you can buy without knowing a size."
+  search: "thick cozy fuzzy socks women gift"
+  url: ""
+  image: "/img/amazon/cozy-socks.jpg"
+
+# ── Stocking stuffers ──
+lip-balm-set:
+  title: "Lip balm set"
+  note: "The most reliably used stocking filler there is. Buy a multipack and split it across stockings."
+  search: "lip balm set gift pack"
+  url: ""
+  image: "/img/amazon/lip-balm-set.jpg"
+hand-warmers-rechargeable:
+  title: "Rechargeable hand warmer"
+  note: "Doubles as a power bank. For anyone who walks a dog or watches sport outdoors in winter."
+  search: "rechargeable hand warmer power bank"
+  url: ""
+  image: "/img/amazon/hand-warmers-rechargeable.jpg"
+mini-travel-games:
+  title: "Mini travel games"
+  note: "Small enough for a stocking, good for the flat hours between Christmas dinner and bed."
+  search: "mini travel games set family"
+  url: ""
+  image: "/img/amazon/mini-travel-games.jpg"
+phone-grip-stand:
+  title: "Phone grip stand"
+  note: "Under ten dollars, used every day, and nobody owns too many."
+  search: "phone grip ring holder stand"
+  url: ""
+  image: "/img/amazon/phone-grip-stand.jpg"
+gourmet-chocolate:
+  title: "Gourmet chocolate selection"
+  note: "The safe fallback that never comes back. Pick single-origin over a supermarket box."
+  search: "gourmet chocolate gift box assorted"
+  url: ""
+  image: "/img/amazon/gourmet-chocolate.jpg"
+
+# ── Housewarming & hostess ──
+serving-board:
+  title: "Wooden serving board"
+  note: "The classic housewarming gift because it gets used the first time they have people over."
+  search: "acacia wood serving cheese board"
+  asin: "B076DLBD5T"
+  image: "/img/amazon/serving-board.jpg"
+coaster-set:
+  title: "Coaster set"
+  note: "New table, no coasters — the gap every new home has and nobody thinks to fill."
+  search: "marble coaster set with holder"
+  url: ""
+  image: "/img/amazon/coaster-set.jpg"
+kitchen-towel-set:
+  title: "Kitchen towel set"
+  note: "Unglamorous and genuinely needed. Choose cotton waffle weave over decorative."
+  search: "cotton waffle kitchen towel set"
+  url: ""
+  image: "/img/amazon/kitchen-towel-set.jpg"
+candle-lighter:
+  title: "Rechargeable candle lighter"
+  note: "Pairs with any candle gift and outlives every box of matches in the drawer."
+  search: "rechargeable electric candle lighter"
+  url: ""
+  image: "/img/amazon/candle-lighter.jpg"
+indoor-plant-pot:
+  title: "Ceramic plant pot"
+  note: "Bring the pot, not the plant — they can choose what lives in it."
+  search: "ceramic plant pot indoor drainage"
+  url: ""
+  image: "/img/amazon/indoor-plant-pot.jpg"
+
+# ── Gifts for pet parents (pairs with our custom pet portraits) ──
+pet-bandana-set:
+  title: "Pet bandana set"
+  note: "Also the easiest way to get a dog looking sharp for the portrait photo."
+  search: "dog bandana set cotton"
+  url: ""
+  image: "/img/amazon/pet-bandana-set.jpg"
+dog-puzzle-toy:
+  title: "Dog puzzle toy"
+  note: "Slows down a fast eater and tires out a bored dog. More useful than another squeaky toy."
+  search: "dog puzzle toy interactive treat"
+  asin: "B09XXPCB4T"
+  image: "/img/amazon/dog-puzzle-toy.jpg"
+pet-hair-remover:
+  title: "Pet hair remover"
+  note: "The gift every pet owner needs and resents having to buy. Reusable beats sticky rollers."
+  search: "reusable pet hair remover roller"
+  asin: "B00BAGTNAQ"
+  image: "/img/amazon/pet-hair-remover.jpg"

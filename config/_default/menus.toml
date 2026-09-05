@@ -130,6 +130,46 @@
   [main.params]
     group = "By style"
 
+[[main]]
+  name = "Stocking Stuffers"
+  pageRef = "/blog/stocking-stuffers"
+  parent = "gift-guides"
+  weight = 24
+  [main.params]
+    group = "By occasion"
+
+[[main]]
+  name = "Housewarming"
+  pageRef = "/blog/housewarming-gifts"
+  parent = "gift-guides"
+  weight = 25
+  [main.params]
+    group = "By occasion"
+
+[[main]]
+  name = "Pet Parents"
+  pageRef = "/blog/pet-parent-gifts"
+  parent = "gift-guides"
+  weight = 16
+  [main.params]
+    group = "By recipient"
+
+[[main]]
+  name = "Cozy Gifts"
+  pageRef = "/blog/cozy-gifts"
+  parent = "gift-guides"
+  weight = 35
+  [main.params]
+    group = "By style"
+
+[[main]]
+  name = "Gift Wrapping"
+  pageRef = "/blog/gift-wrapping"
+  parent = "gift-guides"
+  weight = 36
+  [main.params]
+    group = "By style"
+
 # Flagship top-level links (shown beside Gift Guides)
 [[main]]
   name = "Wall Art"
