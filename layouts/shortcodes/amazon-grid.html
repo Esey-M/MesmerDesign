@@ -7,6 +7,7 @@
     {{ errorf "shortcode 'amazon-grid': no entry with id %q in data/amazon.yaml" $id }}
   {{- else -}}
   {{- $url := $a.url | default "" -}}
+{{- with $a.asin }}{{ $url = printf "https://www.amazon.com/dp/%s" . }}{{ end -}}
   {{- $href := partial "func/amazon-url.html" (dict "url" $url "search" $a.search) -}}
     <div class="amazon-card">
     {{- with $a.image }}

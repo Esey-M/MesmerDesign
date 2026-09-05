@@ -23,8 +23,12 @@
   {{ end }}
 
   <div class="prose narrow">
-    {{ partial "disclosure-inline.html" . }}
     {{ .Content }}
+  </div>
+
+  {{/* Disclosure sits after the content -- it's a footnote, not a preamble */}}
+  <div class="narrow">
+    {{ partial "disclosure-inline.html" . }}
   </div>
 
   {{/* Taxonomy chips for crawl depth + discovery */}}
