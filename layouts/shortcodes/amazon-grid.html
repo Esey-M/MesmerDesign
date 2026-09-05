@@ -9,6 +9,11 @@
   {{- $url := $a.url | default "" -}}
   {{- $href := partial "func/amazon-url.html" (dict "url" $url "search" $a.search) -}}
     <div class="amazon-card">
+    {{- with $a.image }}
+    <a href="{{ $href }}" rel="sponsored nofollow noopener" target="_blank" class="amazon-thumb">
+      <img src="{{ . | relURL }}" alt="{{ $a.title }}" loading="lazy">
+    </a>
+    {{- end }}
     <div class="ptitle">{{ $a.title }}</div>
     {{ with $a.note }}<p>{{ . }}</p>{{ end }}
     <a class="btn btn-amazon" href="{{ $href }}" rel="sponsored nofollow noopener" target="_blank">{{ cond (ne $url "") "View on Amazon" "Browse on Amazon" }} →</a>

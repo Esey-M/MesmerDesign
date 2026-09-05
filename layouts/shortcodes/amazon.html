@@ -8,6 +8,11 @@
 {{- $href := partial "func/amazon-url.html" (dict "url" $url "search" $a.search) -}}
 {{- $cta := .Get "cta" | default (cond (ne $url "") "View on Amazon" "Browse on Amazon") -}}
 <div class="amazon-inline">
+  {{- with $a.image }}
+  <a href="{{ $href }}" rel="sponsored nofollow noopener" target="_blank" class="amazon-thumb">
+    <img src="{{ . | relURL }}" alt="{{ $a.title }}" loading="lazy" width="120" height="120">
+  </a>
+  {{- end }}
   <div class="pmeta">
     <div class="ptitle">{{ $a.title }}</div>
     {{ with $a.note }}<p>{{ . }}</p>{{ end }}
