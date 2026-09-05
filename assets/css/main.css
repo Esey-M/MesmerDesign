@@ -428,7 +428,10 @@ p { margin: 0 0 1.15em; }
 @media (max-width: 640px) {
   .amazon-inline { flex-direction: column; align-items: flex-start; }
 }
-.amazon-thumb { flex: none; display: block; }
-.amazon-thumb img { width: auto; height: auto; max-width: 110px; max-height: 110px; object-fit: contain; mix-blend-mode: multiply; }
-.amazon-card .amazon-thumb { align-self: center; }
-.amazon-card .amazon-thumb img { max-width: 120px; max-height: 120px; }
+/* No product thumbnails: Amazon retired SiteStripe image links and the
+   AsinImage widget host (NXDOMAIN), and self-hosting their photos breaches
+   the Operating Agreement. Images become available via the Product
+   Advertising API once the account clears 3 qualifying sales. Until then
+   these cards carry their weight on type alone. */
+.amazon-card { border-left: 3px solid #232f3e; }
+.amazon-inline { border-left: 3px solid #232f3e; }
