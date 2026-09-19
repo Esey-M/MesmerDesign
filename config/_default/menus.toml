@@ -163,6 +163,14 @@
     group = "By style"
 
 [[main]]
+  name = "Side Hustle"
+  pageRef = "/blog/side-hustle-guides"
+  parent = "gift-guides"
+  weight = 37
+  [main.params]
+    group = "By style"
+
+[[main]]
   name = "Gift Wrapping"
   pageRef = "/blog/gift-wrapping"
   parent = "gift-guides"

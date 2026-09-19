@@ -18,3 +18,6 @@ intake/source/
 
 # Pinterest bulk-pins CSV (local marketing artifact, regenerated per batch)
 pinterest-bulk-pins.csv
+
+# loose intake images dropped in the repo root
+/image*.png

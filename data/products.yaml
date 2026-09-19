@@ -855,3 +855,53 @@ gratitude-journal-365-prompts:
   recipients: [her, him, friend, teen]
   occasions: [new-year, birthday, christmas, last-minute]
   product_types: [digital-download, printable]
+
+abc-animal-coloring-book:
+  title: "ABC Animal Coloring Book Printable, 26 Alphabet Coloring Pages for Kids with Colour Guide, Toddler Activity PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4557346161/abc-animal-coloring-book-printable-26"
+  price: "3,99"
+  image: "/img/products/abc-animal-coloring-book.jpg"
+  themes: [kids, education, alphabet, animals, coloring]
+  recipients: [kids, toddler, teacher, mom, grandparent]
+  occasions: [back-to-school, birthday, rainy-day, last-minute]
+  product_types: [digital-download, printable, coloring-book]
+
+baby-shower-abc-coloring-book:
+  title: "Baby Shower ABC Coloring Book Printable, Alphabet Activity for Guests, Baby's First Book Keepsake, 26 Pages PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4557348903/baby-shower-abc-coloring-book-printable"
+  price: "3,99"
+  image: "/img/products/baby-shower-abc-coloring-book.jpg"
+  themes: [party, baby-shower, alphabet, animals, coloring, keepsake]
+  recipients: [her, mom, friend, host]
+  occasions: [baby-shower, gender-reveal, last-minute]
+  product_types: [digital-download, printable, coloring-book]
+
+folk-garden-coloring-book:
+  title: "Folk Floral Coloring Pages for Adults, 30 Bold and Easy Boho Designs, Printable PDF"
+  url: "https://mesmerdesing.etsy.com/listing/4573175673/folk-floral-coloring-pages-for-adults-30"
+  price: "3,99"
+  image: "/img/products/folk-garden-coloring-book.jpg"
+  themes: [coloring, self-care, cozy, boho, folk-art, floral]
+  recipients: [her, him, friend, mom, grandparent, teen]
+  occasions: [birthday, christmas, new-year, mothers-day, last-minute]
+  product_types: [digital-download, printable, coloring-book]
+
+whats-the-best-that-could-happen-print:
+  title: "What's The Best That Could Happen Print, Dopamine Decor Motivational Poster, Printable Wall Art"
+  url: "https://mesmerdesing.etsy.com/listing/4575127961/whats-the-best-that-could-happen-print"
+  price: "3,99"
+  image: "/img/products/whats-the-best-that-could-happen-print.jpg"
+  themes: [motivational, typography, dopamine-decor, office, maximalist]
+  recipients: [her, him, friend, coworker, teen, graduate]
+  occasions: [new-job, graduation, new-year, housewarming, birthday, last-minute]
+  product_types: [digital-download, printable, wall-art, poster]
+
+make-money-online-ebook:
+  title: "Make Money Online, 16 Ways to Make 5k a Month, Side Hustle Guide PDF, 48-Page Digital Download"
+  url: "https://mesmerdesing.etsy.com/listing/4569527777/make-money-online-ebook-16-ways-to-make"
+  price: "3,99"
+  image: "/img/products/make-money-online-ebook.jpg"
+  themes: [side-hustle, online-income, business, self-improvement, planning]
+  recipients: [her, him, friend, teen, graduate, coworker]
+  occasions: [new-year, graduation, new-job, birthday, last-minute]
+  product_types: [digital-download, ebook, guide]
